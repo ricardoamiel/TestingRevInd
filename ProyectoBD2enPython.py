@@ -8,16 +8,16 @@ import numpy as np
 from nltk.stem.snowball import SnowballStemmer
 nltk.download('punkt')
 
+# Preprocesamiento: Tokenización, Stopword Removal, Stemming
 stemmer = SnowballStemmer("spanish")
 
 with open('BD2/stoplist.txt', 'r') as file:
     stoplist = file.read().splitlines()
-stoplist += ['.', ',', ';', ':', '!', '?', '¿', '¡', '(', ')', '[', ']', '{', '}', '"', "'", '``', "''","111âº"]  
-  
-# Preprocesamiento: Tokenización, Stopword Removal, Stemming
+stoplist += ['.', ',', ';', ':', '!', '?', '¿', '¡', '(', ')', '[', ']', '{', '}', '"', "'", '``', "''","111âº","111º","«","»"]
+
 def preprocesamiento(text):
     #normalizar
-    text = re.sub(r'[.,;:!?¿¡()\[\]{}"\'-]', '', text)
+    text = re.sub(r'[.,;:!?¿¡()\[\]{}"\'-]º«»', '', text)
     #tokenizar
     text = nltk.word_tokenize(text)
     #normalizar parte 2
@@ -84,7 +84,9 @@ def merge_blocks(block_files, total_docs):
     sorted_terms = sorted(term_dict.items())
     with open("final_index.txt", "w") as f:
         for term, postings in sorted_terms:
-            idf = math.log10(total_docs / len(term_dict[term]))
+            if doc_freq[term] == 0: # si no aparece en ningun documento, idf = 0
+                idf = 0
+            idf = math.log10(1 + (total_docs / len(term_dict[term])))
             postings_str = " ".join([f"{doc_id}:{round((1 + math.log10(tf)) * idf,2)}" for doc_id, tf in postings.items()])
             f.write(f"{term} {postings_str}\n")
             
@@ -128,6 +130,15 @@ for file_name in textos:
   textos_procesados.append(texto)
   librillos[i] = texto
   i += 1
+  
+#pasar libros sin procesar a un diccionario
+librillos_sin_procesar ={}
+i = 1
+for file_name in textos:
+  file = open('BD2/docs/'+file_name, encoding='utf-8')
+  texto = file.read().rstrip()
+  librillos_sin_procesar[i] = texto
+  i += 1
 
 for doc_id, text in librillos.items():
     librillos[doc_id] = preprocesamiento(text)
@@ -162,3 +173,33 @@ def calculate_norms(index):
     return norms
 
 norms = calculate_norms(index)
+
+def cosine_similarity(query, index, norms, k): # search
+    scores = defaultdict(float)
+    query_tokens = preprocesamiento(query).split()
+    query_tf = defaultdict(int)
+    for token in query_tokens:
+        query_tf[token] += 1
+    query_vector = {token: 1 + math.log10(tf) for token, tf in query_tf.items() if token in index}
+    
+    query_norm = math.sqrt(sum((1 + math.log10(tf))**2 for tf in query_tf.values() if tf > 0))
+    
+    for token, weight in query_vector.items():
+        if token in index:
+            for doc_id, tfidf in index[token].items():
+                scores[doc_id] += weight * tfidf
+    
+    for doc_id in scores:
+        scores[doc_id] /= query_norm * norms[doc_id]
+    
+    return sorted(scores.items(), key=lambda x: x[1], reverse=True)[:k]
+
+def retrieval_documents(result, docs):
+    for doc_id, score in result:
+        print(f"Documento {doc_id}: {docs[doc_id]}, Score: {score}")
+
+result = cosine_similarity("debido a la codicia desperto frodo sam ithilien", index, norms, 2)
+print(result)
+retrieval_documents(result, librillos_sin_procesar)
+
+print(cosine_similarity("por la muerte de gandalf",index,norms,2))

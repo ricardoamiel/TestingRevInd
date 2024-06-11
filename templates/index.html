@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Full-Text Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script>
+        async function search() {
+            const query = document.getElementById('query').value;
+            const k = document.getElementById('topk').value;
+            const response = await fetch(`/search?query=${query}&k=${k}`);
+            const results = await response.json();
+            const resultDiv = document.getElementById('results');
+            resultDiv.innerHTML = '';
+
+            const table = document.createElement('table');
+            table.className = 'table table-striped';
+            const thead = document.createElement('thead');
+            const headerRow = document.createElement('tr');
+            headerRow.innerHTML = `
+                <th>Documento</th>
+                <th>Texto</th>
+                <th>Score</th>
+            `;
+            thead.appendChild(headerRow);
+            table.appendChild(thead);
+
+            const tbody = document.createElement('tbody');
+
+            for (const result of results) {
+                const docResponse = await fetch(`/document?doc_id=${result.doc_id}`);
+                const docText = await docResponse.text();
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${result.doc_id}</td>
+                    <td>${docText}</td>
+                    <td>${result.score}</td>
+                `;
+                tbody.appendChild(row);
+            }
+
+            table.appendChild(tbody);
+            resultDiv.appendChild(table);
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="mt-5">Full-Text Search</h1>
+        <div class="form-group">
+            <input type="text" id="query" class="form-control" placeholder="Ingrese su consulta">
+        </div>
+        <div class="form-group">
+            <input type="number" id="topk" class="form-control" value="5">
+        </div>
+        <button onclick="search()" class="btn btn-primary">Buscar</button>
+        <div id="results" class="mt-5"></div>
+    </div>
+</body>
+
+</html>
