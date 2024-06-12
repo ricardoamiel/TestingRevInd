@@ -9,9 +9,17 @@
             const query = document.getElementById('query').value;
             const k = document.getElementById('topk').value;
             const response = await fetch(`/search?query=${query}&k=${k}`);
-            const results = await response.json();
+            const data = await response.json();
+            const results = data.results;
+            const time = data.time;
+
             const resultDiv = document.getElementById('results');
             resultDiv.innerHTML = '';
+
+            const timeDiv = document.createElement('div');
+            timeDiv.className = 'alert alert-info';
+            timeDiv.innerText = `Tiempo de búsqueda: ${time.toFixed(4)} segundos`;
+            resultDiv.appendChild(timeDiv);
 
             const table = document.createElement('table');
             table.className = 'table table-striped';

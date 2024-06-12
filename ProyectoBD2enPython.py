@@ -6,6 +6,9 @@ import re
 import nltk
 import numpy as np
 from nltk.stem.snowball import SnowballStemmer
+from nltk.tokenize import RegexpTokenizer
+import pandas as pd
+import time
 nltk.download('punkt')
 
 # Preprocesamiento: Tokenización, Stopword Removal, Stemming
@@ -16,17 +19,25 @@ with open('BD2/stoplist.txt', 'r') as file:
 stoplist += ['.', ',', ';', ':', '!', '?', '¿', '¡', '(', ')', '[', ']', '{', '}', '"', "'", '``', "''","111âº","111º","«","»"]
 
 def preprocesamiento(text):
-    #normalizar
-    text = re.sub(r'[.,;:!?¿¡()\[\]{}"\'-]º«»', '', text)
-    #tokenizar
-    text = nltk.word_tokenize(text)
-    #normalizar parte 2
+    # Reemplazar siglas con puntos por la misma sigla sin puntos
+    text = re.sub(r'\b(\w\.)+\b', lambda match: match.group(0).replace('.', ''), text)
+    # Separar números de las palabras
+    text = re.sub(r'(\d+)', r' \1 ', text)
+    # Tokenizar, tratando la puntuación como tokens separados
+    tokenizer = RegexpTokenizer(r'\w+|\$[\d\.]+|\S+')
+    text = tokenizer.tokenize(text)
+    # Normalizar: convertir a minúsculas
     text = [word.lower() for word in text]
-    #filtrar stopwords
+    # Eliminar signos de puntuación
+    text = [re.sub(r'[^\w\s]', '', word) for word in text]
+    # Filtrar stopwords
     text = [word for word in text if word not in stoplist]
-    #stemming
+    # Filtrar números
+    text = [word for word in text if not word.isdigit()]
+    # Stemming
     text = [stemmer.stem(word) for word in text]
-    text = ' '.join(text)
+    # Unir los tokens en una cadena y eliminar espacios extra
+    text = ' '.join(text).replace('  ', ' ') ####################
     return text
 
 # Construcción del Índice Invertido usando SPIMI
@@ -143,8 +154,22 @@ for file_name in textos:
 for doc_id, text in librillos.items():
     librillos[doc_id] = preprocesamiento(text)
 
+dataton = pd.read_csv('BD2/df_total.csv')
+#solo guardar 100 documentos
+dataton = dataton.head(25)
+
+# crear diccionario de documentos
+documentos_sin_procesar = {}
+for i in range(len(dataton)):
+    documentos_sin_procesar[i] = dataton['news'][i]
+    
+documentos_procesados = {}
+for doc_id, text in documentos_sin_procesar.items():
+    documentos_procesados[doc_id] = preprocesamiento(text)
+
 #build_index(documents, 7)
-build_index(librillos, 500)
+#build_index(librillos, 500)
+build_index(documentos_procesados, 800)
 
 
 
@@ -175,6 +200,7 @@ def calculate_norms(index):
 norms = calculate_norms(index)
 
 def cosine_similarity(query, index, norms, k): # search
+    start = time.time()
     scores = defaultdict(float)
     query_tokens = preprocesamiento(query).split()
     query_tf = defaultdict(int)
@@ -191,15 +217,36 @@ def cosine_similarity(query, index, norms, k): # search
     
     for doc_id in scores:
         scores[doc_id] /= query_norm * norms[doc_id]
-    
-    return sorted(scores.items(), key=lambda x: x[1], reverse=True)[:k]
+    result = sorted(scores.items(), key=lambda x: x[1], reverse=True)[:k]
+    end = time.time()
+    duration = end - start
+    return result, duration
 
 def retrieval_documents(result, docs):
     for doc_id, score in result:
         print(f"Documento {doc_id}: {docs[doc_id]}, Score: {score}")
 
-result = cosine_similarity("debido a la codicia desperto frodo sam ithilien", index, norms, 2)
-print(result)
-retrieval_documents(result, librillos_sin_procesar)
+#result = cosine_similarity("debido a la codicia desperto frodo sam ithilien", index, norms, 2)
+#print(result)
+#retrieval_documents(result, librillos_sin_procesar)
 
-print(cosine_similarity("por la muerte de gandalf",index,norms,2))
+
+Query1 = "El pais de China y su cooperacion"
+result, duration = cosine_similarity(Query1, index, norms, 3)
+print(f'{result}, tiempo de la query: {duration} segundos')
+retrieval_documents(result, documentos_sin_procesar)
+
+def retrieval_documents(result, docs):
+    for doc_id, score in result:
+        print(f"Documento {doc_id}: {docs[doc_id]}, Score: {score}")
+
+#result = cosine_similarity("debido a la codicia desperto frodo sam ithilien", index, norms, 2)
+#print(result)
+#retrieval_documents(result, librillos_sin_procesar)
+
+#print(cosine_similarity("por la muerte de gandalf",index,norms,2))
+
+Query1 = "El pais de China y su cooperacion"
+result, duration = cosine_similarity(Query1, index, norms, 3)
+print(result)
+retrieval_documents(result, documentos_sin_procesar)
