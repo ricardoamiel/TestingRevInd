@@ -1,0 +1,801 @@
+abiert 1:1
+abre 0:1
+abrir 2:1
+aca 0:1
+acced 4:2
+acces 4:2 6:1
+accion 1:2 6:2
+aceit 3:1
+acel 5:1
+acerc 4:1 8:1
+acort 8:1
+actual 6:1 7:1
+acuerd 5:1 6:2
+adelant 3:1
+adem 0:1 7:1
+adicional 5:1
+adn 0:1
+adqu 6:1
+adult 4:2
+advers 6:1
+adviert 6:1
+advirt 4:1
+aerobus 2:2
+aerolin 2:5
+aeronav 2:1
+afect 1:1
+afirm 5:1
+agent 5:1
+agil 7:4
+agost 3:1 4:1 6:1
+agreg 0:1 2:1 4:2
+agu 3:1 4:1
+ahi 0:1
+ahond 8:1
+ahorr 2:2
+air 2:1
+albert 5:1
+alcanc 5:1
+alcantarill 4:1
+alcanz 3:1
+alem 8:1
+alfons 6:1
+ali 8:2
+alianz 2:1 5:1
+aliment 3:2
+alimentari 6:1
+aloj 3:1
+alto 3:1 6:1
+altos 4:1
+alumbr 3:1
+alumn 7:2
+alza 3:2
+alzas 3:1
+ambas 1:1
+ambici 2:1
+ambicion 0:1
+ambit 6:1
+amig 2:1
+ampli 4:1
+analisis 8:1
+andres 0:1
+antel 2:1
+antoni 6:1
+anual 6:3
+anunc 4:1
+anunci 4:1
+apertur 1:2 4:2
+aplic 8:1
+apoy 1:1 4:1
+aprob 1:1
+aprovech 4:1
+apuest 2:2
+aragon 3:1
+argument 0:1
+armoniz 3:1
+arriend 5:2
+articul 0:1 6:2
+artificial 5:1
+ascend 3:1
+asegur 0:1 4:4
+asi 2:1 3:1 4:1 6:1
+asim 2:1
+asobancari 4:3
+asoci 0:2
+aspect 0:1
+aspir 0:1
+asturi 3:1
+asum 2:1
+atencion 8:1
+aument 3:2 4:4 6:1
+aun 4:1 6:2
+autor 1:1
+avanc 3:1 4:4
+avanz 1:1 3:1 4:5
+aviacion 2:2
+avion 2:2
+añad 1:1
+año 2:4 3:2 6:1
+años 2:1 4:3
+baj 2:1 6:1
+bal 3:1
+banc 0:1 1:1 4:5
+bancari 1:1 4:2
+bancariz 4:1
+banqu 4:1
+barr 4:1
+bas 8:1
+basic 1:1 6:2
+bayon 4:1
+bbva 0:1 4:1 6:3
+behavioral 8:1
+big 5:1
+billon 2:1 8:1
+bols 1:3
+bond 7:1
+brasil 4:1
+brech 4:1 6:1 8:1
+brut 8:1
+busc 1:1 4:1
+busqu 5:1
+cabez 3:1 4:1
+caer 6:1
+calefaccion 3:1
+calif 5:1
+camb 3:1 4:1
+cambi 0:2
+camin 2:1 4:1
+campesin 4:1
+canari 3:1
+canast 6:3
+canc 2:1
+cantabri 3:1
+capac 4:1 6:1
+capital 1:1
+capt 1:1
+car 3:2
+caracterist 8:1
+carbur 3:2
+carenci 6:1
+carg 4:2
+carl 2:1 4:1
+carn 3:2
+carrasc 6:1
+cart 4:2
+cartag 4:2
+cas 0:1 3:1 6:2 8:1
+castañ 4:2
+castill 3:1
+cataluñ 3:1
+caus 6:1
+central 1:1 4:1 6:1
+century 5:2
+ceo 2:2 5:1
+cerc 4:2
+cerr 5:1
+chin 1:14
+churchill 8:1
+ciberespaci 1:1
+cibersegur 1:2
+cifr 4:2 6:1
+cin 8:1
+circuit 8:1
+ciud 5:1
+clausur 4:1
+clav 4:2 8:1
+clavij 8:1
+client 0:1
+climat 0:1
+codig 8:2
+coloc 3:1
+colombi 0:1 2:2 4:4 5:1
+column 6:1
+com 3:1 8:1
+combat 6:1
+comercial 5:2
+comienz 8:1
+comision 1:2
+comp 2:1
+compart 4:1 7:2
+compañ 1:1 2:1 5:2
+competit 4:1 7:1
+compit 0:1
+complej 8:2
+comport 8:1
+compromet 4:2 8:1
+compromis 4:1
+compuest 2:1
+computacional 8:1
+comun 1:1 3:2
+comunic 1:1
+comunidadescastillal 3:1
+concept 0:1 7:1
+conclu 0:1
+condicion 6:3
+conduc 8:1
+conect 8:1
+coneval 6:3
+confi 4:1
+congel 3:1
+conoc 0:1
+consecut 3:1
+consej 6:1
+constant 3:1
+construccion 4:1
+consult 6:1
+consum 3:1 6:1
+consumidor 4:2
+cont 2:1
+contempl 2:1
+content 2:1
+context 6:1
+continu 1:1 2:1
+contrapart 4:1
+contrarrest 6:2
+contrat 5:1
+contribu 4:1 6:1
+control 1:1
+convencion 4:2
+convenient 4:1
+convert 6:1
+conviert 4:1
+convirt 2:1
+coop 1:1
+corpor 0:1
+correl 6:1
+cort 6:2
+cost 0:1 2:4 3:1 6:1
+cotiz 1:5
+coyuntur 0:1
+crec 2:1 4:1
+crecimient 2:1 4:2 5:1
+credit 4:8
+creditici 5:1
+criptoanalisis 8:1
+csrc 1:2
+cuestion 2:1
+cuid 8:1
+cup 4:2
+cuy 8:1
+dat 1:1 3:2 5:1 6:1
+dañ 6:1
+deb 1:1 4:2
+debaj 3:1
+debil 8:1
+decim 3:2
+decimoquint 3:1
+decision 4:4
+decl 2:1
+dedic 7:1 8:1
+dej 0:1 6:1
+demand 5:1
+deneg 1:2
+depend 8:1
+derrib 4:1
+desafortun 6:1
+desarroll 0:2 4:3 5:1 6:2
+descifr 8:3
+desencad 6:1
+despu 1:2 4:1
+destac 4:1 6:2
+destin 6:1
+detall 6:1
+deterior 4:1
+determin 6:1
+deud 4:1
+dian 4:1
+dias 1:1
+dich 1:1
+didi 1:1
+diferent 3:1
+digit 3:1
+digital 4:5 8:1
+digitaliz 4:1
+din 4:1 6:1
+direct 0:1 4:3
+director 0:1 4:1
+dirigent 4:1
+discapacit 4:1
+diseñ 4:1 8:2
+disminu 6:2
+disp 3:1
+distribu 3:1
+divers 2:1
+divulg 1:1
+doming 1:1
+dominic 2:1
+dond 1:1
+dud 6:1
+echand 3:1
+econom 4:2 6:9
+efect 4:1 6:3
+eficient 4:1
+egres 6:1
+ejecut 2:1
+ejercit 8:1
+elabor 3:1
+electr 3:2 8:1
+element 8:2
+elev 3:2 6:1
+elig 2:1
+elij 1:1
+elobservatori 7:1
+emision 1:1 4:1
+emisor 1:1 4:1
+emit 4:2
+empez 2:1 4:2
+emprend 5:1
+empres 1:7 2:1 4:1
+empresarial 0:1 7:1
+encad 3:1
+encarec 3:2
+encarg 5:1
+encuentr 4:1
+ende 6:1
+endeud 4:1
+endurec 1:1
+energ 4:1
+energet 3:1
+enigm 8:6
+enorm 0:1 8:1
+entend 0:1
+entrad 2:1
+entrevist 7:1
+envi 8:1
+equ 2:1
+escenari 6:1
+escob 7:1
+escrib 8:2
+eslog 4:1
+especial 3:2 6:1
+especif 0:1
+espin 6:4
+espiritu 1:1
+esquem 4:2
+estadist 3:2
+estadounidens 1:4
+estim 8:1
+estrategi 0:1
+estrech 1:1
+estudi 2:1 8:2
+etc 4:1
+evalu 2:1 4:1 6:1
+event 4:1
+evident 6:3
+evolu 3:1
+excepcional 8:1
+exclu 4:1
+exig 1:1
+exigent 1:1
+exist 4:1
+exit 8:2
+expansion 2:1
+experiment 4:1
+explic 6:1
+expres 1:1
+exterior 1:1
+extranj 1:5 4:1
+extrem 6:1
+extremadur 3:1
+facilit 4:2 8:1
+factor 6:3 8:3
+falt 6:1
+famili 4:3 6:1
+fatig 8:1
+favor 4:1
+febr 3:3
+fed 6:1
+felix 2:1
+finaliz 2:2
+financ 1:1 4:3 6:2
+financi 0:1 1:1 4:5 5:1 6:1
+financieral 6:1
+firm 5:1
+fiscal 6:1
+fisic 0:2 6:1
+flor 2:1
+flot 2:1
+for 0:1 4:4
+formacion 7:1
+formal 4:2 6:2
+fortalec 5:1
+franci 2:1
+frent 4:1
+fresc 3:1
+fuent 0:1
+fuert 2:1
+fuerz 5:1 8:2
+funcion 2:1
+fundador 7:1
+fundamental 8:1
+futur 1:1 4:2
+gabinet 1:1
+galici 3:1
+garant 4:1 5:1
+garantiz 4:1
+garc 0:2
+gen 2:1 6:2
+general 0:1 3:2 4:1
+generaliz 3:1
+gerent 4:2
+gigant 1:1
+global 0:1 1:1
+go 2:1
+gobiern 1:1
+golp 6:1
+gomez 4:1
+gonzalez 6:1
+got 4:2
+graci 5:1
+grad 6:1
+gras 3:1
+gremial 4:1
+grup 2:2 3:1
+guerr 8:1
+gurz 6:1
+gustav 4:1
+hab 1:1
+habl 7:1
+hern 4:1
+herramient 4:1
+hij 2:1
+histor 2:1 8:1
+histori 2:1 8:1
+hog 4:1
+hombr 4:1
+hortaliz 3:1
+huev 3:2
+hum 8:2
+identific 4:1 8:1
+imag 2:1
+imagin 0:1
+impact 0:1
+import 0:2 4:1 6:1 7:1
+impuest 3:3
+impuls 0:1 3:1
+inc 1:1
+incertidumbr 1:1
+inclu 0:1
+inclusion 0:1 2:1 6:3
+incorpor 7:1
+increment 3:1 4:1 6:2
+indic 3:2 4:1 6:2
+indig 4:1
+industri 2:2
+ine 3:2
+inequ 4:1
+inflacion 3:3 4:1 6:5
+influ 8:1
+inform 1:2 8:1
+informal 6:7
+informald 6:1
+infraestructur 4:1
+ingeni 8:1
+ingres 6:4
+inici 4:4 5:1
+inmediat 4:3
+inmobiliari 5:3
+inmuebl 5:2
+inquebrant 1:1
+instal 4:1
+instrument 4:1
+insum 4:1
+inteligent 5:1
+interanual 3:3
+internacional 2:1
+interop 4:1
+introduc 7:2
+investig 1:1
+ipc 3:7
+ipca 3:2
+jorg 4:1
+jos 4:1
+jov 4:1
+juan 2:1
+jueg 0:1 8:1
+jug 8:1
+juli 1:1 4:1
+junt 4:1
+labor 6:1 8:1
+laboral 6:4
+lanz 1:1
+lech 3:2
+legal 7:2
+legumbr 3:1
+lej 6:1
+leon 3:1
+leonard 4:1
+lin 5:1 6:1
+link 6:1
+lleg 2:2 4:1
+log 4:1
+logr 0:1 5:1 6:1
+low 2:2
+luch 2:1
+luis 4:1 6:1
+madr 3:1
+mam 2:1
+manch 3:1
+manej 5:1
+mant 0:1 1:1 3:1
+maquin 8:2
+marc 3:1 4:2
+mari 4:1
+marisc 3:1
+marz 3:7
+mas 0:2 1:2 2:3 3:8 4:4 5:3 6:5 8:3
+masculin 2:1
+matemat 8:1
+materializ 4:1
+med 1:1 4:1 6:1
+menor 3:1 6:2
+mensaj 4:1 8:1
+mensual 3:5
+merc 1:1 2:1 3:1 4:1 5:1
+mes 1:1 3:2
+met 2:1
+metodolog 3:1
+mexic 2:1 6:6
+microempresari 4:1
+migrant 4:1
+millon 1:1 2:2 5:2
+mit 6:1
+model 2:3 8:1
+moment 8:2
+mon 4:4
+monetari 6:1
+mostr 2:1
+mov 2:1
+muestr 4:1 6:1
+muj 2:2 4:2
+mund 0:2 1:1 7:1
+mundial 8:1
+mutu 1:1
+nach 7:3
+nacional 1:1 5:1 6:2
+necesari 0:1
+negat 6:1
+negoci 0:5
+negr 4:1
+neo 2:1
+nich 2:1
+nivel 6:8
+norm 8:1
+normal 8:1
+not 1:1
+nuev 3:1
+num 2:2 4:1
+objet 4:2
+observ 6:2
+obstant 2:1
+ocup 6:2
+ofert 4:1 5:1
+oficin 5:1
+ofrec 4:1
+oper 2:1 4:1 5:1
+oportun 0:1
+organiz 7:1
+origin 4:1
+ovin 3:1
+pag 1:1 4:7
+pais 3:1 4:5 5:1 6:3
+palenqu 4:1
+pandemi 4:1 6:1
+panel 8:1
+panoram 6:1
+papel 4:1 6:1 8:1
+par 1:1
+paralel 0:1
+pard 4:2
+part 1:1
+particul 0:1 8:1
+pas 6:1
+pasaj 2:2
+pekin 1:1
+peligr 6:1
+pendient 6:1
+period 2:1 6:2
+permis 1:1
+permit 1:1 8:1
+person 2:1 8:1
+personal 3:1
+pes 6:2
+pesc 3:2
+petr 4:1
+pildor 7:1
+pink 2:1
+pix 4:1
+plac 7:1
+plan 1:1 2:1 5:1
+plant 6:2
+plataform 5:4
+plaz 6:2
+poblacion 4:1 6:5
+poblacional 4:1
+pobrez 4:1 6:9
+podcast 7:3
+podr 2:1 4:1 6:1
+polit 1:1 6:4
+porcentaj 6:1
+porcentual 6:1
+porcion 4:1
+portafoli 5:2
+portatil 8:1
+posibil 6:1 8:1
+posicion 6:1
+posit 3:1
+pre 6:1
+precari 6:1
+preci 2:2 3:4 6:1
+preocup 1:1 6:2
+prep 7:1
+presenci 5:1
+present 2:1 5:1
+president 2:1 4:4 5:1
+presion 4:1
+presupuest 6:1
+prev 6:1
+principal 6:3
+prior 0:1
+priorid 0:1
+probabl 2:1 8:1
+problem 4:1
+proc 5:1
+product 3:1 4:1
+profesor 7:1
+program 6:1
+promedi 2:2 6:3
+propens 6:1
+propied 5:1
+propuest 2:1
+propus 4:1
+proteg 6:1
+provision 4:1
+prox 6:1
+proxim 2:2 4:1
+proyect 0:1 2:2
+psicolog 8:2
+public 3:2 4:1 6:4 7:1
+pued 1:1 4:2
+punt 3:6 4:3 6:1 8:1
+puntualiz 6:1
+pyme 4:1
+ques 3:1
+raizal 4:1
+reaccion 2:1
+real 0:1 7:1 8:1
+rebaj 3:1
+recient 2:1
+recog 3:1
+recuerd 8:1
+recup 6:2
+recurs 6:2
+reduc 4:2
+reduccion 6:4
+ref 4:1
+referent 4:1
+refi 4:1 6:1
+reflej 3:1 4:3
+reform 1:1
+reforz 1:3
+registr 3:3
+regl 8:1
+regul 1:4
+regulatori 1:1
+relacion 4:1
+relev 8:1
+renov 4:1
+rentabil 0:1
+rentatop 5:1
+report 6:1
+republ 2:1 4:1
+repunt 3:2
+requisit 1:1
+resalt 4:2
+rescind 1:1
+research 6:1
+residencial 5:2
+respect 6:1
+respet 1:1
+respons 0:1 4:1
+rest 6:1
+restaur 3:1
+result 1:1 6:1 8:1
+ret 0:2 4:2 6:4
+revel 1:2 2:1 6:1
+revision 1:1 6:1
+rey 4:1
+riesg 0:1 1:1
+rioj 3:1
+rodriguez 5:1
+romp 8:2
+rond 5:1
+ros 2:1
+rotor 8:1
+rrhh 7:1
+rural 4:1 6:1
+rut 2:1
+ryan 2:2
+sal 1:2
+salari 6:1
+salarial 6:1
+scientist 8:1
+sec 1:3
+secret 8:1
+sector 4:2 5:1 7:2
+segment 4:1
+segu 3:1 4:3 6:2
+segun 2:1 4:1 5:1
+segur 2:1 4:1 6:1 8:1
+send 6:2
+senior 6:1
+sent 4:1
+septiembr 3:1
+seri 3:1 8:2
+serv 4:2
+servici 3:1 4:2
+sesg 8:1
+sesion 4:2
+señal 2:1 4:1 6:1
+sig 4:1
+signif 6:1
+signific 1:1 5:1 6:1 8:1
+siguient 6:1
+sill 2:1
+sistem 4:3 8:1
+siti 1:1
+situ 3:4
+situacion 6:2
+slog 4:1
+sobreendeud 4:1
+social 0:2 6:4 8:2
+somet 1:1
+sost 0:3 4:1
+sostenibil 0:3
+staff 2:1
+startup 5:1
+sub 3:2
+subyacent 3:2
+sueñ 4:1
+sugi 6:1
+sum 5:1
+superintendent 4:2
+superior 5:1
+supervision 1:1
+supervisor 1:1
+supon 7:1
+sustitu 4:1
+talentboost 7:1
+tambi 1:2 3:3 4:1 8:1
+tarjet 4:2
+tas 3:8 4:2
+telecomun 4:1
+tem 0:2 6:1
+ten 8:1
+tendenci 7:1
+tendr 6:1
+teor 8:1
+terc 3:1 4:1
+terci 6:1
+thinktank 7:1
+todav 4:1
+tom 1:1 3:1 4:2
+tra 2:1
+trabaj 2:1 6:1
+transferent 4:1
+transform 4:1
+transfronteriz 4:1
+transicion 0:1
+transport 1:1 3:2
+trat 0:1 2:1 8:1
+trimestr 2:1 6:6
+turn 4:1
+ubic 6:1
+ultim 2:1 3:1 4:1 6:3
+unid 1:1
+univers 7:1
+urban 6:1
+urgent 4:1
+us 2:3 5:2
+usuari 1:1
+utiliz 4:2 5:1 8:1
+valenci 3:1
+variacion 3:1
+vasc 3:1
+ve 6:1
+ventaj 7:1
+version 4:1
+viabil 0:1
+viaj 2:1
+vid 4:1 6:1
+viend 4:1
+viern 1:1 4:1
+vill 4:3
+vision 7:1
+vist 3:1 8:1
+viv 2:7
+viviend 3:1
+vuln 6:3
+web 1:1
+winston 8:1
+york 1:1 2:1

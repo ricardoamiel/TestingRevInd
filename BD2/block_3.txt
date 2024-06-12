@@ -1,0 +1,484 @@
+acces 22:1
+accion 23:1
+acel 23:3 24:2
+acondicion 24:1
+activ 23:1
+actuacion 24:1
+adem 24:2
+adquisit 23:1
+afect 24:1
+afirm 22:1
+agost 23:5
+agres 23:1
+ahorr 23:1 24:2
+air 24:1
+ajust 23:5
+alarm 24:1
+alemani 24:1
+aliment 23:1
+alivi 23:1
+almac 24:1
+alto 23:3
+alza 23:1
+ambas 23:1
+americ 24:1
+amplitud 23:1
+analisis 24:1
+anim 24:1
+anual 24:2
+anualiz 24:1
+apertur 23:1
+apoy 22:1 23:1
+aprovech 24:1
+aqu 24:1
+argelin 24:1
+ari 22:2
+asegur 24:1
+asi 22:1 24:1
+asign 23:1
+asoci 22:1
+atribut 22:1
+audiobbv 24:1
+aument 23:7
+ausenci 24:1
+aut 23:1
+autent 24:1
+autoexplic 24:1
+automovil 23:1
+autor 24:1
+avanc 23:1
+avanz 23:1 24:1
+ayud 22:2 23:3
+añad 22:1
+año 22:2 23:5 24:5
+años 22:1 24:1
+baj 23:1
+banc 23:4
+basic 23:1
+bcm 24:7
+billon 24:1
+bon 23:1
+brut 23:1
+busc 23:2
+cab 24:2
+caer 23:1
+caid 23:2 24:3
+cal 22:1
+calefaccion 24:1
+cambi 23:3 24:1
+camin 23:1
+campañ 24:1
+cantid 24:1
+capac 23:1 24:2
+caract 24:1
+carbon 24:1
+carenci 24:1
+carmax 23:1
+cart 22:1
+cas 24:3
+central 23:4
+centroeurop 24:2
+cierr 24:1
+cifr 23:1 24:1
+cit 24:1
+clar 23:3
+clav 22:1 23:4
+combin 22:1
+combust 24:1
+comerci 23:2
+comienz 24:1
+comision 24:2
+compat 24:1
+compañ 22:1
+compens 24:1
+compet 22:1
+complet 24:1
+compr 23:2
+comprador 23:1
+compromis 23:1
+conclu 24:1
+condicion 23:1
+conexion 24:3
+confianz 22:1 23:1
+conjunt 24:3
+conoc 22:1
+consej 24:1
+constru 24:1
+consum 23:2 24:7
+consumidor 23:4 24:2
+cont 24:1
+contact 22:1
+context 23:1
+continu 23:2
+contrat 24:1
+contribu 23:1
+convert 22:1
+coop 24:1
+coordin 24:1
+cort 24:5
+cost 23:1
+cre 22:3
+creacion 22:1
+crec 22:1
+crecient 22:2 23:1
+crecimient 22:1 23:3
+credit 23:1
+crisis 24:1
+criteri 24:1
+critic 22:1
+cuant 23:1
+cubic 24:1
+cuent 22:1
+cuot 24:1
+dat 23:2 24:2
+debilit 23:1
+dej 24:1
+demand 23:2 24:6
+departament 23:3
+dependent 24:4
+desacel 23:3
+desafi 23:1
+desarroll 22:1 24:2
+descart 24:1
+desigual 24:1
+desplieg 24:1
+destac 23:1
+destin 23:1
+desvi 24:1
+detall 24:1
+deud 23:1
+discrecional 23:1
+disminu 23:2
+dispon 23:1 24:1
+distint 24:2
+distribuidor 23:1
+dolor 23:1
+duplic 24:1
+durabil 23:1
+durad 23:1
+econom 23:5
+ecosistem 22:1
+ee 23:3
+efect 24:1
+eficient 24:1
+ejercici 24:2
+electr 24:1
+electrodomest 23:1
+elev 23:1 24:2
+empez 24:1
+emprendedor 22:2
+empres 23:1 24:1
+empresarial 22:1
+energ 23:1 24:5
+energet 24:1
+enfoqu 24:1
+enfrent 23:1 24:1
+enfri 23:1
+entiend 22:1
+equilibri 23:1
+equip 22:3
+escasez 24:1
+escenari 24:2
+españ 24:4
+español 24:1
+esper 22:1
+estabil 23:1
+establec 24:1
+estadounidens 23:6
+estim 23:1 24:1
+estudi 24:1
+eur 22:1
+europ 22:2 24:8
+examin 24:1
+exclu 23:1
+exit 22:1
+expansion 24:1
+expect 23:2
+experient 22:1
+experiment 22:1
+export 24:2
+extrapol 24:1
+facilit 24:1
+factor 22:1
+falt 24:2
+fas 22:1
+febr 24:1
+fech 22:1
+fed 23:3
+federal 23:1
+filtr 24:2
+final 24:1
+fluctu 23:1
+fond 22:1 24:1
+for 24:1
+form 22:1 24:4
+formul 23:1
+fosil 24:1
+fotovolt 24:1
+franci 24:2
+frent 23:1
+fri 24:1
+fuent 23:2
+fuert 22:1 24:1
+funcion 24:1
+fundador 22:1
+futur 22:1 24:1
+gananci 23:2
+garantiz 24:1
+gas 24:31
+gasif 24:1
+gasoduct 24:2
+gasolin 23:1
+gast 23:8
+gen 24:1
+generaliz 23:2
+gestion 24:1
+gestor 22:1
+gnl 24:4
+grafic 24:1
+grif 24:1
+habl 24:1
+hidrog 24:2
+histor 23:3 24:1
+hog 23:2
+ilustr 22:1
+impact 24:3
+import 23:1 24:7
+impuls 23:1 24:2
+inc 23:1
+incent 24:1
+inclu 23:1 24:1
+increibl 22:1
+indefin 24:1
+indic 23:11
+inferior 23:1
+inflacion 23:11
+inform 22:1 23:4 24:1
+infraestructur 24:3
+ingres 23:3
+inici 24:1
+intens 24:2
+inter 23:1
+interior 24:1
+intern 23:1
+interrumpibil 24:1
+intim 22:1
+invasion 24:1
+inviern 24:4
+ipc 23:2
+itali 24:1
+jerom 23:1
+juev 23:1
+juli 23:1 24:3
+juni 24:1
+labor 24:1
+laboral 23:3
+latinoam 22:1
+leadwind 22:1
+licu 24:1
+limit 24:1
+lin 24:1
+lleg 22:2
+llev 24:2
+local 22:1
+logr 24:1
+mant 24:1
+mantuv 23:2 24:1
+marc 23:1
+mas 22:2 23:5 24:7
+mec 24:1
+med 23:2 24:2
+medi 24:2
+mediolarg 24:1
+menor 23:1 24:2
+merc 22:2 23:2 24:1
+mes 23:9 24:2
+met 23:1
+metan 24:2
+metr 24:1
+millon 22:1
+minim 23:2
+mit 23:1
+mitig 24:1
+mostr 23:6
+muestr 24:1
+mundial 22:1
+natural 24:7
+necesari 24:2
+necesit 24:1
+nivel 22:1 24:1
+nord 24:1
+norueg 24:1
+nucl 24:1
+objet 22:1 23:2 24:1
+observ 23:1
+obstacul 23:1
+ofert 23:1 24:1
+opcion 24:2
+oper 22:1 23:1
+oportun 22:1
+orden 24:1
+pag 23:1
+pais 24:11
+pas 24:1
+patron 23:1
+pce 23:3
+pens 23:1
+permit 24:1
+persistent 23:2
+personal 23:2
+pid 24:1
+plan 24:2
+plaz 23:1 24:7
+podcast 24:1
+podcastreproducirbbv 24:1
+podr 24:2
+polit 23:2 24:1
+portugal 24:1
+posibil 24:3
+posit 24:1
+potencial 23:1
+powell 23:2
+preci 23:11 24:3
+preferent 23:1
+prescind 24:1
+present 24:2
+president 23:1
+presion 23:2
+prest 23:1
+prestigi 22:1
+previ 22:1
+previst 22:1 23:1
+principal 24:1
+principi 23:2 24:1
+pris 24:1
+proactiv 22:1
+problem 23:1
+procedent 24:1
+produc 24:2
+produccion 24:1
+product 23:1
+profund 22:1 23:1
+pronunci 24:1
+provisional 24:1
+prox 23:1
+proxim 22:2 24:6
+proyect 22:1
+public 22:1 23:1 24:1
+puest 22:1
+punt 23:2 24:2
+qued 24:1
+racion 24:2
+rap 23:1
+real 23:1 24:1
+realist 24:1
+recaud 22:1
+reci 22:1
+recog 22:1 24:2
+recort 24:3
+red 22:2
+redirig 24:1
+reduc 24:2
+reduccion 24:1
+referent 24:1
+regasif 24:1
+reit 23:1
+relev 24:1
+renov 24:3
+repowereu 24:1
+represent 24:1
+reserv 23:1 24:1
+resist 24:1
+resistent 23:1
+respald 23:1
+respons 23:1
+restablezc 24:1
+restaur 23:1
+result 23:1
+ret 24:1
+retr 24:1
+revision 23:2
+riquez 22:1
+ritm 23:2 24:2
+rus 24:9
+rusi 24:7
+saf 24:1
+salari 23:3
+salarial 23:1
+sav 24:1
+scaleups 22:4
+segu 22:1 23:1 24:1
+segun 23:1
+sem 23:2 24:1
+semestr 24:3
+sep 23:1
+septiembr 23:1
+serv 24:1
+servici 23:4
+señal 23:1
+shock 24:1
+signific 24:1
+situ 24:1
+sofistic 22:1
+sol 23:1 24:2
+solid 24:1
+soport 23:1
+sost 23:1
+spot 24:1
+startups 22:1
+stream 24:1
+sub 23:7 24:2
+subray 23:1
+substitu 24:2
+subyacent 23:1
+suel 23:1
+sueld 23:1
+suficient 24:2
+sugi 23:1
+suministr 24:4
+sup 23:2 24:1
+supondr 24:1
+sur 22:1
+sustitu 24:1
+talent 22:1
+tamañ 22:1
+tambi 22:1 23:3 24:1
+tard 24:1
+tarjet 23:1
+tas 23:2
+tecnolog 22:1
+telecomun 24:1
+temor 24:1
+ten 24:1
+tendr 23:1 24:2
+terci 24:1
+terminal 24:1
+tesor 23:1
+tip 23:1
+titul 24:1
+torn 24:2
+trabaj 24:1
+transicion 24:1
+transit 24:1
+transport 24:3
+trimestr 23:1
+trimestral 23:1
+ttf 24:1
+ucrani 24:1
+ue 24:11
+ultim 22:1 23:4 24:2
+unid 24:1
+union 24:2
+univers 22:1
+usad 23:1
+utiliz 23:1 24:2
+uu 23:3
+vehicul 23:1
+verd 24:1
+via 24:1
+viern 23:3
+vincul 24:1
+vuelt 23:1
+vuelv 23:1
+vuln 24:3
+wint 24:1
