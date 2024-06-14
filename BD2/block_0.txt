@@ -1,801 +1,4097 @@
-abiert 1:1
-abre 0:1
-abrir 2:1
+abacum 22:1
+abanc 66:1
+abarc 51:1 64:1
+abastec 12:1 32:1 46:1
+abiert 1:1 13:1 22:1 47:1 48:1 94:1
+abog 48:3 91:3
+abon 37:1 96:3
+abord 22:1 25:1 40:2 43:1 48:3 56:1 77:1 92:1
+abran 26:1
+abraz 29:1
+abre 0:1 64:1
+abren 100:1
+abriend 93:1
+abril 73:1
+abrir 2:1 86:2
+absolut 85:1
+absorcion 46:1
+abuel 94:1
 aca 0:1
-acced 4:2
-acces 4:2 6:1
-accion 1:2 6:2
-aceit 3:1
-aceler 5:1
-acerc 4:1 8:1
-actual 6:1 7:1
-acuerd 5:1 6:2
-adelant 3:1
-ademas 0:1 7:1
-adicional 5:1
-adn 0:1
-adquir 6:1
+acab 13:1 29:1 35:1 54:1 67:2 97:1
+academ 65:1
+academy 79:1
+acced 4:2 11:2 16:1 26:2 70:1 79:2 85:1 86:1 97:1
+accentur 66:1
+acces 4:2 6:1 12:1 16:2 19:1 22:1 37:1 48:1 54:1 64:1 65:3 72:1 80:1 84:1 89:3
+accesibil 44:1 65:1
+accex 64:2
+accion 1:2 6:2 12:1 15:3 23:1 26:1 29:1 30:4 38:1 47:1 48:3 51:5 71:1 72:1 74:1 81:1 82:2 85:4 90:10 91:2 99:4
+accionarial 11:1
+acclaim 51:2
+aceit 3:1 73:5
+aceler 5:1 22:1 23:3 24:2 25:1 26:1 31:1 32:1 33:2 34:1 35:1 36:1 42:2 46:2 47:3 50:1 51:1 53:1 55:1 74:1 76:1 78:1 85:1 97:1
+acept 37:4 54:1
+acer 29:1
+acerc 4:1 8:1 28:1 54:2 64:1 85:1 87:1
+acerqu 97:1
+aclar 69:1
+acog 46:1
+acolg 83:1
+acomet 11:1
+acompañ 11:3 18:1 22:1 51:2 60:1 62:1 70:1 76:2 77:1
+acondicion 24:1 94:1
+aconsej 12:1 85:2
+acontec 67:1
+acopi 59:1
+acopl 20:1
+acord 18:1 48:2 69:1 86:1
+acort 8:1
+acot 46:1 97:1
+acristal 94:1
+actitud 14:1 22:1
+activ 11:3 12:1 16:1 18:1 19:7 21:2 23:1 25:1 26:2 33:1 42:1 43:1 50:2 51:2 52:1 54:1 60:2 62:1 68:1 72:1 74:9 79:1 81:2 86:1 87:1 91:5 92:2 95:2 96:1 97:4 99:2 100:1
+activision 48:7
+actor 13:1 38:1 43:2 66:1 83:2 85:1 92:1 99:1
+actos 69:1
+actu 42:1 51:4 59:1 62:1 74:1
+actuacion 21:1 24:1
+actual 6:1 7:1 9:1 25:1 29:1 31:1 42:1 48:2 54:1 58:1 67:1 69:1 74:2 75:1 77:2 79:1 83:1 98:1
+actualiz 21:1 35:1 72:1 83:1
+acuerd 5:1 6:2 16:1 18:2 20:1 26:2 28:2 29:1 30:2 31:1 34:1 37:1 38:1 42:1 48:9 51:1 55:1 58:1 69:1 83:3 85:1 86:1 92:1 96:1
+acumul 11:1 22:1 26:1 31:1 37:1 46:2 71:1 97:3
+acus 35:2 62:1 72:1
+ad 66:1
+adam 48:1 72:1
+adams 29:1
+adapt 11:3 44:1 48:2 54:3 62:1 74:2 80:1 98:2
+adecu 42:1 74:3 81:1 87:1 94:1 96:1
+adelant 3:1 11:1 13:1 64:1
+ademas 0:1 7:1 11:1 12:1 18:1 20:2 21:3 24:2 26:1 28:1 29:2 33:3 37:2 38:1 42:1 43:2 44:1 47:1 50:2 54:1 56:1 57:1 59:1 62:1 66:2 68:1 75:1 76:1 78:1 81:1 85:2 90:1 92:2 94:1 97:4 99:1 100:1
+adher 55:1 85:1 92:1
+adhesion 55:1 92:1
+adicion 48:1
+adicional 5:1 35:1 63:1 80:1 97:3
+adit 80:1
+adjud 91:1
+administr 10:2 21:1 37:1 46:1 48:2 59:2 83:1 86:2 88:1 96:1
+adn 0:1 51:1 66:1
+adopcion 89:1
+adopt 18:1 19:1 48:1 74:1 89:1
+adquier 81:1
+adquir 6:1 54:1 63:1 70:1 81:1 82:1
+adquisicion 48:5 70:1 82:2
+adquisit 23:1 52:1
 adult 4:2
 advers 6:1
-adviert 6:1
+advert 73:1
+adviert 6:1 20:1 42:1
 advirt 4:1
+aeb 68:1
+aedem 66:1
+aen 66:1
 aerobus 2:2
-aerolin 2:2
+aerolin 2:2 39:1 53:1
 aeroline 2:3
 aeronav 2:1
-afect 1:1
-afirm 5:1
+aerotermi 85:1
+aevi 92:1
+afect 1:1 14:1 15:1 17:1 24:1 27:2 33:3 38:2 48:2 59:1 64:1 68:1 73:2 80:1 83:1 97:2
+afili 97:1
+afirm 5:1 9:1 21:1 22:2 37:1 44:1 50:2 54:1 59:3 62:2 63:1 64:1 66:1 68:1 75:1 83:1 88:1 91:1
+afric 19:1 42:1
+afront 11:1 62:2 85:1
+aganz 27:3
+agenci 10:1 21:1 25:1 66:7
+agend 34:1 51:2 97:1
 agent 5:1
-agil 7:4
-agost 3:1 4:1 6:1
-agreg 0:1 2:1 4:2
-agu 3:1 4:1
-ahi 0:1
-ahond 8:1
-ahorr 2:2
-air 2:1
-albert 5:1
-alcanc 5:1
+agil 7:4 20:1 26:1 54:1
+agiliz 54:2
+aglutin 64:1
+agost 3:1 4:1 6:1 17:3 23:5 83:1 95:2
+agot 70:1
+agradec 45:1
+agrand 13:1
+agrav 31:1
+agreg 0:1 2:1 4:2 15:1 48:1 50:2 54:1 62:1 69:1 75:1 90:1
+agres 23:1 48:1
+agricol 84:2
+agricultor 73:1
+agricultur 73:1 74:1 77:1 81:2
+agro 84:1
+agropecuari 59:3 84:1
+agrup 74:4
+agu 3:1 4:1 12:18 51:1 80:4 85:1
+aguacat 88:1
+agudiz 73:2
+aguirrebeiti 74:1
+agustin 60:1
+agüer 59:1
+ahi 0:1 43:1 61:1 78:1
+ahond 8:1 18:1
+ahorr 2:2 23:1 24:2 27:2 33:1 46:2 58:1 64:2 65:1 81:2 85:2 86:7 94:4 97:2
+ai 22:1
+air 2:1 18:4 24:1 27:1 32:1 63:1 83:1 94:5
+aisl 31:1
+aislamient 42:1 94:4
+ajen 72:1
+ajust 23:5 50:1 74:1 83:2
+akdem 25:1
+alarm 16:2 24:1
+alarms 16:2
+albaladej 11:2 22:1
+alberdi 32:1
+alberich 64:4
+albert 5:1 32:1 60:2 69:1
+alcaldes 91:1
+alcanc 5:1 51:1 85:3
 alcantarill 4:1
-alcanz 3:1
-aleman 8:1
+alcanz 3:1 29:2 31:1 41:1 44:1 49:1 51:1 52:2 53:1 62:1 71:1 75:1 77:1 82:1 83:1 88:3 94:1 97:3
+alcohol 88:1
+aleatori 74:1
+alej 8:1 48:1 80:1
+alejandr 83:1
+aleman 8:2 94:1
+alemani 24:1 69:1 94:1
+alent 18:1 48:1
+alexand 99:1
+alexandr 30:1
+alfa 17:1
 alfons 6:1
-alianz 2:1 5:1
-aliment 3:2
-alimentari 6:1
+algid 99:1
+algoritm 64:1 74:5
+algui 78:1
+ali 8:2 16:1 41:1 45:1 54:1 71:1 81:1 96:1
+alianz 2:1 5:1 12:1 16:3 26:1 29:2 30:1 34:3 37:1 40:1 44:2 56:1 63:3 69:1 70:2 72:1 76:1 78:2 79:3 84:2 85:1 89:2 96:1 99:1
+aliment 3:2 10:3 23:1 36:2 38:1 49:1 52:2 59:10 73:8 77:1 81:8 85:1 88:3
+alimentari 6:1 38:1 73:1 74:1 81:3
+alin 14:1 21:1 48:1 60:1 65:1 78:1
+alinaz 65:1
+alipay 54:1
+alivi 23:1 74:1 83:1 97:1
+alla 13:1 20:1 54:1 55:1
+allan 48:1
+alli 69:1 83:2 86:1
+allianc 29:1
+almacen 24:1 41:1 64:1
+almagr 93:1
+alocu 83:1
 aloj 3:1
-alto 3:1 6:1
-altos 4:1
+alphabet 48:1
+alta 15:1 21:1 26:1 32:2 37:4 42:1 48:1 52:1 59:3 74:1 75:1 85:1 86:1 90:1 94:1 95:1 96:1
+altas 36:1
+altern 20:2 34:1 48:1 62:1 70:1 72:1 80:1 81:1 86:2 91:1
+alto 3:1 6:1 8:1 11:4 17:1 22:1 23:3 36:1 39:1 44:1 47:1 49:1 74:1 88:1 92:2 94:1
+altos 4:1 31:1 48:2 53:1 61:1 73:1 86:1
+altur 94:1
 alumbr 3:1
-alumn 7:2
-alza 3:2
-alzas 3:1
-ambas 1:1
-ambici 2:1
-ambicion 0:1
-ambit 6:1
-amig 2:1
-ampli 4:1
-andres 0:1
+alumn 7:2 12:2
+alza 3:2 23:1 33:3 50:1 59:2 61:1 88:1 97:2
+alzas 3:1 32:1
+am 48:2 56:1
+amai 66:3
+amanec 27:1
+amarg 48:1
+amay 16:1
+amazon 26:1 48:4 79:1 89:2
+ambas 1:1 12:1 23:1 26:1 31:1 44:1 96:1
+ambici 2:1 11:1 29:1 62:3
+ambicion 0:1 29:1
+ambient 12:1 27:2 42:1 43:1 51:3 55:1 81:1 82:1 84:1 94:3
+ambiental 29:1 51:3 76:1 80:1 82:2 91:1 94:1
+ambit 6:1 25:1 64:3 74:2 77:1 92:1
+amen 66:1
+amenaz 72:2 78:1
+amer 11:1 38:3 59:1 62:1 81:1 84:1 87:2
+americ 37:12 54:1
+american 24:1 68:1 93:1
+americans 40:1
+amig 2:1 26:1 48:1
+amist 48:2
+ampli 4:1 15:1 16:1 18:1 19:1 21:1 26:4 35:1 36:1 37:1 44:1 65:1 69:2 78:1 87:1
+amplitud 23:1
+ana 16:1
+anadolu 25:1
+anal 15:1 31:2 32:2 50:1 69:1 90:1
+analic 68:1
+analisis 8:1 20:3 21:5 24:1 35:1 42:1 57:1 61:1 64:3 67:1 83:1 85:1 97:1
+analit 25:1 85:1
+analiz 28:1 38:1 41:1 52:1 58:1 61:1 64:1 77:1 85:1 98:1
+analytics 78:1
+and 11:1 29:1
+andadur 11:1
+andaluc 33:5
+andeg 83:1
+andes 50:1
+andreani 18:1
+andres 0:1 56:1 75:1
+andro 25:1 54:2
+angel 64:2 84:1
+anglogold 43:1
+angol 31:1
+angul 18:1
+anim 24:1
+animal 64:1
+aniversari 26:1
+annealers 74:1
+anomal 64:1
+anonimiz 64:1
+anot 43:1
+ant 14:2
+antecedent 54:1 63:1
 antel 2:1
-anterior 3:1
+anterior 3:1 23:1 29:1 58:1 90:1 97:2 100:1
+anthemis 62:1
+anticicl 50:1
+anticip 8:1 33:1 35:1 85:1 95:1 99:1
+antigoogl 48:1
+antigu 22:1
+antigued 48:1
+antigüed 48:1
+antimonopoli 48:5
+antioqueñ 90:1
+antitramit 91:1
 antoni 6:1
-anual 6:3
-anunc 4:1
-anunci 4:1
-apertur 1:2 4:2
-aplic 8:1
-apoy 1:1 4:1
-aprob 1:1
-aprovech 4:1
-apuest 2:2
-aragon 3:1
+anual 6:3 12:1 24:2 29:1 31:2 32:1 36:2 51:1 59:1 75:1 85:1 86:1 88:4 94:2
+anualiz 24:1
+anunc 4:1 14:1 26:1 29:1 34:1 48:1 70:1 71:1 84:1
+anunci 4:1 12:2 26:2 29:3 35:1 48:7 63:1 78:1 79:1 83:1 97:2
+apalanc 62:1
+aparat 54:1
+aparec 43:1 52:1 54:1
+aparezc 59:1
+aparicion 42:1 54:1
+apart 45:1 48:1
+apartament 94:1
+apec 34:1
+apertur 1:2 4:2 23:1 46:2 64:1 69:1 99:1
+apetec 94:1
+apetit 99:1
+aplic 8:1 20:1 21:2 25:2 26:2 27:1 44:1 48:3 51:2 54:2 63:1 64:1 74:5 77:1 79:1 82:1 85:1 93:1 94:2
+apliqu 27:1
+aport 13:3 22:1 43:1 54:1 65:1 66:1 84:1 88:6
+apost 18:1 41:1
+apoy 1:1 4:1 10:1 11:5 14:2 21:1 22:3 23:1 33:2 45:4 48:4 50:1 55:1 59:2 60:2 62:3 68:2 77:1 81:2 84:1 85:1 92:2 94:1 97:2 98:1
+app 25:1 26:3 48:1 54:3
+appcu 60:1
+apple 48:6
+aprec 42:1
+apreci 12:1
+aprend 12:1 48:1
+aprendic 84:2
+aprendizaj 65:2 84:1
+apresur 47:1
+apret 36:1 42:1
+aprob 1:1 10:1 34:1 48:2 83:1 90:1
+apropi 12:1
+aprovech 4:1 12:1 18:1 20:1 24:1 51:1 60:1 70:1 74:1 81:1 94:1
+aproxim 74:1
+aprueb 48:2 83:1
+apuest 2:2 16:1 26:1 64:1 65:1
+apunt 14:1 46:2 54:1 85:1 86:1 97:2
+aqu 8:1 15:1 24:1 41:1 54:2 74:1 81:1
+aquell 81:1
+aragon 3:1 33:4 46:1
+arbol 27:1 51:1
+arcill 80:1
+are 9:1 11:1 21:4 37:1 48:1 51:2 52:5 62:1 64:1 65:1 66:1 82:1 84:1
+argelin 24:1
+argentin 12:2 18:11 31:6 32:4 52:1
+argos 43:1 75:1 80:1 90:1
 argument 0:1
+ari 22:3
+arismendi 60:2
+arist 50:1
+arma 48:1
+armas 48:1
 armoniz 3:1
+arquitect 60:1
+arquitecton 60:1
+arquitectur 20:1 44:1 94:3
+arranc 11:1 41:1
+arrast 16:1
 arriend 5:2
-articul 0:1 6:2
-artificial 5:1
-ascend 3:1
-asegur 0:1 4:4
-asi 2:1 3:1 4:1 6:1
-asim 2:1
+arriesg 86:1
+arroj 31:1
+arroz 88:1
+arsenal 48:1
+arte 66:2 100:1
+arteag 43:1
+arthur 8:1
+articul 0:1 6:2 8:1 20:2 27:1 28:1 42:2 48:1 54:2 72:1 74:1 91:1 94:2
+artificial 5:1 27:1 62:1 64:3 74:2 78:1
+artist 100:1
+artur 75:2
+arub 70:1
+asalt 96:1
+asambl 90:1
+ascend 3:1 48:1
+asciend 25:1 71:1
+asegur 0:1 4:4 11:1 16:1 24:1 45:1 47:1 48:1 50:1 51:1 52:1 59:1 64:2 66:1 75:1 76:1 79:4 80:1 83:1 84:1 85:1 88:3 92:1 99:1
+asesor 11:4 48:2 51:1 70:1 72:1 86:1
+asi 2:1 3:1 4:1 6:1 11:1 16:1 17:1 18:1 21:4 22:3 24:1 26:1 33:3 35:1 37:1 38:1 41:1 42:1 43:1 46:4 50:3 51:1 55:1 58:1 60:2 64:3 65:1 69:1 75:1 77:1 79:1 81:3 83:1 85:1 87:2 90:1 92:1 94:2 97:1 100:1
+asiapacif 34:1
+asiat 34:1
+asign 21:1 23:1 70:2 97:1
+asim 2:1 20:1 26:2 29:1 33:2 43:1 46:1 67:1 77:1 78:1
+asimetr 31:1 35:2
+asist 11:1 62:1 69:1
+asistent 48:2
 asobancari 4:3
-asoci 0:2
-aspect 0:1
-aspir 0:1
-asturi 3:1
-asum 2:1
-atras 3:1
-aument 3:2 4:4 6:1
-aun 4:1 6:2
-autor 1:1
-avanc 3:1 4:4
-avanz 1:1 3:1 4:5
+asoci 0:2 22:1 33:1 43:1 48:1 54:1 65:1 92:1 94:2
+aspect 0:1 51:2 64:1 69:2 75:1 91:1
+aspir 0:1 77:1
+asset 21:1
+astrid 100:1
+astronom 94:1
+asturi 3:1 33:4
+asum 2:1 18:1 48:1 55:2 58:1 86:1 91:1 94:1
+asunt 43:1 69:2 94:1
+atac 48:1 62:1
+ataj 10:1
+ataqu 48:2 69:1 73:1
+atencion 8:1 14:1 48:1 68:1
+atend 11:2 55:1 77:1 79:1
+atent 21:1
+aterriz 35:1
+atmosfer 41:1
+atom 62:1 69:1
+atra 75:1 92:1
+atraccion 77:2
+atract 13:1 20:1
+atraid 66:1
+atras 3:1 13:2 51:1 75:1 85:1
+atraves 67:1
+atravies 20:1
+atrev 83:1
+atribu 21:1
+atribut 22:1
+attribution 21:1
+auch 30:5
+audi 51:1
+audienci 48:1
+audiobbv 24:1 98:1
+audiovisual 54:1
+aug 64:1 81:1
+aument 3:2 4:4 6:1 10:2 12:2 17:2 20:1 23:7 25:1 27:2 29:2 32:7 33:4 36:4 37:1 38:6 39:1 42:2 46:2 47:2 48:2 50:1 52:6 54:1 57:1 59:2 64:1 69:2 74:1 82:1 85:1 94:1 97:6 99:2
+aun 4:1 6:2 8:1 17:1 20:1 25:1 26:1 27:1 32:1 36:2 37:1 38:1 42:2 48:2 54:3 57:1 62:1 69:1 83:1 94:1 97:2
+ausenci 24:1 46:1
+ausent 34:1
+auspici 84:1
+australi 34:3 48:1
+aut 23:1 72:1
+autent 24:1
+autoconsum 85:1
+autoexplic 24:1
+autogestion 12:1
+automat 21:1 26:1 35:2 54:2 82:1
+automatiz 21:1
+automocion 85:1
+automotriz 20:1
+automovil 23:1 29:1 38:1 46:5 97:1
+autonom 33:2 46:1 54:1 62:1 66:1 68:1 74:1 76:1 77:1 97:2
+autor 1:1 12:2 14:1 24:1 28:1 34:1 35:1 47:1 72:1 91:3
+autoriz 10:2 13:2 26:1 54:2 71:1
+av 90:2
+avanc 3:1 4:4 13:1 23:1 25:1 33:3 43:1 46:1 54:2 55:1 64:3 74:2 76:1 97:3 99:2
+avantel 35:2
+avanz 1:1 3:1 4:5 11:1 23:1 24:1 33:2 34:1 43:1 60:1 72:1 79:1 82:1 97:1
+aventur 100:1
+aves 59:3
 aviacion 2:2
-avion 2:2
-a�ad 1:1
-a�o 2:4 3:2 6:1
-a�os 2:1 4:3
-baj 2:1 6:1
-balear 3:1
-banc 0:1 1:1 4:5
-bancari 1:1 4:2
+aviles 100:1
+avion 2:2 38:1
+avist 97:1
+awards 64:1 66:1 68:2
+axis 22:1
+ayud 8:1 11:2 12:2 20:2 22:3 23:3 29:1 37:1 41:1 42:1 48:2 50:1 51:3 54:1 64:2 66:1 67:2 68:2 77:1 85:3 96:1 97:5 98:1
+ayunt 92:2
+azuc 17:1
+azuer 50:1
+añad 1:1 11:2 22:1 37:1 54:1 70:1 82:2 90:1 92:1 94:1
+año 2:4 3:2 6:1 10:1 17:2 19:1 22:2 23:5 24:5 26:1 27:1 29:1 31:4 32:3 33:5 36:3 38:1 39:1 43:1 46:3 47:1 48:4 49:1 50:6 52:1 53:1 54:1 59:1 60:2 64:1 68:2 71:3 74:1 75:6 76:1 77:5 79:1 83:3 86:1 88:2 96:1 97:9
+añoanterior 88:1
+añofrancisc 99:1
+años 2:1 4:3 8:1 10:2 15:1 18:1 21:1 22:2 24:1 25:1 26:1 27:1 28:1 31:1 32:1 35:3 36:1 37:1 38:1 47:1 48:7 51:1 54:4 58:2 59:1 62:2 63:1 66:2 72:4 74:1 81:4 94:1 97:2 98:1 99:1
+b 11:1 62:2 78:2
+baby 58:4
+bacalader 54:1
+bacheli 74:1
+bacteri 80:1
+baj 2:1 6:1 12:1 23:1 25:1 31:1 33:4 47:1 50:1 52:2 55:1 59:3 67:3 83:5 85:1 97:2 99:1
+baji 20:1
+balanc 20:3 41:1
+balbo 34:1
+balcon 27:1
+balear 3:1 33:3 46:1
+ballm 48:2
+banc 0:1 1:1 4:5 8:2 9:3 11:5 12:1 14:4 15:4 16:2 17:2 19:4 20:2 23:4 25:13 26:4 29:6 32:4 37:2 38:1 39:1 42:2 45:1 46:1 48:1 50:1 51:1 52:3 54:8 55:3 60:6 62:3 66:2 67:1 68:7 76:2 77:5 82:3 84:1 85:1 86:1 87:1 92:2 97:1 99:1
+bancam 55:2 76:1
+bancari 1:1 4:2 9:2 11:2 14:2 20:2 22:1 25:2 26:2 29:1 49:1 54:1 74:1 76:1 82:1 86:1 96:1 97:1
 bancariz 4:1
-banquer 4:1
-barrer 4:1
-bas 8:1
-basic 1:1 6:2
-bayon 4:1
-bbva 0:1 4:1 6:3
-big 5:1
-billon 2:1
-bols 1:3
+bancoldex 45:3
+bancolombi 16:5 75:1 90:1 99:1
+band 54:4 72:1
+bank 17:1 62:1 68:2
+bankamericard 54:1
+banking 11:2 22:1 26:1 29:2 62:1
+banquer 4:1 11:1 62:2
+banquill 48:1
+barat 83:1
+barcelon 22:1 54:1 74:1 77:3
+barranquill 39:1 53:1
+barrer 4:1 64:2
+barril 47:1
+bas 8:1 11:2 13:2 18:2 21:1 22:1 26:1 28:1 43:1 50:1 54:1 72:1 74:2 81:1 85:2 94:1
+basic 1:1 6:2 17:1 23:1 59:1 86:1 88:2 97:1
+bast 54:2 85:1
+basur 81:1
+bat 27:2 54:1
+batall 85:1 93:1
+bautiz 54:1
+bayarri 64:4
+bayon 4:1 45:1
+bañon 54:1
+bbva 0:1 4:1 6:3 9:2 11:26 12:7 18:3 20:3 21:7 22:8 25:5 26:11 28:1 29:14 33:4 37:9 39:1 42:2 45:5 46:9 49:1 51:2 53:1 54:11 55:2 57:2 58:3 60:5 61:2 62:6 64:1 66:12 67:3 68:4 74:4 76:3 77:11 81:1 82:7 85:6 86:3 87:2 90:2 92:6 95:1 96:5 97:13 98:1 100:1
+bce 97:2
+bci 84:3
+bcm 24:7
+beat 72:1
+beatriz 75:1
+beb 88:1
+bedwell 20:1
+begoñ 85:1
+behavioral 8:1
+bejaran 75:2
+belgic 59:1
+belv 77:1
+benefici 20:1 37:1 38:1 42:1 48:2 51:1 64:1 70:1 75:1 76:1 79:1 80:1 90:1 96:1
+beneficiari 79:1
+bertels 40:1
+best 68:2
+bhh 77:1
+bid 10:1 60:1
+bien 16:1 23:4 33:4 39:1 42:2 46:4 49:2 69:1 85:1 95:1 97:4
+bienest 55:1 87:1
+bieni 97:1
+bienven 37:1
+big 5:1 48:1 64:1 95:1
+bilba 54:3 94:1
+billon 2:1 8:1 12:1 24:1 29:1 34:1 43:1 62:1 71:1 76:1
+bimensual 86:1
+bing 48:2
+bioclimat 94:2
+biodegrad 81:1
+biolog 10:1
+biometr 26:1
+bioplast 81:1
+biopsi 64:1
+birmani 31:1
+bitcoin 19:1
+bizum 54:3
+blanc 10:1 27:1
+bland 91:1
+blink 57:1 58:1 61:1
+blinov 17:2
+blizzard 48:1
+blockchain 22:1 62:1
+blog 48:1
+bloomberg 36:1
+bloqu 34:4 38:1 48:1 52:1 56:1
+bloque 59:1 73:1
+blu 66:1
+bluetooth 54:3
+boc 67:1
+bocc 18:1
+bogot 53:1 63:2 70:6 71:1 72:1 75:1 88:1 90:1 91:1
+bol 94:1
+boliv 59:3 90:1
+bols 1:3 11:1 19:1 34:5 42:1 64:1 81:3 90:2 99:4
+bolsill 13:1 67:1
+boluet 94:1
+bombe 80:1
+bombill 27:2
+bompard 30:2
+bon 23:1 26:1 42:1 47:2 60:1 74:1 76:1
 bondad 7:1
-brasil 4:1
-brech 4:1 6:1
-busc 1:1 4:1
-busqued 5:1
-cabez 3:1 4:1
-caer 6:1
-calefaccion 3:1
-calif 5:1
-camb 3:1 4:1
-cambi 0:2
-camin 2:1 4:1
-campesin 4:1
-canari 3:1
-canast 6:3
+bonific 46:1
+bonill 35:4
+bonusflash 82:1
+boomers 58:4
+bord 91:1
+boric 69:1
+bosch 60:1
+bosqu 98:1
+boston 85:1
+botell 42:1 46:2
+boyac 88:1
+bp 40:1
+brad 48:2
+brand 66:1
+brasil 4:1 11:1 59:1
+brav 75:1
+braz 40:1
+brech 4:1 6:1 8:1 18:1 55:1 69:1 100:1
+brent 47:1
+brev 56:1 67:1
+briefings 66:1
+brillant 27:2
+brind 10:1 12:1 16:1 18:1 44:2 48:1 65:1 69:1 78:1 79:1 80:1 84:1 86:1 89:1 92:1 96:1
+brot 10:1 42:1
+brujul 43:1
+brunei 34:2
+brut 8:1 23:1
+buck 48:6
+burocraci 69:2
+bursatil 90:1
+busc 1:1 4:1 12:3 22:1 23:2 35:1 45:1 47:1 48:2 51:1 60:2 68:1 70:1 74:1 78:1 79:2 83:1 84:2 86:1 87:1 90:2 92:1 93:1 99:1
+business 54:2
+busqued 5:1 48:3 65:1
+bvc 34:1 90:2 99:2
+bvl 34:1
+cab 9:1 24:2 41:1 51:1 71:1 75:1 79:1 91:1 99:1
+cabez 3:1 4:1 17:1 33:1 69:3
+cabify 66:1 72:1
+cabilder 40:1 48:2
+cabl 27:2
+cabrer 84:2
+caden 20:2 38:1 46:2 51:4 73:1 74:1 81:3 83:2 84:1 85:16 97:2
+caduc 48:1 54:1
+caer 6:1 23:1
+cagri 82:2
+caid 17:1 23:2 24:3 46:3 53:1 59:1 95:1 97:2
+caj 12:1 54:1
+cajer 9:1
+cal 27:2
+calcul 27:1 35:1 48:1 85:3 90:1
+calefaccion 3:1 24:1 94:2
+calent 27:1 85:1
+cali 63:2 72:1
+calid 10:1 16:1 21:1 22:2 35:1 48:1 55:1 60:1 75:1 80:1 84:1 89:2 94:4 96:1
+calient 85:1
+calif 5:1 21:4 99:1
+calific 14:1
+call 18:1 75:3 94:1
+calla 34:1
+calor 81:1 94:2
+calz 85:1
+cam 14:1 18:1 48:3 60:1 81:1
+camacol 50:1
+camarer 54:1
+camb 3:1 4:1 48:1
+cambi 0:2 12:1 13:1 15:3 17:1 18:1 23:3 24:1 25:2 27:1 29:3 40:2 41:1 48:2 51:5 54:2 55:1 59:1 64:1 67:1 69:2 72:1 75:1 77:1 78:3 81:2 82:1 85:4 86:1 87:2 97:1 98:1 99:1 100:1
+camil 80:1 89:1
+camin 2:1 4:1 12:1 18:1 23:1 25:1 48:1 51:4 60:1 70:1 79:1
+camp 72:1 74:3 84:1 92:1
+campañ 24:1 39:1 46:1 48:1 66:1
+campesin 4:1 59:1
+campetrol 50:1
+canacol 90:1
+canad 34:2 69:1 94:2
+canadiens 69:1
+canal 25:2 37:1 38:1 44:1 77:1 78:1 94:1 96:1
+canaliz 12:1 29:1 60:1
+canari 3:1 33:3 46:1
+canast 6:3 52:1
 canc 2:1
-cantabri 3:1
-capac 4:1 6:1
-capital 1:1
-capt 1:1
-car 3:2
-caracterist 8:1
-carbur 3:2
-carenci 6:1
-carg 4:2
-carl 2:1 4:1
-carn 3:2
+cancel 14:1
+cancill 18:1 69:1
+canep 60:1
+canfranc 58:1
+canj 37:1
+cantabri 3:1 33:3
+cantid 12:1 29:1 41:1 70:1 86:1
+cantidad 24:1
+caos 73:1
+caotic 72:1
+capac 4:1 6:1 10:1 11:3 12:1 18:1 22:1 23:1 24:2 35:3 37:1 46:2 50:1 54:1 74:5 75:1 78:2 81:1 84:1 94:1 100:1
+capacit 8:1 12:3 62:1 79:4 84:1
+capilar 37:1
+capit 81:1
+capital 1:1 11:5 20:1 22:3 62:3 72:1 82:1 90:1 92:1 97:1 99:4
+capitaliz 68:1
+capitul 58:1 61:1 67:1 98:1
+capt 1:1 64:1
+captacion 12:1 22:1
+captur 41:1 87:1
+car 3:2 32:1 34:1 48:1 54:1 58:1 59:2 76:1 85:1 97:3
+caract 24:1 35:1 42:1 91:1
+caracterist 8:1 62:1 74:1 78:1
+caracteriz 62:1
+carbon 24:1 25:2 27:1 29:3 40:2 41:4 43:2 51:1 54:1 76:1 81:1 82:1 85:4
+carbur 3:2 46:1
+cardos 97:1
+carenci 6:1 24:1
+carg 4:2 27:2 33:1 35:1 48:1 56:1 66:2 75:2 83:3 91:1 97:3
+carl 2:1 4:1 12:1 18:1 29:2 42:1 51:1 56:1 64:1 66:1 75:2 77:6 78:1 84:1 92:1
+carm 79:1
+carmax 23:1
+carn 3:2 59:3 88:1
+carolin 16:1
+carr 76:1
 carrasc 6:1
-cartagen 4:2
-carter 4:2
-cas 0:1 3:1 6:2
-casta� 4:2
-castill 3:1
-catalu� 3:1
-caus 6:1
-central 1:1 4:1 6:1
+carrefour 30:5
+carrer 66:1 72:1
+carrill 56:1
+carrit 81:1
+cart 22:1 48:1 69:1 93:1
+cartagen 4:2 70:1 88:1
+cartel 50:1 72:1
+carter 4:2 22:2 29:4 69:8 74:6 83:1 84:1
+cartuch 54:1
+cas 0:1 3:1 6:2 8:2 9:1 10:1 12:2 13:1 16:1 20:2 21:1 24:3 27:2 38:1 42:1 48:3 50:2 56:1 64:2 65:1 66:1 67:1 68:1 69:2 70:1 74:4 85:2 86:1 92:1 94:13 97:2 98:1 100:1
+casey 40:1
+cash 96:1
+cashback 26:1
+castañ 4:2
+castañed 50:2 83:1
+castill 3:1 33:3 56:1 93:5
+castillal 33:4
+casual 9:1
+catalan 77:2
+catalog 27:1 65:1 69:1 70:1
+cataluny 77:1
+cataluñ 3:1 33:4 77:6
+categor 27:1 39:2 53:1 78:1
+categoriz 21:1
+cauc 41:1
+caus 6:1 15:1 27:1 38:1 44:1 59:2 81:1
+causant 85:1
+cay 49:1 73:1
+cayeron 42:1 47:1
+cb 64:1
+cbill 26:1
+cco 18:1
+cdt 86:2
+cdti 74:1
+ceap 34:1
+cecili 18:1
+celebr 12:1 29:1 75:1
+celsi 80:1
+cement 29:1
+cent 74:1
+centr 10:1 18:2 22:2 25:2 28:1 31:1 43:1 48:1 64:1 66:1 68:1 74:1 87:1 89:1 92:3 94:2
+central 1:1 4:1 6:1 14:1 17:2 18:1 19:2 23:4 32:4 38:2 42:2 48:1 51:1 52:1 97:2
+centraliz 37:1 54:1 65:1
+centrist 40:1
+centroamerican 84:1
+centroeurop 24:2
 century 5:2
-ceo 2:2 5:1
-cercan 4:2
-cerr 5:1
-chin 1:14
+ceo 2:2 5:1 13:1 18:2 29:1 48:1 56:1 60:1 75:1
+cep 42:4
+cer 27:1 29:1 41:2
+cercan 4:2 20:3 50:1 60:1 94:1
+cercl 77:3
+cereal 73:2
+cerr 5:1 13:1 30:1 43:1 47:1 48:2 50:1 59:1
+cerrejon 43:1 75:1
+certez 20:1
+certif 60:4 89:1 94:1
+certific 60:2 76:1 79:1 86:1 94:7
+ces 44:1
+cest 81:1 97:1
+ceut 46:1
+chac 12:1
+chain 85:1
+charg 54:1
+charl 29:1 77:1
+charr 60:3
+chavez 99:1
+chec 59:1
+chil 34:7 59:1 60:2 69:2 79:1 81:1 87:1
+chin 1:14 14:3 15:6 20:1 34:2 51:1 52:1 94:1
+chip 54:3
+chips 38:1 54:1
+chisp 18:1
+choqu 48:1
+churchill 8:1
+ci 43:1
+cia 60:1
+cibercriminal 8:1
 ciberespaci 1:1
-cibersegur 1:2
-cifr 4:2 6:1
-cin 8:1
-circuit 8:1
-ciudad 5:1
-clausur 4:1
-clav 4:2 8:1
+cibernet 48:2
+cibersegur 1:2 87:1
+cicl 11:1 85:1
+ciel 27:1
+cienci 18:1 29:1 66:1
+cient 91:1
+cientif 9:1 10:1 74:1 85:1
+cierr 18:1 20:1 22:1 24:1 39:1 50:1 53:1 78:1
+cifr 4:2 6:1 23:1 24:1 29:1 31:5 38:1 50:1 59:1 67:1 77:2 83:1 85:1 90:1
+cigarral 98:1
+cin 8:1 100:4
+cineast 100:3
+circuit 8:1 62:1
+circul 51:2 72:2 85:1
+circular 85:2
+cirimel 18:1
+cisc 79:3
+cistern 12:1
+cit 11:1 18:1 24:1 48:1 62:1 92:1
+ciud 18:2 39:1 81:1 88:1 92:1 94:1
+ciudad 5:1 64:1 69:1 72:1 77:1 88:1 89:1 91:1
+ciudadan 43:1 64:1 79:2 83:1 89:1
+clar 10:1 11:1 21:1 23:3 35:5 38:1 42:1 48:1 51:2 78:4 85:1 87:1 91:1
+clarid 10:1 51:1 100:1
+clarific 51:1
+clas 13:1 25:1 27:1 59:1 87:1
+clasic 74:2
+clasif 19:1
+claudi 75:1
+clausur 4:1 11:1
+clav 4:2 8:1 11:2 17:1 22:1 23:4 30:1 37:1 40:1 41:1 45:1 50:1 61:1 64:2 66:1 68:1 73:1 74:2 77:1 81:1 85:2 94:1
 clavij 8:1
-client 0:1
-climat 0:1
-codig 8:1
-coloc 3:1
-colombi 0:1 2:1 4:2 5:1
-colombian 2:1 4:2
-column 6:1
-com 3:1 8:1
-combat 6:1
-comercial 5:2
-comienz 8:1
-comision 1:2
-compar 2:1
-compart 4:1 7:2
-compa� 1:1 2:1 5:2
-competit 4:1 7:1
-compit 0:1
-complej 8:1
-comport 8:1
-compromet 4:2
-compromis 4:1
+clc 40:1
+client 0:1 11:6 16:1 21:1 25:5 26:15 29:4 35:1 37:5 39:1 46:1 49:1 51:2 53:1 54:8 55:1 60:1 66:1 68:2 72:1 74:1 76:2 77:3 82:5 85:4 86:1 87:3 89:2 92:1 96:2 98:2
+clim 27:1 67:1 94:3
+climat 0:1 12:1 25:2 29:3 40:3 41:2 51:2 55:1 62:1 81:2 82:1 85:4
+clinic 64:3
+cloud 78:2
+clust 18:1 92:5
+clusters 20:1
+co 27:2 29:2 41:4 81:1 85:3
+cobertur 26:1 44:1
+cobr 37:3 54:10 83:1 85:1
+coc 51:2
+cocin 54:1 81:1
+codens 83:1
+coderhous 18:1
+codif 74:1
+codig 8:2 54:1
+cofr 96:1
+cofund 18:2 64:2
+cog 72:1
+cognit 64:2
+cohort 79:1
+coincid 51:1
+col 51:2
+colabor 11:1 13:1 48:1 60:1 62:2 64:1 66:3 74:1 85:1 92:1
+colcap 90:1 99:1
+colect 14:1 18:1 21:2 85:1 86:1 97:1
+coleg 45:1
+colg 78:1 79:1
+coloc 3:1 14:1 27:2 45:2 81:1 96:1
+colomb 70:1
+colombi 0:1 2:1 4:2 5:1 13:2 16:2 21:1 34:7 35:1 38:1 45:3 50:1 55:1 56:1 59:4 69:4 71:1 72:1 75:1 76:2 78:4 79:3 84:1 87:1 90:4 99:4
+colombian 2:1 4:2 16:1 21:1 34:1 45:3 59:2 70:1 75:1 79:4 83:3
+color 48:2
+colpatri 50:1
+column 6:1 18:1 20:1 65:1 72:1
+com 3:1 8:2 12:1 13:3 18:2 20:1 27:2 37:1 41:2 47:1 48:1 58:1 59:2 61:1 67:1 74:1 85:1 89:1 98:1
+combat 6:1 48:1 81:1
+combin 11:2 22:1 26:1 48:1 54:1 62:1 74:2 78:1
+combust 17:1 24:1 38:1 39:1 46:1 97:3
+combustion 46:1
+coment 18:1 59:1 60:1 100:1
+comentari 10:1 30:1 35:1 48:2
+comenz 14:1 22:1 31:1 35:1 38:1 48:3 99:2
+comerci 19:2 23:2 27:1 33:1 34:3 37:9 38:1 48:1 54:12 56:3 68:1 71:1 72:1 73:1 81:2 82:1
+comercial 5:2 8:1 14:1 20:2 42:1 46:1 48:3 70:1 75:1 96:1
+comercializ 44:1 83:7
+comet 8:2
+comienz 8:1 10:1 24:1 64:1 66:1
+comision 1:2 10:1 14:1 18:2 19:2 24:2 35:2 37:2 48:1 54:1 83:1 99:1
+comit 30:1 32:1 48:1
+comites 21:2
+commission 26:1
+committ 85:1
+comod 26:2 94:1
+comp 16:1
+compact 80:1
+compani 11:1 22:1
+compar 2:1 17:2 27:2 48:1 59:3 67:1 71:1 99:1
+compart 4:1 7:2 10:1 12:2 25:1 42:1 48:1 64:3 66:1 67:3 78:1 84:1 98:1 100:1
+compat 24:1
+compañ 1:1 2:1 5:2 11:9 14:1 21:2 22:4 40:1 44:1 45:1 48:6 51:2 62:2 64:3 68:1 70:1 71:3 75:2 77:4 78:2 81:1 85:4 89:1 90:2
+compañer 37:1
+compens 14:1 24:1 32:1 34:1 38:1 97:1
+compet 22:1 48:1 77:1
+competent 14:1 35:1 48:6 79:1 84:2 91:1
+competidor 35:1 48:4
+competit 4:1 7:1 20:1 26:1 33:1 48:1 75:1 76:1 77:1
+compit 0:1 22:1
+complej 8:3 13:2 22:1 30:2 38:1 67:1 74:6 91:1 98:1
+complement 91:1
+complementari 12:1 20:1 27:2 31:1 84:1
+complet 10:1 11:2 24:1 38:1 41:1 42:1 64:1 66:1 74:1 98:1
+complic 15:1 31:1 42:1 52:1
+component 22:1 36:1 80:1 83:1 92:1 94:1 97:2
+comport 8:1 39:1 50:1 67:1 74:3 75:1 88:1 90:1 97:1 99:2
+composicion 69:1
+compr 23:2 26:4 37:2 46:3 47:2 48:2 54:10 56:1 70:4 73:1 76:1 81:5 82:3 86:1 90:2 97:1
+comprador 23:1 70:1
+comprend 8:1 51:1
+comprension 74:1
+compromet 4:2 8:1 12:2 22:1 29:3 51:1 55:1 60:1 75:1 81:1 85:1
+compromis 4:1 12:1 18:1 22:1 23:1 29:3 37:1 40:1 43:2 45:1 51:1 60:1 65:1 76:1 77:1 85:1 96:1
 compuest 2:1
+comput 8:1 44:1 48:1 62:1 74:9 78:1
 computacional 8:1
-comun 1:1 3:2
-comunic 1:1
+comun 1:1 3:2 8:2 12:4 18:2 27:1 33:10 34:2 35:1 43:1 46:2 48:1 51:1 55:1 58:1 59:1 64:2 66:2 69:3 71:1 78:3 79:1 80:1 86:1 87:1 89:1 100:2
+comunic 1:1 10:1 35:1 40:1 54:1
 comunidadescastillal 3:1
-concept 0:1 7:1
-conclu 0:1
-condicion 6:3
-conect 8:1
+comunit 46:1
+comunitat 33:5
+concentr 28:1 34:1 48:1 64:1 92:1
+concepcion 94:1
+concept 0:1 7:1 41:1 79:1 94:2
+concienci 12:1
+concientiz 12:1 18:1
+conciern 69:1
+conclu 0:1 18:1 24:1 25:1 75:1 85:1
+conclusion 35:1 43:1 100:1
+concret 11:1 12:1 18:1 29:2 33:2 38:1 46:1 60:4 77:1 85:1
+condicion 6:3 23:1 33:1 35:1 46:1 50:1 55:1 60:1 67:1 72:2 80:1 91:1 99:1
+conduc 8:1
+conduct 48:1
+conductor 63:1 72:2
+conect 8:1 54:4 60:1 64:1 66:1 78:1
 coneval 6:3
+conexion 11:1 24:3 80:1
+conferent 56:1
 confi 4:1
+confiabil 31:1
+confiabl 31:1
+confianz 22:1 23:1 38:1 43:2 68:1 75:1
+configur 44:1
+confin 13:1 42:2 97:2
+confirm 64:1
+conflict 35:1 36:1 38:2 48:1 52:1 67:2 77:1
+conform 34:3 69:1 92:1 97:1
+confort 94:1
 congel 3:1
-conoc 0:1
-consecut 3:1
-consej 6:1
-constant 3:1
-construccion 4:1
-consult 6:1
-consum 3:1 6:1
-consumidor 4:2
-cont 2:1
-contempl 2:1
+congres 31:2 48:7 64:1 69:1 93:3 99:1
+congress 64:1
+conjug 60:1 64:1
+conjunt 9:1 12:1 19:1 24:3 33:4 37:2 50:1 97:1
+conmemor 47:1
+connect 26:3
+conoc 0:1 8:2 18:1 22:2 35:1 48:3 60:1 66:1 72:1 74:2 78:1 79:3 81:1 83:1 84:2 85:1 90:1 94:1 98:1
+conocophillips 40:1
+conquist 27:1
+cons 41:1
+conscient 25:1 81:1 94:1
+consecuent 8:1 33:1 38:3 81:2 97:3
+consecut 3:1 31:1
+consegu 51:1 74:1 98:1
+consej 6:1 24:1 34:2 69:1 72:2 93:1
+consens 18:3 31:1 85:1
+conserv 40:1 41:1 81:1 82:1 86:1
+conservacion 40:1
+conservation 40:1
+consider 10:1 25:1 27:1 30:1 31:1 37:1 38:1 40:1 42:1 43:1 47:1 48:1 54:1 93:1 97:1 100:1
+consigu 26:1
+consist 12:1
+consistent 21:1
+consol 48:1 49:1 65:1 82:1 96:1
+consolid 11:1 21:1 30:1 35:1 44:1 52:2 60:1 74:1
+conson 36:1
+const 69:1
+constant 3:1 18:1 21:3 45:1 51:4
+constel 62:1
+constitu 20:2 26:1 31:1 69:2 72:1 85:1
+constitucional 93:2
+constituyendos 45:1
+constru 8:1 11:1 13:1 18:1 24:1 34:1 38:1 39:1 43:2 53:1 74:1 94:2
+construccion 4:1 12:1 20:1 33:1 60:5 80:1 85:1 94:3 99:1
+constructor 50:1
+consult 6:1 20:1 42:1 64:1 72:1
+consulting 85:1
+consultor 31:3 32:2 43:1
+consum 3:1 6:1 12:2 23:2 24:7 25:1 27:4 33:6 39:5 46:7 49:3 51:1 53:4 60:1 74:1 80:1 81:4 82:1 83:1 85:2 94:2 95:1 97:6
+consumidor 4:2 17:1 23:4 24:2 27:1 32:1 36:2 46:1 47:1 51:2 59:1 73:1 75:1 76:1 81:3 83:1 85:4
+consumption 39:1 49:1 53:1
+cont 2:1 11:2 12:1 16:1 18:2 22:1 24:1 37:1 41:1 42:1 48:1 51:1 54:1 61:1 62:1 80:1 83:1 92:2 94:3 96:1 100:1
+contact 22:1 30:1 48:2 82:2
+contactless 54:2 82:1
+contagi 38:1 42:2 50:1
+contamin 27:2
+conte 75:1
+contempl 2:1 64:1 81:1
+contemporan 100:1
+conten 14:1 46:1 54:1 65:3 66:1 79:1
+contencion 97:1
 content 2:1
-context 6:1
-continu 1:1 2:1
+context 6:1 23:1 28:1 29:1 46:2 67:1 77:1 78:1 95:1
+continu 1:1 2:1 10:1 15:1 18:2 20:1 23:2 26:1 29:1 33:3 34:1 42:1 48:1 49:1 51:3 78:1 87:1 97:6 98:1
+contr 90:1
+contraccion 46:2
 contrapart 4:1
+contraproducent 40:1
+contrari 33:2 34:1 46:2 52:1 85:1 86:1 97:1
 contrarrest 6:2
-contrat 5:1
-contribu 4:1 6:1
-control 1:1
-convencion 4:2
+contraseñ 8:2
+contrast 99:1
+contrat 5:1 13:3 16:1 24:1 37:2 71:2 83:4 91:1 97:3
+contribu 4:1 6:1 12:1 22:1 23:1 32:1 33:1 43:2 46:1 74:3 77:1 79:1 81:2 82:1 88:1 94:1 99:1
+control 1:1 19:1 21:6 27:1 30:1 36:1 51:1 60:1 72:1 93:1
+convenc 43:1
+convencion 4:2 48:1
+conveni 70:1
 convenient 4:1
-convert 6:1
-conviert 4:1
-convirt 2:1
-cooper 1:1
-corpor 0:1
+converg 15:1
+convers 13:4 18:1 30:2
+convert 6:1 11:1 14:1 22:1 25:1 42:1 48:1 64:1 66:1 68:1 82:1 87:1 92:2 98:1
+convertibil 31:1
+conviert 4:1 11:1 16:1 34:1
+convirt 2:1 48:5
+convoc 66:1 92:1 93:1
+convocatori 79:2
+cooper 1:1 24:1 34:2 38:1 48:1 59:1 69:1
+coordin 18:1 24:1
+copi 54:2 74:1
+coquecol 43:1
+corazon 66:1
+core 34:1
+corficolombian 50:1 90:2
+cormann 38:1
+coron 69:1
+coronavirus 64:1
+corp 40:1 48:1
+corpor 0:1 11:4 21:1 22:1 29:1 44:2 48:4 51:1 62:1 68:1 76:1 85:1 89:1
+corporat 11:1 29:1
+corr 32:1 39:2 49:2 53:2 76:1 88:1
+corral 66:3
+corre 40:1
+correccion 15:1
+correct 12:2 21:1
+corredor 99:1
 correl 6:1
-cort 6:2
-cost 0:1 2:4 3:1 6:1
-cotiz 1:5
-coyuntur 0:1
-crec 2:1 4:1
-crecimient 2:1 4:2 5:1
-credit 4:8
-creditici 5:1
+correspond 27:1 81:1
+correspondient 14:1 71:1 95:1
+corrient 94:1
+corrij 8:1
+corrupcion 93:1
+cort 6:2 15:1 24:5 27:1 54:1 84:1 88:1 97:1 99:1
+cortes 44:1
+cos 72:2 91:1
+cosech 12:2
+cost 0:1 2:4 3:1 6:1 17:2 20:2 23:1 28:1 33:2 34:1 35:1 36:1 37:1 46:1 51:2 59:2 64:2 73:3 83:2 85:1 86:1 87:1 88:1 97:6
+costos 94:1
+cotidian 9:1 54:1
+cotiz 1:5 99:1
+council 40:1
+country 60:1
+cov 10:1 42:1 50:1 66:1 90:1 91:1 94:1
+coyuntur 0:1 67:1 77:1
+crc 35:4
+cre 10:2 18:1 22:5 27:2 34:1 40:1 42:1 43:1 44:1 48:4 51:1 54:1 63:2 64:1 66:1 69:2 74:3 78:1 85:1 93:1 94:2
+creacion 8:1 22:3 51:1 55:2 64:1 65:1 69:1 92:1 97:2
+creador 92:1
+creativ 12:1 66:13 92:2
+crec 2:1 4:1 11:1 13:3 18:3 22:2 25:1 27:1 29:1 33:2 39:2 46:2 49:1 50:2 53:2 59:4 66:1 76:1 82:1 87:1
+crecient 11:2 22:2 23:1 31:1 46:1 50:1 57:1 94:1
+crecimient 2:1 4:2 5:1 11:9 14:1 15:2 18:5 22:4 23:3 29:1 33:18 38:1 39:2 42:1 45:1 46:4 50:3 51:1 57:1 59:3 61:2 62:6 67:3 76:1 77:5 83:1 87:1 88:1 92:1 95:3 96:1 97:9 99:1
+credencial 60:1
+credibil 43:1
+credicorp 99:2
+credit 4:8 15:1 16:1 23:1 29:1 39:1 45:2 49:1 50:1 53:1 54:4 82:1 86:2 91:1
+creditici 5:1 29:1 99:1
+creg 83:6
+crehan 65:2
+creibl 32:1
+crep 75:1
+crezc 18:1 33:1 35:1
+criminal 93:1
+crioll 88:1
+criptoact 19:1
+criptoanalisis 8:1
+criptograf 8:1 74:1
+criptomoned 19:3
+crisis 24:1 25:1 33:1 38:2 39:1 42:1 49:2 59:1 73:2 77:1 91:1
+cristin 16:1
+criteri 24:1 51:3 68:1 85:1 94:3
+critic 22:2 29:1 43:1 48:3 51:1 59:1 74:1
+cronic 64:1
+crucial 8:1
+crud 38:2 47:1 50:2
+cruz 64:1
+csi 15:1
+csic 74:1
 csrc 1:2
-cuestion 2:1
-cup 4:2
-cuy 8:1
-dat 1:1 3:2 5:1 6:1
-da� 6:1
-deb 1:1 4:2
-debaj 3:1
-debil 8:1
-decim 3:2
+cuadr 34:1 59:1 94:1
+cual 20:1 22:1 64:1 67:2
+cualidad 68:1
+cualqu 48:2
+cuand 67:1
+cuant 13:1 23:1 83:2 86:1 91:2 97:1
+cuantic 74:19
+cuantit 21:2 87:1
+cuarenten 13:1 72:1
+cuart 31:3 79:1 95:1 97:1
+cubic 24:1
+cubr 11:1 22:1 62:1 87:1 94:1
+cuc 74:4
+cucut 88:1
+cuell 42:1 46:2
+cuenc 34:1
+cuent 16:1 22:2 27:1 48:1 66:2 80:1 86:2 96:2 98:1
+cuerp 69:1
+cuestion 2:1 10:1 59:1
+cuid 12:2 16:2 51:1 82:1 85:1 92:1
+cuidad 8:1 10:1 40:1
+culmin 35:1
+cultiv 48:2
+cultur 16:1 48:1 89:1
+cultural 20:3
+cumbr 34:1
+cumpl 14:1 26:1 29:1 33:1 69:2 83:2 94:1 97:2
+cumplimient 43:1 72:1 94:1
+cundinamarc 76:1 88:1
+cuot 24:1 46:1 54:1
+cup 4:2 21:1
+curios 54:1
+curs 79:7 84:1
+custodi 19:2 84:1 85:1
+cuy 8:1 10:1 33:2 48:1 69:1 83:1 94:1 97:1
+cybermonday 39:1
+cyberweek 39:1
+d 48:1 66:1 68:1 77:3
+dactil 26:1
+dad 15:1 31:1
+dadiv 100:1
+daily 26:1
+dan 59:1 88:2
+dand 13:1 34:1 57:1 60:1 66:1
+daniel 88:1 100:1
+dant 84:1
+dapr 59:1
+dar 42:1 60:1 84:1 92:1
+daran 92:1
+dari 51:1
+darl 69:1 90:1
+darmstadt 94:1
+dars 42:1 90:1
+dat 1:1 3:2 5:1 6:1 9:2 17:1 23:2 24:2 25:1 27:1 28:1 31:4 32:1 36:2 39:1 46:2 47:1 48:1 53:2 54:2 64:9 71:1 77:1 78:1 83:1 85:1 88:1 92:1 94:2 95:2 97:1
+datafon 54:6
+dav 11:2 75:1
+daviviend 90:1 99:1
+day 47:1
+dañ 6:1 42:1 50:1 59:1
+de 27:2
+deb 1:1 4:2 8:1 14:1 18:1 29:1 38:2 59:1 63:1 83:1 96:1
+debaj 3:1 31:2 49:1 53:1 97:1
+debat 18:3 35:1 97:1
+debbv 58:1 61:1 98:1
+debil 8:1 46:1 95:1
+debilit 23:1 73:1
+debit 26:1 39:1 49:1 53:1 54:1 82:1
+debt 11:2 22:1
+dec 20:1 31:1 32:1 34:2 38:1 48:3 54:1 62:1 66:1 69:1 74:1 83:1 85:1 91:1
+decepcion 40:1
+decid 11:1 13:1 30:1 40:1 48:1 51:1 57:1 64:3 74:1
+decim 3:2 97:1
 decimoquint 3:1
-decision 4:4
+decision 4:4 13:1 19:1 21:2 29:1 30:1 35:3 40:1 42:1 50:1 62:1 67:1 69:1 70:1 72:3 77:1 86:1 97:2
 decl 2:1
-dedic 7:1 8:1
-dej 0:1 6:1
-demand 5:1
+declar 12:1 29:1 69:1
+decor 27:2
+decret 69:2 91:2
+dedic 7:1 8:1 11:1 12:1 14:1 27:1 43:1 66:1 69:2 96:1
+dediqu 61:1
+defend 32:1 48:1
+defens 40:2 48:1 59:2
+defin 11:2 21:1 35:1 51:1 61:1 68:1 81:1 83:2 85:2 94:1
+definicion 13:1 69:1 72:2 74:1
+definit 8:1 13:1 64:1
+degrad 81:1
+dei 18:1
+dej 0:1 6:1 10:1 12:1 24:1 27:1 29:1 31:1 41:1 48:3 54:1 59:2 72:1 97:1
+delant 97:2
+deleonardis 12:1
+deliber 8:2 69:1
+delit 93:2
+delivery 13:1
+dell 44:2
+delt 10:1 42:2
+demagogi 59:1
+demain 81:1
+demand 5:1 9:2 23:2 24:6 27:2 33:2 42:2 46:3 50:2 72:1 73:2 74:1 76:1 79:2 91:1 94:3 95:1 97:3 98:1
+demasi 13:1 14:1 30:2
+demenci 64:1
+democrat 69:2 93:2
+democratiz 27:1
+demor 13:1 91:1
+demostr 12:1 22:1 59:1 63:1 72:1
+demuestr 37:1 42:1 45:1 64:1 85:1
+den 26:1 37:1
 deneg 1:2
+denomin 12:1 41:1 66:1 74:1 91:1
+denunci 35:1 48:2 93:4
+departament 23:3 34:1 36:1 48:1 59:2 88:1
+depend 8:1 10:1 11:1 38:2 46:1 50:1 51:1 52:1 54:1 72:1 83:2 86:1 97:1
+dependent 24:4 38:1 43:1 69:2
+dependient 33:2
+deposit 86:1 96:1
+depreci 32:1
+derech 13:1 59:1 64:1 69:1 90:2 93:1
+deriv 48:1 50:1 59:1 70:1 71:1 74:1 79:1 81:1
+derram 20:1
 derrib 4:1
-desafortun 6:1
-desarroll 0:2 4:3 5:1 6:2
-descifr 8:2
-desencaden 6:1
-despues 1:2 4:1
-destac 4:1 6:2
-destin 6:1
-detall 6:1
-deterior 4:1
-determin 6:1
-deud 4:1
-dian 4:1
-dias 1:1
-dich 1:1
-didi 1:1
-diferent 3:1
-digit 3:1
-digital 4:5 8:1
-digitaliz 4:1
-diner 4:1 6:1
-direct 0:1 4:3
-director 0:1 4:1
-dirigent 4:1
+des 27:1 37:1 63:1 65:1 70:1
+desabastec 44:1
+desaceler 23:3 33:2 57:1 61:1 95:1 97:3
+desafi 18:2 20:2 23:1 43:1 48:1 51:1 56:1 77:1 85:1
+desafortun 6:1 67:1 74:1
+desagrad 48:1
+desagreg 39:1 53:1
+desaparec 81:1
+desaparicion 46:1
+desapercib 34:1
+desarroll 0:2 4:3 5:1 6:2 8:1 9:1 11:4 12:2 14:1 15:1 18:3 20:1 22:1 24:2 25:3 29:1 34:4 35:1 38:1 42:2 43:2 44:1 45:2 48:1 51:2 52:2 54:5 55:1 59:2 60:3 62:2 64:1 65:2 66:1 69:1 74:7 75:1 76:1 77:1 79:4 81:1 84:3 85:1 87:1 89:1 92:3 94:2 96:1
+desat 72:1
+desayun 48:1
+descarboniz 11:1 29:3 41:1 62:2 77:2 85:10
+descarg 54:2
+descart 24:1
+descens 46:3
+descifr 8:3
+desconoc 13:1 34:1
+desconstruccion 8:1
+descont 15:1
+describ 10:1 27:1 48:1 72:1 94:1
+descripcion 27:1 94:1
+descrit 97:1
+descu 34:1
+descubr 18:1 25:1
+dese 51:1
+deseabl 35:1 51:1
+desech 81:2
+desembarc 26:1 60:1
+desembols 45:2 76:1
+desempeñ 21:2 43:2 48:1 66:4 68:1 85:1
+desemple 47:1 50:2 59:1
+desencaden 6:1 77:1
+desencill 67:1
+desenfad 94:1
+deshonest 96:1
+design 66:2
+desigual 11:1 24:1
+desiguald 29:1 42:1 55:1
+desinform 59:1
+desinteres 34:1
+desleal 14:1
+desnud 48:1
+despeg 54:1
+despej 27:1
+desperdici 81:3
+despert 48:1
+despiert 27:1 99:1
+despilfarr 81:1
+desplaz 26:1 70:1
+despleg 87:1
+desplieg 24:1 74:2
+desprend 58:1
+despues 1:2 4:1 13:1 26:1 32:1 40:2 43:1 48:3 50:1 63:1 73:2 83:2 84:1 94:1
+desregul 91:1
+destac 4:1 6:2 21:2 23:1 28:1 29:1 39:2 42:1 45:1 49:1 53:1 60:3 66:2 68:1 69:2 71:1 75:4 77:5 79:1 82:1 88:1 97:1 99:1 100:1
+destin 6:1 23:1 28:1 45:1 64:1 76:1 97:1
+destitu 93:3
+desv 8:1
+desvanec 95:1
+desvi 24:1
+detall 6:1 14:1 20:1 21:1 24:1 27:1 35:1 42:1 51:2 52:1 57:1 58:1 67:1 83:1 86:1
+detect 64:2
+detergent 85:1
+deterior 4:1 46:2 64:2 95:1
+determin 6:1 35:2 42:2 46:1 83:2 86:2 97:2
+deton 64:1
+detras 9:1 17:1 22:1 31:3 48:1 64:1 88:1
+deud 4:1 23:1 28:1 50:2 97:2 99:1
+devalu 17:1 32:2
+devolu 54:2
+di 81:1
+dia 12:1 27:1 47:1 51:1 64:4 74:1 75:1 78:1 82:1 89:2 90:1 91:1
+diagnost 18:1 64:4
+dialog 18:1 43:1 51:1 77:1 83:1 100:2
+dian 4:1 79:1 91:1
+diaposit 48:1
+diari 8:1 12:1 18:1 21:1 22:1 26:2 30:2 32:1 37:1 81:1 96:1
+dias 1:1 27:1 49:1 53:2 83:1 90:1
+diaz 45:1 56:1 98:1
+dibuj 11:1 48:1
+dic 40:1 48:2
+dich 1:1 15:1 20:1 21:1 35:1 83:1 84:1 87:1 90:1
+diciembr 42:1 52:1 54:1 60:1 83:2
+dicj 84:1
+didi 1:1 72:1
+dieg 18:1 56:1
+diez 26:1 54:1 58:1 62:1 99:1
+difer 83:3
+diferenci 35:1
+diferencial 11:2 15:1 16:1 22:1 60:1 62:2
+diferent 3:1 16:1 19:1 52:1
+dificil 13:1 48:1 74:3 85:1
+dificult 33:1 51:1
+dificultad 69:1
+difund 79:1
+dig 72:1
+digit 3:1 31:1 54:1
+digital 4:5 8:1 11:2 13:1 18:1 19:8 25:7 26:3 37:1 46:1 48:4 51:1 54:1 62:1 64:1 65:1 66:3 74:1 77:2 78:4 79:3 82:6 89:2 92:4 96:1
+digitaliz 4:1 26:1 29:1 56:1 64:1 77:1 89:1 98:2
+dilucion 11:1
+dim 13:1
+dimension 43:1 51:2 59:1 82:1 91:1
+dinam 33:3 39:2 49:3 50:2 51:1 53:3 91:2 97:1
+dinamiz 60:1 92:2 99:1
+diner 4:1 6:1 9:2 25:1 32:2 83:2 86:6 96:2 99:1
+diox 27:1 41:1 81:1 85:1
+diplom 66:1
+diput 18:2
+dir 72:1
+direccion 30:1 35:1 66:3 69:2 77:1
+direct 0:1 4:3 18:1 21:1 26:1 48:1 50:1 51:2 54:2 62:1 74:1 75:1 77:1 81:1 85:3 97:2
+director 0:1 4:1 10:1 12:1 14:1 16:1 18:2 35:1 37:2 44:1 48:5 51:4 56:1 59:1 66:6 68:1 80:1 82:1 83:2 84:1 85:1 88:1 92:1 94:1 97:1 98:1 99:2 100:6
+dirig 15:1 44:1 48:2 62:1 68:1 93:1
+dirigent 4:1 83:2
 discapacit 4:1
-dise� 4:1 8:2
-disminu 6:2
+disciplin 21:2 74:1 96:1
+discontinu 97:1
+discrecional 23:1
+discurs 10:1
+discusion 21:2 56:1 59:1 72:1
+diseñ 4:1 8:5 14:1 48:1 64:1 74:1 80:1 87:1 94:3
+disfrut 54:1
+disip 48:1
+disminu 6:2 15:2 17:1 20:1 23:2 42:1 43:1 46:1 47:1 50:1 51:2 52:1 73:1 81:1 83:3
 disp 3:1
-distribu 3:1
-divers 2:1
+dispar 73:1
+dispon 13:1 23:1 24:1 46:4 48:1 64:1 78:2 86:1 87:1 96:1 97:2
+dispong 37:1
+disponibil 44:1 46:1 64:1 88:1
+disponibiliz 9:1
+disposicion 11:2 22:1 48:1 69:1 77:2 91:1 97:1
+disposit 54:3 64:1 72:1
+dispuest 48:1 81:1 86:1
+disput 48:1
+disrupcion 46:1 62:1 87:2
+disrupt 11:1 62:2 77:1
+distanci 20:1 27:2 42:1 54:1 81:1
+distint 9:1 11:3 12:2 18:1 22:2 24:2 34:1 41:1 66:1 68:3 74:3 77:1 97:1
+distribu 3:1 11:1 42:1 44:1 72:1 83:1 87:1 90:1 94:2 97:1
+distribuidor 23:1 83:1 85:1
+distrit 94:1
+disuad 40:1
+divers 2:1 9:1 18:1 21:1 33:1 46:1 51:1 62:1 66:2 67:2 74:2 77:1 97:1
+diversif 43:1
+diversific 52:1 98:1 99:1
+divid 35:1 54:1 90:1
+dividend 90:8
+dividends 40:1
+divis 47:1 74:1
+division 69:1 88:1
 divulg 1:1
+dnp 35:1 56:1
+dobl 25:1 31:1
+doc 50:1
+docen 48:1 85:1
+docenci 66:1
+docent 12:2 99:1
+doctor 64:2
+doctoral 74:1
+document 19:1 21:1 35:1 38:2 47:1 72:1
+documental 81:1
+dol 42:1 47:2 59:1
+dolar 12:1 29:1 30:1 48:1 62:1 64:1
+dolor 17:1 23:1
+domenech 57:1 61:1 97:1
+domicili 13:2 26:1
+domiciliari 13:2
+domin 27:1 93:1 94:1
 doming 1:1
+domini 48:2 88:1
 dominican 2:1
-dond 1:1
-dud 6:1
+donacion 64:2
+donat 42:1
+dond 1:1 13:1 51:1
+dongl 54:2
+donov 18:1
+dorm 48:1
+doubleclick 48:2
+dow 29:1 60:1
+dramat 32:1
+drastic 73:1
+drummond 43:1
+duch 27:1
+dud 6:1 13:1 34:1 35:1 42:1 67:1 75:1 84:1
+duplic 24:1 29:1 31:1 33:1 46:1
+duqu 59:3 79:1
+dur 27:1 67:1
+durabil 23:1
+duracion 46:1 97:1
+durader 23:1 46:2 97:1
+ebullicion 11:1
 echand 3:1
-econom 4:2 6:9
-efect 4:1 6:3
-eficient 4:1
-egres 6:1
-ejecut 2:1
-ejercit 8:1
-elabor 3:1
-electr 3:2 8:1
-element 8:1
-elev 3:2 6:1
+ecod 81:1
+ecodiseñ 85:1
+ecog 32:1
+ecolatin 32:1
+ecolog 81:2
+ecommerc 11:1 54:2
+econom 4:2 6:9 13:1 14:2 15:1 17:1 18:4 20:7 23:5 25:1 28:7 29:2 31:1 32:3 33:3 34:7 35:2 36:3 38:6 39:1 42:14 43:2 45:2 50:5 51:4 52:1 53:1 57:3 59:4 61:2 67:12 68:1 69:1 70:1 72:1 74:1 77:2 79:1 81:1 84:2 85:4 87:2 90:3 91:9 92:1 95:2 96:1 97:12 99:4
+economi 77:3
+economic 67:1
+economicol 42:1
+economics 64:1
+econviews 32:1
+ecopetrol 90:1
+ecosistem 11:2 13:2 22:3 62:2 74:2 77:1 81:1 89:1 92:1
+edge 94:1
+edicion 18:1 39:1 49:1 66:1 68:2 92:2
+edif 50:1 94:1
+edifici 27:1 60:1 94:8
+editor 68:1
+editorial 68:1
+eduard 56:1
+educ 12:3 15:1 18:1 55:1 65:4 79:1 80:1 88:1
+ee 10:2 23:3 36:1 38:1 47:1 48:3 95:1 97:1
+eep 12:3
+efect 4:1 6:3 14:1 21:1 24:1 29:1 30:1 33:2 38:1 42:4 44:1 50:1 51:1 67:1 79:1 81:1 85:1 96:4 97:3
+efectivos 67:1
+efectu 46:2
+eficac 42:1
+eficaci 8:1 10:1
+eficient 4:1 24:1 27:3 35:1 41:1 44:2 51:1 64:1 65:1 74:2 80:1 81:1 85:3 87:1 94:6 98:2
+egres 6:1 28:1 79:1
+ejecu 33:2 46:1 62:1 71:1 97:1
+ejecut 2:1 25:2 30:1 35:2 40:1 45:1 48:8 55:1 60:3 66:1 69:3 72:1 76:2 82:2 83:1 84:1 85:1
+ejempl 64:1 85:1
+ejemplif 51:2
+ejerc 18:1 32:1 51:1
+ejercici 21:1 24:2 51:3 69:1 75:1 93:1
+ejercit 8:1 91:1
+ejes 66:1 92:1
+el 12:1 48:3 59:3 61:1 64:1 67:1 74:1
+elabor 3:1 27:1 48:1 58:1 64:1 85:1
+eleccion 35:1 50:1 81:1 97:1
+elect 69:1
+electr 3:2 8:1 24:1 27:3 29:1 46:6 51:1 54:1 60:1 83:3 85:1 90:1 97:3
+electrif 46:1
+electrodomest 23:1
+electron 25:1 40:1 54:2 85:1
+eleg 10:1 14:1 25:1 37:1 48:1 68:1 72:1 94:1
+element 8:3 44:1 97:1
+elev 3:2 6:1 20:3 23:1 24:2 29:1 31:2 33:2 38:1 42:1 57:1 73:1 87:1 97:4
 elig 2:1
 elij 1:1
+elimin 35:1 54:1 64:1 91:1 97:1
 elobservatori 7:1
-emision 1:1 4:1
-emisor 1:1 4:1
-emit 4:2
-empez 2:1 4:2
-emprend 5:1
-empres 1:7 2:1 4:1
-empresarial 0:1 7:1
+email 54:1
+embalaj 81:1
+embals 33:1
+embarc 42:1
+emergent 15:3 29:1 38:1 47:1 52:1
+emision 1:1 4:1 19:1 27:3 29:8 51:5 76:1 81:1 85:11
+emisor 1:1 4:1 21:1 50:1 90:1 99:4
+emit 4:2 37:1 41:3 60:1 76:1 83:1 91:1
+emocional 35:1
+empeor 73:1
+empez 2:1 4:2 13:1 20:1 24:1 38:1 42:1 50:1 74:1 81:1
+empiec 13:1 91:1
+empiez 13:1 27:1
+empiri 32:1
+emple 42:1 48:4 64:1 69:1 77:1 91:1 92:1
+empleabil 84:1
+empleador 48:1
+empoder 79:1
+emprend 5:1 11:1 22:2 62:1 64:8 77:1 92:1
+emprendedor 22:5 55:1 62:2 91:1 92:1
+empres 1:7 2:1 4:1 8:1 10:1 11:9 14:7 16:5 18:5 20:7 21:1 22:4 23:1 24:1 29:2 30:1 32:1 33:1 35:1 37:2 43:3 45:3 48:13 51:17 54:2 62:6 64:1 65:2 66:2 68:3 70:1 71:1 74:3 75:2 77:8 79:1 83:1 85:11 89:2 90:1 92:3 94:1 96:8 97:5
+empresari 18:1 45:2 91:3 98:1
+empresarial 0:1 7:1 20:2 22:1 33:1 34:2 44:1 45:2 54:1 66:1 75:3 85:1 89:1 90:1 97:1
+empuj 46:1 94:1
+enair 19:1
+enbbva 58:1 61:1 67:1 98:1
+encabez 48:1
 encaden 3:1
-encarec 3:2
-encarg 5:1
-encuentr 4:1
-ende 6:1
-endeud 4:1
+encamin 21:1
+encant 37:1
+encar 93:1
+encarec 3:2 46:1 97:2
+encarg 5:1 37:1 69:2 72:1 77:1
+encend 27:3
+enchuf 46:1
+encolombi 63:1
+encontr 11:1 19:1 58:1 61:1 62:1 64:1 67:1 69:1 70:1 74:5 84:1 90:1 94:1 98:1
+encuentr 4:1 11:1 12:1 18:1 22:1 44:1 56:1 64:1 69:1 77:5 79:1 81:1 85:1 90:1 91:1 92:1
+encuest 32:1 36:1 43:1 58:3 75:1
+ende 6:1 42:2
+endeud 4:1 50:1 97:2
+endocrinolog 64:1
+endogen 59:1
 endurec 1:1
-energ 4:1
-energet 3:1
-enigm 8:3
-enorm 0:1
-entend 0:1
-entrad 2:1
-entrevist 7:1
-equid 2:1
-escenari 6:1
-escob 7:1
-escrib 8:1
+ener 36:2 46:2 48:1 49:1 52:5 88:1 91:1 94:1
+energ 4:1 23:1 24:5 27:1 29:2 33:3 36:1 38:3 41:1 51:5 52:2 57:1 62:1 69:1 73:1 74:1 75:1 76:1 77:1 80:1 81:1 83:3 85:4 90:1 94:6 97:2
+energet 3:1 24:1 27:1 29:2 33:1 38:2 41:1 43:1 77:2 81:1 85:4 94:7
+energiehaus 94:2
+energy 51:2 90:1
+enerphit 94:1
+enfasis 50:1 79:1
+enfatiz 48:1 59:1 62:1 77:1
+enfermedad 64:2
+enfoc 12:1 13:2 21:1 74:1 79:1 85:1 94:2
+enfoqu 24:1 48:2
+enfrent 10:1 16:1 18:1 23:1 24:1 32:1 42:1 48:2 51:1 59:1 61:1 64:1 66:1 73:1 79:1 85:1 91:1
+enfri 23:1 32:1
+englob 94:1
+enigm 8:7
+enka 90:1
+enlac 35:1 54:1
+enmarc 29:1
+enmend 34:1
+enorgullec 45:1
+enorm 0:1 8:1 11:1 74:3 77:1 85:2 91:1
+enqu 97:1
+enril 87:1
+enriqu 96:1
+enriquez 56:1
+enrut 71:1
+ensay 64:3
+ente 14:1 35:1 86:1
+entend 0:1 18:1 51:1 74:3 84:2 94:1 100:1
+entid 12:1 13:1 26:1 29:3 35:2 37:2 39:1 45:3 47:1 49:2 54:1 55:3 60:1 66:2 68:1 76:2 77:1 82:1 85:1 92:3
+entidad 9:1 34:1 35:1 79:1 85:1 89:1
+entiend 12:1 13:1 22:1 42:2 62:2
+entorn 16:1 20:1 42:1 44:1 46:2 48:2 56:1 57:1 64:1 98:1
+entra 81:1 83:1
+entrad 2:1 26:1 27:1 54:1 99:1
+entran 13:1 41:1
+entrand 27:1 66:1
+entrant 35:2 50:1
+entrar 11:1 14:1
+entraran 14:1
+entraron 75:2
+entreg 12:1 16:1 47:1 55:1 70:1 80:1
+entren 79:1 100:1
+entretant 54:1
+entreten 49:1 53:1 92:2
+entrev 25:1 48:1
+entrevist 7:1 18:1 67:1 85:1
+entro 31:1 59:1 63:1
+entusiasm 19:1 94:1
+entusiast 48:1
+enunci 60:1
+envas 81:2
+envi 8:1 25:1 48:2 54:4 93:1
+envidi 48:1
+eolic 85:1
+epm 56:2 83:1
+epoc 54:1 72:1
+equid 2:1 76:1
+equilibr 10:1
+equilibri 23:1
+equip 11:4 18:1 22:5 33:1 48:3 60:3 62:2 64:1 66:2 67:1 75:1 77:2 79:1 92:1 94:1 96:1 98:1
+equipar 35:1
+equit 97:1
+equivalent 51:1
+equivoc 69:1
+error 8:5 34:1
+esboz 48:1
+escal 43:1 62:1 74:1
+escandal 100:1
+escasez 24:1 33:1 46:1 57:1 73:1 87:3 97:2
+escenari 6:1 8:1 11:1 24:2 28:1 33:2 34:1 38:1 42:1 46:1 50:2 67:2 97:1
+escept 94:1
+escob 7:1 75:1
+escoces 72:1
+escog 82:1 86:1
+escol 10:1 12:1 39:1
+escond 91:1
+escrib 8:2 15:1 72:1 85:1
+escrit 72:2
+escrutini 48:4
+escuel 12:6 84:1 94:1 99:1
+esencial 51:3 92:1
+esforz 48:1
+esfuerz 10:1 14:1 29:1 40:1 48:3 51:1 68:3 74:2 79:1 82:1 91:2
+esfum 72:1
+esg 51:2 85:1 87:1
+eslabon 81:1 85:1
 eslog 4:1
-especial 3:2 6:1
-especif 0:1
-espin 6:4
+espac 72:1
+espaci 27:2 43:1 54:1 56:1 76:1 92:1 94:2 100:2
+espald 34:1
+españ 11:1 21:1 22:2 24:4 33:5 37:9 54:6 57:1 59:1 64:3 68:1 74:3 77:2 81:2 85:2 92:3 94:2 97:6
+español 22:1 24:1 57:1 61:1 64:1 81:1 92:1 94:1 97:4
+especi 27:1 90:1
+especial 3:2 6:1 11:1 20:1 22:1 34:1 37:1 46:1 50:2 64:3 67:1 68:1 77:1 91:1 97:2
+especializ 11:2 18:1 33:1 62:2 77:1
+especif 0:1 11:1 14:1 35:1 42:1 69:2 74:1 94:1 97:1
+espect 100:1
+espectacular 62:1
+espectr 51:1
+esper 13:1 15:2 17:2 19:1 22:1 32:2 33:6 34:1 36:1 47:1 48:1 50:1 83:1 86:1 93:1 96:1 97:6
+espes 35:1
+espin 6:4 48:1
 espiritu 1:1
-esquem 4:2
-esta 2:1 4:2 6:1
-estadist 3:2
-estadounidens 1:4
-estan 0:2 2:2 3:1
-estar 4:1
-estrategi 0:1
-estrech 1:1
-estudi 2:1
-etc 4:1
-evalu 2:1 4:1 6:1
-event 4:1
-evident 6:3
-evolu 3:1
+esports 92:2
+espos 94:1
+esqu 54:1
+esquem 4:2 20:1 94:1
+esta 2:1 4:2 6:1 10:1 11:1 12:1 13:1 16:1 18:1 19:1 22:1 23:2 24:4 27:2 29:1 31:1 34:1 42:1 43:1 47:1 48:4 51:1 52:1 54:3 59:4 63:1 64:2 67:3 69:2 71:1 73:1 74:2 77:3 80:1 81:2 83:2 86:2 88:1 90:2 91:3 92:1 94:2 97:1
+estabil 23:1
+estabiliz 88:1 97:1
+establ 14:1 44:1 52:1 97:1
+establec 19:1 21:1 24:1 35:3 37:5 43:1 44:2 46:1 51:2 52:1 53:1 54:4 62:1 86:1 94:1
+estacion 27:1 54:1
+estadist 3:2 31:1 59:1 88:1
+estadounidens 1:4 10:1 20:2 23:6 47:1
+estafet 100:1
+estan 0:2 2:2 3:1 11:2 13:1 14:2 18:1 19:1 21:1 22:1 23:1 24:3 29:1 38:1 41:1 44:1 48:2 51:1 54:2 59:2 62:2 67:2 69:1 73:1 74:1 75:2 77:1 79:1 81:1 85:1 86:1 88:1 90:2 94:1 97:2
+estand 68:1 94:4
+estandar 86:1
+estar 4:1 21:1 22:1 24:1 42:1
+estatus 48:1
+este 10:1 13:1 27:1 48:1 86:1
+esten 67:1 91:1
+esther 74:1
+estim 8:1 23:1 24:1 27:1 42:1 46:1 50:2 59:1 62:1 72:1 97:2
+estimul 50:1 89:1 90:1 97:1
+estipul 47:1
+estoni 59:1
+estrad 84:1
+estrag 52:1 68:1
+estrateg 12:2 13:1 16:1 26:2 27:1 29:1 30:1 38:1 48:4 65:1 66:1 72:1 74:2 75:2 77:1 79:1 85:1
+estrategi 0:1 11:2 20:1 21:1 32:1 42:1 44:2 48:2 51:3 65:1 66:2 70:1 76:3 79:1 84:1 85:1 87:6 91:2 99:2
+estrech 1:1 48:1 74:2
+estrell 20:1 27:1
+estres 21:2
+estrict 94:2
+estructur 20:1 21:2 30:1 51:1
+estructural 77:1
+estud 9:1
+estudi 2:1 8:2 12:1 24:1 33:1 35:1 43:2 46:1 49:1 57:1 61:1 64:1 66:1 74:2 85:3 97:1
+etap 11:2 22:3 66:1
+etb 71:3 89:3
+etc 4:1 11:1
+ethernet 54:1
+etic 75:1
+etiquet 27:1
+eu 33:1 97:1
+eur 12:1 22:6 26:6 27:1 29:3 30:5 38:1 54:1 60:1 64:1 77:1 92:1
+europ 22:2 24:4 38:4 48:1 50:1 57:1 77:2 87:1 92:1 97:1
+europe 22:1 24:4 29:1 33:5 46:2 47:1 48:1 61:1 64:1 68:1 81:1 85:1 92:1 97:2
+eurozon 97:2
+evalu 2:1 4:1 6:1 10:2 59:1 65:1 75:1 83:1 93:1
+event 4:1 11:1 18:2 60:2 62:1 64:1 89:1
+eventual 35:1
+evidenci 47:1 50:3
+evident 6:3 21:1 27:1 98:1
+eviloglu 25:1
+evit 8:1 14:2 15:1 19:1 27:1 34:1 35:1 42:1 80:1 81:5 91:1 97:1
+evlioğlu 25:2
+evoc 94:1
+evolu 3:1 22:1 46:1 54:1 57:1 61:1 64:1 77:1 97:3
+evolucion 9:1 20:1 25:1 51:1
+exacerb 73:1
+exact 9:1 35:1 72:1 74:1 83:1
+exam 100:1
+examin 10:2 24:1 30:1
+exced 94:1
+excelent 68:2
+excelentecol 21:1
+excentr 20:1
+excepcion 69:1 94:1
 excepcional 8:1
-exclu 4:1
-exig 1:1
-exigent 1:1
-exist 4:1
-expansion 2:1
-experiment 4:1
-explic 6:1
-expres 1:1
-exterior 1:1
-extranjer 1:5 4:1
-extrem 6:1
-extremadur 3:1
-facilit 4:2
-factor 6:3 8:2
-falt 6:1
-famili 4:3 6:1
-favor 4:1
-febrer 3:3
-feder 6:1
+exces 15:1 42:1 50:2 91:3
+exclu 4:1 15:1 23:1 36:1 52:2
+exdividend 90:1
+executiv 66:1
+exig 1:1 29:1
+exigent 1:1 94:1 98:2
+exist 4:1 20:1 69:1
+existent 42:1 69:2 70:1 85:1 94:2
+exit 8:2 22:1 43:1 44:1 56:1 68:1 72:1 90:1
+exministr 32:1
+exoticc 22:1
+expand 18:1 94:1
+expans 50:1
+expansion 2:1 22:1 24:1 25:1 37:1 87:1
+expect 23:2 42:1 97:1
+expedicion 91:1
+experienciapoc 48:1
+experient 11:1 22:2 26:2 35:1 37:1 48:3 54:1 60:2 65:1 66:1 82:1 92:1 98:1 100:2
+experiment 4:1 22:1 50:1 62:1 64:2 74:1 81:1
+expert 19:1 35:1 48:2 51:1 56:1 59:1 60:1 64:3 97:2 98:1
+expid 83:1
+explic 6:1 12:1 18:3 20:1 22:1 25:1 29:1 33:1 38:1 41:1 42:2 46:3 50:1 51:1 52:2 56:1 62:3 67:1 82:1 91:1 96:1 97:1
+explor 27:1 29:1 74:1
+exploratori 30:1
+explot 8:1 74:1
+expon 20:1
+exponencial 76:1
+export 18:1 24:2 33:4 38:4 45:4 59:1 73:2 97:1
+exposicion 27:1 33:1 87:1 96:1
+expres 1:1 16:1 45:2 50:1 59:6 76:4 78:2 89:1 100:1
+express 37:12 54:1
+expuest 33:1
+expus 18:1
+exsubsecretari 18:1
+exsuperintendent 72:1
+extend 11:1 27:1 85:1
+exterior 1:1 27:3 33:1 56:3 69:1 94:2
+extern 50:4 67:3 99:1
+external 97:1
+externaliz 20:2
+extiend 11:1
+extra 86:1
+extraccion 29:1
+extract 25:1
+extranjer 1:5 4:1 33:1 50:1 54:1 93:1 99:1
+extrapol 24:1
+extrem 6:1 74:1
+extremadur 3:1 33:5
+exxon 40:3
+exxonmobil 40:1
+fabric 10:2 27:1 29:1 38:1 42:1 44:1 80:1 85:1 87:1
+facebook 48:5
+facial 26:1
+facil 20:1 25:1 37:1 54:1 72:1 74:1 80:1 86:1 89:1
+facilit 4:2 8:1 19:2 20:1 24:1 25:1 34:1 54:1 65:1 68:1 82:1 89:1 91:1 96:1 97:1
+faconaut 46:1
+factor 6:3 8:6 22:2 33:1 46:2 64:1 83:1 87:1 90:1 97:2
+factorial 22:1 77:1
+factoriz 74:1
+factur 54:1 85:2 86:1 92:2
+falaci 59:1
+fals 40:1
+falt 6:1 11:1 12:1 24:2 34:1 73:1 74:1
+fam 18:1
+famili 4:3 6:1 22:1 30:1 33:1 46:3 52:2 54:1 55:1 67:1 72:1 75:1 80:1 94:1 97:3
+family 22:1
+famos 72:1
+fao 81:1
+farol 27:1
+fas 11:5 22:4 62:1 66:2 77:1
+fascin 66:1
+fatig 8:1
+favor 4:1 12:1 29:1 51:1 54:1 67:1 72:1
+favorec 33:2 46:2 81:2 97:1
+fda 10:1
+febrer 3:3 24:1 29:1 36:3 52:3 60:1 88:2
+fech 10:1 15:1 22:1 29:1 90:1
+fed 23:3 50:1
+feder 6:1 28:1
+federal 23:1 42:1 47:1 48:1
+federaliz 28:1
+feist 94:4
+felip 13:1 72:1
 felix 2:1
-finaliz 2:2
-financ 1:1 4:3 6:2
-financi 0:1 4:1 5:1
-financier 1:1 4:4 6:1
+femenin 100:1
+fems 51:2
+fenomen 59:3 72:1 74:1
+fernand 100:1
+fernandez 32:1 75:1
+feroz 48:1
+fertiliz 38:2 73:1
+festival 100:1
+feynm 74:1
+fi 55:1
+fiabil 27:1
+fic 21:2
+ficcion 65:1
+ficm 100:1
+fictici 35:1
+fideicomis 21:1
+fideliz 70:2
+fiduciari 21:2 86:1
+fiduoccident 99:1
+fiel 32:1
+fifth 11:1 62:1
+figar 30:2
+figur 27:1 69:1 75:1
+fij 29:3 35:1 51:2 54:1 83:1 86:2 97:1
+fijacion 40:1
+filial 21:1 82:2
+filipin 34:1
+film 100:1
+filosof 13:1 21:1 35:1 62:1 72:1
+filtr 24:2 63:1 80:3
+fin 17:1 32:1 48:1
+final 22:1 24:1 30:1 33:1 42:1 46:2 51:1 54:1 59:1 67:1 72:1 74:1 85:2 86:1 87:1 97:3 99:2
+finaliz 2:2 26:1 60:1
+financ 1:1 4:3 6:2 9:1 11:2 12:2 14:2 19:1 20:1 22:1 26:1 29:1 33:1 42:1 46:1 48:1 50:1 55:2 57:1 60:1 66:2 67:1 68:4 74:1 76:1 77:1 85:2 92:4 97:3
+financi 0:1 4:1 5:1 11:9 12:2 14:1 20:2 22:3 26:1 28:3 29:11 32:1 45:1 46:1 48:1 54:1 60:3 62:2 68:2 76:3 77:3 85:1
+financier 1:1 4:4 6:1 11:3 13:1 19:1 20:3 21:2 22:1 25:1 28:1 38:1 42:2 45:1 48:1 55:1 60:1 62:1 68:3 74:8 77:2 86:2 90:1 92:1
 financieral 6:1
-firm 5:1
-fiscal 6:1
-fisic 0:2 6:1
-flor 2:1
+finanz 12:1 25:1 29:2 55:1 77:1
+fintech 11:3 62:2 92:1
+firewalls 78:1
+firm 5:1 13:1 14:1 21:1 22:2 26:1 55:2 69:1 91:1 99:1
+firmement 48:1
+fiscal 6:1 50:2 54:1 93:3 97:1
+fisic 0:2 6:1 25:1 26:1 54:2 64:1 74:1 92:1 94:1
+fitch 21:3
+flexibil 13:1 87:1
+flexibiliz 50:1
+flexibl 54:1
+flor 2:1 91:1
+florecient 14:1
+florenci 18:1
+florezc 91:1
 flot 2:1
-for 0:1 4:4
-formacion 7:1
-formal 4:2 6:2
-fortalec 5:1
-franci 2:1
-frent 4:1
-fresc 3:1
-fuent 0:1
-fuert 2:1
-fuerz 5:1
-funcion 2:1
-fundador 7:1
-fundamental 8:1
-futur 1:1 4:2
+fluctu 23:1
+fluj 20:2 21:1 28:1 96:1 99:2
+fmi 31:1
+fmya 32:1
+foc 27:3 62:1
+foment 16:1 22:1 51:1 64:1 84:1 92:1
+fond 11:3 13:1 21:2 22:7 24:1 31:1 32:1 33:4 46:2 62:2 64:1 68:2 86:2 97:2 99:1
+foods 77:1
+for 0:1 4:4 11:1 12:1 22:1 24:1 29:1 34:1 40:1 56:1 76:1 81:1 85:2 100:1
+forer 50:2
+foret 85:1
+forj 66:1
+form 8:2 12:2 20:4 22:1 24:4 25:1 26:2 29:1 33:2 37:5 42:3 44:1 45:1 47:1 51:2 54:1 60:1 64:2 71:1 72:1 74:2 79:1 81:2 82:1 84:1 85:1 86:1 92:3 96:1
+formacion 7:1 14:1 64:1 79:2 84:1
+formal 4:2 6:2 21:1 72:1 93:1
+formaliz 21:1
+format 25:1
+formul 23:1 40:1 91:1
+fortalec 5:1 20:1 34:1 45:1 66:1 79:3 84:2
+fortalez 59:1 77:1
+forz 48:1
+fosil 24:1
+fotovolt 24:1 27:3
+foundation 40:1
+foundem 48:1
+fracas 48:1
+fraccion 54:2
+frances 30:2 81:1
+franci 2:1 24:2 69:1 81:1
+francisc 50:1
+frank 48:1
+frankfurt 94:1
+fras 98:1
+fraud 26:1 54:2
+fre 54:1
+frecuent 54:1
+fren 10:1 13:1 14:1 81:1
+frent 4:1 10:1 23:1 35:1 39:5 43:1 46:1 48:2 49:2 52:2 53:4 62:1 71:1 85:1
+fresc 3:1 81:1 88:1
+fri 24:1 94:1
+fridays 81:1
+front 21:1
+fronter 18:1 20:1 48:1 85:1
+frut 64:1 88:2 92:1 100:1
+ftc 48:1
+fuent 0:1 23:2 27:1 28:1 30:1 33:1 80:1
+fuert 2:1 21:2 22:1 24:1 52:1 79:1 94:1 100:1
+fuertement 14:1
+fuerz 5:1 8:2 11:1 14:1 42:1 69:1 73:1 75:1
+funcion 2:1 12:1 13:1 24:1 25:3 27:1 38:1 48:1 63:2 69:3 94:1
+funcional 26:1 54:1
+funcionari 10:1 14:2 43:1 48:4 59:1 69:3 83:1 88:1
+fund 22:5 94:1
+fundacion 12:4 18:1 55:2 76:1 80:2 85:1 99:1
+fundador 7:1 18:1 22:1 40:1 64:1 75:2 85:1 94:1
+fundament 79:1
+fundamental 8:1 11:1 12:1 20:1 21:2 40:1 41:1 43:1 51:1 64:1 74:1 77:1 79:1 81:1 83:1 85:1
+fuquen 76:1
+fusion 13:1 48:1 66:1 82:1
+futur 1:1 4:2 11:4 13:1 18:3 22:1 24:1 32:1 35:1 37:1 51:3 54:2 55:1 60:1 62:3 64:2 77:1 81:1 82:1 92:2 94:1 98:1
+g 52:1 54:2
 gabinet 1:1
-galici 3:1
-garant 4:1 5:1
-garantiz 4:1
+gabriel 69:1
+gadgets 27:1
+galardon 68:1
+galici 3:1 33:4
+galleg 75:1
+galop 32:1
+galviz 78:1
+gam 26:1 78:1
+gambl 85:1
+gan 35:1 43:1 59:1 70:1
+ganador 22:1 64:1 68:1
+gananci 15:1 23:2 36:2 52:1 63:1 71:1 86:4 99:2
+garant 4:1 5:1 48:1
+garanti 25:5 82:5
+garanticomtr 25:1
+garantiz 4:1 24:1 35:2 44:2
 garc 0:2
-gener 2:1 6:2
-general 0:1 3:2 4:1
-generaliz 3:1
-gerent 4:2
-gigant 1:1
-global 0:1 1:1
+garret 38:1
+gas 24:31 29:2 33:2 38:2 51:2 83:1 85:1 97:3
+gasif 24:1
+gasoduct 24:2
+gasolin 23:1 36:2 97:2
+gast 23:8 27:1 28:3 32:2 39:3 46:3 47:1 49:4 53:2 64:1 85:1 86:1 88:1 91:2 97:1
+gastronom 81:1
+gei 85:3
+gen 68:1
+gener 2:1 6:2 11:1 13:1 18:4 20:2 24:1 29:1 42:4 43:1 46:1 50:1 51:2 54:1 55:2 57:1 58:4 63:1 66:1 70:1 74:4 75:2 76:1 77:3 78:1 79:1 81:2 83:4 85:3 87:2 90:1 91:2 92:3 97:1 99:2 100:4
+general 0:1 3:2 4:1 16:1 28:1 37:1 38:1 48:2 51:2 52:1 56:1 63:1 74:1 78:1 79:1 86:1 93:3 94:2 98:1
+generaliz 3:1 23:2 33:2 46:1 97:1
+generation 33:1 64:1 97:1
+generatric 20:1
+genet 18:1
+gent 8:1 27:1 48:1 72:2 94:1
+geograf 20:4 22:1 54:1 66:1 87:1 88:1
+geopolit 57:1
+gerent 4:2 56:1 60:1 63:1 70:1 78:1 96:1
+germ 64:1
+german 55:1 99:1
+geronim 20:1
+gest 54:1
+gestion 9:1 11:1 13:1 21:4 22:2 24:1 26:2 33:1 37:1 43:2 44:2 54:5 68:2 69:1 78:1 81:1 87:1 91:1 94:1 96:5
+gestor 22:2 66:1 86:1
+getabstract 65:2
+giarraput 68:1
+gigant 1:1 14:1 27:1 48:2
+gigantesc 85:1 91:1
+gil 74:1
+ginebr 48:1
+gis 21:1
+global 0:1 1:1 11:2 15:2 18:2 20:3 21:3 22:2 29:1 34:1 38:1 42:2 48:1 54:1 57:1 62:1 66:2 68:3 81:1 85:2 87:1 99:1
+globant 18:1
+glov 66:1
+gnl 24:4
 go 2:1
-gobiern 1:1
-golp 6:1
+gobern 48:2 51:3
+gobi 34:1 48:1 72:1 74:1 91:1
+gobiern 1:1 10:1 13:1 21:1 32:1 43:1 48:5 50:2 59:2 68:1 69:3 72:1 79:1 89:1 91:3 97:1
+gohub 22:1
+golp 6:1 38:2 93:2
+golpe 17:1
 gomez 4:1
+gonzal 60:1
 gonzalez 6:1
+googl 26:1 48:18 54:1
 got 4:2
-graci 5:1
-grad 6:1
+gprs 54:1
+graci 5:1 11:2 14:1 16:1 25:1 26:2 37:2 44:1 47:1 54:3 64:1 71:1 74:1 81:1 82:1 94:1 96:1 97:1
+grad 6:1 12:1 87:1 99:3
+gradu 48:1
+grafic 24:1
+grand 13:2 48:1
+granel 81:1
 gras 3:1
+gratuid 97:1
+gratuit 26:1 70:1 79:3
+grav 42:2
+greenpeac 40:1
+greg 40:1
+gremi 43:2 72:1 83:2
 gremial 4:1
-grup 2:2 3:1
-guerr 8:1
+gret 81:2
+gridx 18:1
+grif 24:1
+grobocopatel 18:1
+groots 77:1
+group 14:2 18:1 48:1 85:1
+growth 11:3 22:2
+grup 2:2 3:1 13:1 18:1 21:3 30:1 34:2 40:3 43:2 48:4 55:1 66:1 69:1 70:1 71:1 75:3 77:2 80:1 81:1 85:1 90:8 92:1
+guajir 75:1
+guant 48:1
+guard 54:1
+guardi 59:1
+guardiol 77:1
+guarism 31:1
+gubernamental 32:1 45:1
+guerr 8:2 17:1 33:1 36:1 38:1 48:1 57:1 69:1 72:1
+gui 64:1 81:1 94:1
+guillerm 74:1
+guine 34:1
 gurz 6:1
-gustav 4:1
-hab 1:1
-habl 7:1
-hern 4:1
-herramient 4:1
-hij 2:1
-histor 2:1 8:1
-histori 2:1 8:1
-hogar 4:1
-hombr 4:1
+gust 48:1 59:1
+gustav 4:1 59:2 69:1
+gutierrez 83:1
+guzman 32:3
+gösaş 82:1
+hab 1:1 17:1 26:1 29:1 30:2 32:1 48:2 49:1 64:1 71:1 74:1 75:1
+habil 18:1 48:1 79:2 83:1 84:1 90:1
+habilit 22:1 26:1
+habit 25:1 27:2 43:2 58:1 72:1 76:1 81:2
+habitacional 70:1 76:1
+habitat 18:1
+habitual 11:1 27:1 37:2 48:2 54:1
+habl 7:1 11:1 13:1 20:1 22:1 24:1 27:1 32:1 41:1 48:2 56:1 58:1 59:2 64:1 67:1 75:1 76:3 78:1 83:1 91:1
+habr 27:1 30:1 42:2 46:3 56:2 64:1 74:1
+habran 74:1
+hac 11:1 54:1 62:1 74:1
+haciend 18:2 69:1
+hackathon 92:1
+hag 41:2 62:1 64:1 65:1 72:1
+hallazg 49:1
+halogen 27:1
+hambr 38:1 59:1 73:1
+har 10:1 56:1 87:1
+haran 91:1
+hardwar 54:2 74:1
+harry 74:1
+hass 59:1
+haus 70:3
+haz 81:1
+health 77:1
+healthtech 64:1
+hech 55:1 67:1
+heinek 66:1
+hered 100:1
+herm 96:4
+hermet 94:3
+hermetic 96:4
+hern 4:1 91:1
+hernandez 50:1
+herramient 4:1 26:1 32:1 35:1 42:1 48:1 62:1 78:1
+herrer 20:1 42:1
+heterogene 33:1 85:1
+heur 77:1
+hibr 46:1 78:1
+hic 27:1
+hidalg 92:1
+hidric 12:1
+hidrogen 24:2
+hierarchical 74:1
+higien 80:1
+hij 2:1 94:1
+hill 48:1
+hiperinfl 32:1
+hipotecari 60:1
+histor 2:1 8:1 23:3 24:1 97:1
+histori 2:1 8:1 50:1 64:1 69:1 91:1 100:1
+hog 16:1 26:1 27:1
+hogar 4:1 16:2 23:2 39:1 46:3 52:3 81:1 97:6
+hoj 18:1 51:1
+hombr 4:1 48:2
+hondur 84:1
+honest 48:1
+hong 34:1
+hor 13:1 27:2 48:2 65:1 79:1 81:1 85:1 90:1 91:1 94:3 97:1
+horizont 45:1
 hortaliz 3:1
-huev 3:2
-human 8:1
-identific 4:1 8:1
-imag 2:1
-imagin 0:1
-impact 0:1
-import 0:2 4:1 6:1 7:1
-impuest 3:3
-impuls 0:1 3:1
-inc 1:1
-incertidumbr 1:1
-inclu 0:1
-inclusion 0:1 2:1 6:3
-incorpor 7:1
-increment 3:1 4:1 6:2
-indic 3:2 4:1 6:2
-indigen 4:1
-industri 2:2
+hospital 64:2 94:1
+hospitaliz 42:1
+hostel 54:1
+hosteler 98:1
+hostil 48:1
+hotel 39:2 98:1
+hous 66:1
+hryvni 17:1
+hub 77:2
+hubs 11:1
+huec 11:1
+huell 12:1 25:1 41:1 51:1 82:2 85:3
+huev 3:2 17:1 59:1
+hug 67:2
+human 8:6 12:1 18:1 27:1 59:1 64:1 75:1 97:1
+humanitcar 64:1
+humor 94:1
+hungr 59:1
+hy 62:1
+höchst 94:1
+i 81:1
+ia 64:3 74:1
+iba 59:1
+ibag 35:1 80:1
+iber 62:1
+iberdrol 85:4
+ibex 74:1
+ibm 54:1 79:1
+ico 22:2
+ide 8:1 18:1 27:1 34:1 48:1 54:1 55:1 64:2 66:1 74:1 94:1
+ideal 13:1 27:1
+identif 21:1 64:1
+identific 4:1 8:1 48:1 62:1 92:1
+idiom 11:1 20:1 22:1 65:2
+ido 26:1 48:1 54:2 88:1
+ifood 13:1
+iga 95:1
+ignaci 54:1 75:1
+igual 35:1
+iif 12:1 29:2
+iii 46:2 66:1
+ike 66:1
+ilegal 72:2
+ilumin 27:5
+ilustr 8:1 22:1 36:1 66:1 100:1
+imag 2:1 94:1
+imagen 64:1
+imagin 0:1 48:1 51:1
+impact 0:1 13:1 15:1 17:1 20:1 22:1 24:3 25:2 33:3 35:1 38:1 42:4 48:1 50:1 51:4 54:1 55:1 57:1 59:2 60:1 64:2 67:4 74:4 79:1 82:2 83:1 84:1 85:4 94:1 97:6
+impar 62:2
+imperd 67:1
+implant 54:1
+implement 8:1 21:1 26:1 35:2 44:1 51:1 64:1 74:1 79:1 84:1 85:1 87:1 97:1
+implic 20:1 51:1 62:1 81:1 85:1 97:1
+import 0:2 4:1 6:1 7:1 10:1 11:1 12:2 13:2 14:1 16:1 22:1 23:1 24:7 26:1 27:1 28:1 34:2 38:5 42:3 43:1 44:1 48:2 50:1 51:3 54:1 55:2 59:2 61:1 62:1 64:3 66:2 67:1 69:2 70:1 77:3 79:2 81:1 82:2 83:1 85:1 88:1 96:4 97:1
+importantesentr 83:1
+impos 8:1 63:1 74:1 83:1
+impres 54:1 82:3
+impresion 32:1 36:1 54:1 94:1
+impresistem 44:4
+impresor 54:2
+imprim 54:2
+impuest 3:3 13:1 26:1 54:1 97:1
+impuls 0:1 3:1 11:2 12:1 17:1 18:1 20:1 23:1 24:2 29:1 33:1 37:1 39:1 45:1 46:2 47:1 48:1 51:2 52:1 64:3 66:1 74:2 75:2 77:2 84:1 85:1 90:1 92:5
+impus 48:1
+in 66:1 72:1
+inalambr 54:1
+inaugur 94:1
+inc 1:1 23:1 48:5
+incapaz 48:1
+incent 24:1 50:1 85:1 97:1
+incentiv 35:1 46:1 60:1 81:1 97:1
+incertidumbr 1:1 29:1 33:2 42:3 61:1 67:1 77:1 97:2 99:1
+incid 50:1 62:1 77:1
+inciert 68:1
+inciertasi 83:1
+inclu 0:1 11:2 23:1 24:1 36:1 37:2 38:1 40:1 48:1 54:2 62:2 63:2 68:1 72:1 75:1 80:1 85:3 90:1 92:1 97:3
+incluiv 12:1
+inclus 29:1 92:1
+inclusion 0:1 2:1 6:3 12:1 55:1 100:1
+incomod 51:1 94:1
+incorpor 7:1 9:1 21:2 26:1 27:2 35:1 37:1 50:1 51:3 54:1 64:1 66:2 82:1 85:1 87:2
+increibl 22:1
+increment 3:1 4:1 6:2 11:1 25:1 31:1 33:3 37:1 38:2 42:1 46:2 59:1 60:1 77:1 83:1 85:1 88:1 97:11
+incumpl 91:1
+incursion 86:1 89:1
+indec 31:3
+indefin 24:1
+independent 35:1 77:1
+independient 13:1 22:1 62:1 72:1 94:2
+indes 47:1
+index 29:1 60:1
+indi 34:1 52:1
+indic 3:2 4:1 6:2 15:1 18:1 19:1 23:11 31:2 35:1 36:3 39:1 43:4 46:1 47:2 49:1 51:2 53:1 59:1 60:1 64:3 67:1 73:2 74:2 77:2 78:1 83:3 85:1 87:3 95:2 97:2 99:2
+indici 34:1
+indigen 4:1 69:1
+indirect 51:1
+indispens 16:1
+inditex 85:1
+individual 21:1
+indonesi 34:1 73:1
+induc 8:1
+industri 2:2 13:2 14:2 20:1 22:1 29:1 38:2 41:1 48:3 51:1 54:1 62:1 68:1 71:1 72:1 74:1 78:1 84:1 85:1 92:9
+industrial 18:1 20:1 33:4 79:1
+industrializ 20:1
 ine 3:2
+ineficient 69:2
+inegi 95:1
+inelud 28:1
 inequ 4:1
-inflacion 3:3 4:1 6:5
-influ 8:1
-inform 1:2
-informal 6:7
+inerci 97:2
+inesper 74:1
+infantil 27:1
+infeccion 10:2
+infer 74:1
+inferior 23:1 27:1 33:1 82:1
+infiern 12:3
+inflacion 3:3 4:1 6:5 17:3 20:2 23:11 31:6 32:7 33:4 36:5 38:4 42:2 46:2 47:2 50:1 52:13 57:1 59:14 61:1 67:2 73:1 88:4 90:1 95:1 97:6
+inflacionari 42:1 59:2
+inflacionc 20:1
+influ 8:2
+influenci 48:2 93:1
+inform 1:2 8:4 10:1 14:2 20:1 22:1 23:4 24:1 27:2 30:2 42:3 43:1 44:1 46:2 48:2 54:1 64:4 67:3 71:1 73:1 78:1 83:2 85:1 89:1 95:1 96:1 97:5
+informal 6:7 91:1
 informald 6:1
-infraestructur 4:1
-ingres 6:4
-inici 4:4 5:1
-inmediat 4:3
-inmobiliari 5:3
-inmuebl 5:2
+informat 54:1 64:3
+informatiz 54:1
+infraestructur 4:1 24:3 35:2 42:1 51:2 79:1 91:1
+ingeni 8:1 9:2 91:1 94:1
+ingenier 8:1 48:1 64:2
+ingenieroses 91:1
+ingent 8:1
+ingles 29:1 51:1 77:1
+ingres 6:4 13:1 23:3 34:1 43:1 52:4 55:1 71:2 75:1 86:2 99:1
+inhous 66:3
+inic 18:1 49:1 66:2 99:1
+inici 4:4 5:1 12:1 13:1 16:1 22:2 24:1 25:1 29:1 31:1 34:1 39:3 46:1 53:2 55:1 56:1 60:1 62:3 67:1 72:1 76:1 77:2 81:1 84:1 88:1 92:5 100:1
+inicial 11:1 14:2 29:1 42:1 54:1 66:1 97:1
+inmediat 4:3 16:1 26:1 30:1 37:1 73:1 78:1 83:1 90:1
+inmens 12:1 29:1
+inmigr 69:1
+inmobiliari 5:3 16:3
+inmuebl 5:2 16:1 94:1
+inmuniz 10:1
+innov 11:11 18:1 22:3 25:1 51:1 54:3 62:2 64:4 77:7 82:2 84:1 87:1 92:5 96:1
+innovation 11:1 62:1 64:1
+inocul 42:1
 inquebrant 1:1
-instal 4:1
-instrument 4:1
-insum 4:1
-inteligent 5:1
-interanual 3:3
-internacional 2:1
-interoper 4:1
-introduc 7:2
-investig 1:1
-ipc 3:7
+inscrib 79:1
+inscripcion 79:1
+inscrit 63:1 79:1
+insegur 38:1
+insercion 18:1 84:1
+insight 66:1
+insights 64:1
+insigni 79:1
+insist 42:1 59:1
+inspir 74:1 81:1
+instal 4:1 12:2 27:2 46:1 72:1 94:1
+instanci 18:1 21:1
+instant 54:1
+instantane 74:1
+instar 73:1
+institu 19:1 20:1 51:1 74:1 84:2 100:1
+institucional 22:2 93:1
+institut 12:1 29:1 58:3 81:1 94:2
+instrument 4:1 86:1
+insular 33:1
+insum 4:1 20:1 42:1 59:2 73:1 97:1
+integr 11:1 20:1 21:2 34:6 35:1 37:1 48:1 51:1 54:1 69:1 75:1 78:2 84:1 96:1
+integral 11:2 12:1 13:1 16:1 22:1 62:1 77:1
+intel 44:1
+inteligent 5:1 35:1 54:1 56:1 62:1 64:3 69:1 72:1 74:2 78:1 89:2
+intencion 22:1 67:1
+intens 24:2 27:2 29:3 84:1 97:2
+intensific 48:1
+interaccion 8:1 74:1
+interactiv 66:1
+interactu 62:1
+interanual 3:3 33:1 52:3 99:1
+intercambi 19:3 50:1 84:2
+interconexion 35:2 90:1
+interdisciplinari 74:1
+interes 21:1 23:1 30:1 32:1 33:2 34:1 43:2 46:1 47:1 50:1 54:2 57:1 61:1 64:1 70:1 74:1 79:2 85:1 86:1 87:1 94:2 95:1 97:3 99:1
+interferent 38:1
+interin 10:1
+interior 12:1 24:1 27:6 94:1
+interlocutor 37:1
+intermedi 29:1 97:1
+intern 21:3 23:1 46:1
+internacional 2:1 11:1 18:1 20:1 21:1 29:1 32:2 38:1 40:1 48:1 50:1 68:1 70:1 94:1 97:1 100:1
+internacionaliz 75:1
+international 12:1 29:1 40:1
+internet 14:1 54:1
+interoper 4:1 64:1
+interrog 18:1 48:1 67:1
+interrump 73:1
+interrumpibil 24:1
+interrupcion 46:1 97:1
+interven 35:1 38:1
+intervencion 29:1 31:1 56:1 100:1
+intim 22:1
+intrat 74:1
+introduc 7:2 26:1 54:1 81:1
+inusual 61:1
+inutil 48:1
+invasion 24:1 36:1 61:1 73:2 77:1 97:1
+inventari 44:1
+inventor 8:1
+invernader 29:1 51:1 81:1 85:1
+inversion 11:8 12:1 13:1 20:3 21:12 22:4 29:3 33:5 34:1 35:1 47:1 52:1 62:5 68:2 74:8 77:3 80:1 85:1 86:8 87:8 90:2 97:2 99:9
+inversor 11:3 22:4 62:1 64:1 87:3
+invert 22:2 86:5 87:1 90:1 97:1
+invest 60:1
+investig 1:1 10:1 17:1 21:1 28:1 40:1 50:1 64:3 66:4 74:2 81:1 85:1 93:1 94:1
+investment 11:1 21:1 29:1 38:1 68:1 87:1
+inviern 24:4 27:1 94:1
+inviert 13:1
+invirt 35:1
+invis 72:1
+invit 18:1 26:3 72:1 79:1
+involucr 10:1 83:1 85:1
+ios 25:1 26:1
+iot 22:1 78:1
+ipad 48:1
+ipc 3:7 23:2 31:3 36:1 47:1 50:1 59:1 83:2 88:7 97:2
 ipca 3:2
-jorg 4:1
-jos 4:1
-joven 4:1
-juan 2:1
-jueg 0:1 8:1
-jug 8:1
-juli 1:1 4:1
-junt 4:1
-labor 6:1
-laboral 6:4
-lanz 1:1
-lech 3:2
-legal 7:2
+ipha 94:2
+iphon 48:1 54:1
+ipp 83:2
+ira 26:2 97:1
+iras 51:1
+iren 83:1
+irresolubl 74:1
+irrump 100:1
+irrupcion 29:1 54:1 68:1
+isidr 50:1
+israel 69:1
+it 26:1
+itali 24:1 26:6 81:1
+italian 26:2
+itau 99:1
+iva 54:1
+ivan 28:1 50:1 59:1 79:1
+izquierd 93:1
+işıl 25:1
+jack 14:1
+jackelin 50:1
+jaim 43:1 78:1 85:1
+jalon 50:1
+janet 10:1
+japon 34:2 69:1
+jaramill 50:1
+jardin 27:1
+jaum 77:1
+javi 45:1 87:1
+jef 17:1 20:1 42:2 48:1 59:1 67:1 97:2
+jerom 23:1
+joaquin 18:1
+joe 10:1
+jon 29:1 60:1
+jorg 4:1 56:1 60:2 66:3 83:1 97:1
+jorn 11:1 18:1 47:1 77:1
+jos 4:1 51:1 75:1
+joseph 68:1
+jov 18:1 19:1 79:1
+joven 4:1 18:1 79:1 81:1 97:1
+jpmorg 15:3
+juan 2:1 12:1 18:1 70:1 75:3 88:1 92:1
+jubil 58:6
+jubilacionl 58:1
+judicial 63:1
+jueg 0:1 8:1 13:1 41:1 48:6
+juev 10:1 17:1 23:1 30:1 32:2 36:1 47:1 48:1 93:1
+jug 8:1 11:1 62:1 74:1 77:1
+jugador 13:1 48:1 62:1
+juici 64:1
+juli 1:1 4:1 17:2 20:1 23:1 24:3 29:1 37:1 49:3 75:1 95:1
+juni 12:1 24:1 29:4 32:1 48:1 92:2
+junt 4:1 21:1 48:1 81:1
+jurid 35:1 72:1 86:1
+just 43:1 88:1
+justici 48:1 93:1
+justific 33:1 91:1
+justin 69:1
+k 22:4
+kant 66:2
+kar 64:1
+ken 48:1
+kent 48:1
+khan 48:1
+kik 27:1
+kil 81:2
+kilogr 81:1
+kilometr 34:1 81:3
+kilovati 94:2
+kit 12:1
+klaus 85:1
+kob 75:1
+kof 51:2
+kong 34:1
+konr 99:1
+kovacevich 48:1
+kyiv 17:1
+labor 6:1 8:1 18:1 21:1 24:1 45:1
+laboral 6:4 18:3 20:1 23:3 33:1 50:1 79:1 84:1 97:3
+laboratori 62:1 89:1
+lagun 76:1
+lak 64:1
+lament 8:1
+lamp 27:9
+lansdown 66:1
+lanz 1:1 19:1 25:2 37:1 46:1 48:1 54:4 60:1 68:1 79:1 92:1 93:1
+lanzamient 48:1 60:5
+lapetini 12:1
+lapiz 74:1
+laps 71:1 90:1
+larg 11:1 90:1
+larrain 99:1
+laspin 18:1
+latam 99:1
+latin 11:1 38:3 59:1 62:1 81:1 84:1
+latinoamer 11:1 16:1 22:3 94:1
+latinoamerican 38:1 69:1 94:1
+lav 85:1
+lavand 85:1
+ldi 71:2
+lead 96:1
+leadwind 11:1 22:6 62:1
+learning 18:1
+leasing 76:1
+lebrij 51:1
+lech 3:2 59:1 88:2
+lector 54:3
+led 27:3
+leed 94:1
+leer 54:1 64:1 72:1
+legal 7:2 13:1 20:1 48:2 72:1 91:1 93:1
+legisl 18:1 48:6 69:1 93:1
+legitim 93:1
 legumbr 3:1
-lejan 6:1
-leon 3:1
+lej 51:1
+lejan 6:1 20:1
+lem 18:1
+lenguaj 62:2
+lent 17:1 33:3 49:1
+leon 3:1 33:3
 leonard 4:1
-line 5:1 6:1
-link 6:1
-lleg 2:2 4:1
+lev 64:1
+levant 73:1 75:1
+levement 17:1 47:1 73:1
+ley 48:1 63:1 69:1 81:1
+liang 14:2
+liban 31:1
+liber 47:1
+libr 27:1 34:2 48:1 65:3 94:1 99:1
+libret 59:1
+licenci 51:1 66:2
+licu 24:1
+lid 16:1 34:1 45:1 79:1 85:1 93:1 96:1
+lider 11:1 16:1 22:1 33:1 39:1 47:1 48:1 51:1 53:1 54:1 60:1 64:1 69:1 72:1 75:4 77:1 85:1
+liderazg 26:1 55:1 82:1
+lidi 48:1
+lifemil 70:1
+lig 74:1 85:1 86:1
+liger 39:1 53:1 54:1 71:1 88:1
+ligi 79:1
+lil 100:1
+lim 11:1 34:1
+limb 13:1
+limit 21:1 24:1 29:1 33:1 54:1 74:2 97:2
+limpi 12:1 29:1 76:1
+limpiez 85:1
+lin 45:1 48:1 94:1
+linar 55:1
+line 5:1 6:1 12:1 14:1 18:1 24:1 29:1 33:1 54:1 59:1 60:1 81:1 85:1 87:2 96:4
+lineamient 21:1
+link 6:1 20:1 42:1 54:1
+liqu 12:1 86:1
+liquid 15:1 34:1 37:2 99:1
+liquidez 86:1 96:2
+lir 82:1
+lisbo 22:1
+list 34:1 69:1 75:3 81:1 88:1
+lit 54:1
+litr 12:3 59:1 81:2
+llam 20:1 22:1 35:1 36:1 41:1 48:3 74:2 78:1 79:1 85:1
+lleg 2:2 4:1 11:1 13:1 22:4 32:1 50:1 51:2 52:1 54:2 59:1 64:1 74:1 75:4 77:1 78:1 80:1 81:2 83:2 85:1 87:1 88:1 90:2 96:2 99:3 100:1
+llen 35:1 48:1 81:1
+llev 9:1 12:1 18:1 24:2 29:2 32:1 41:1 48:1 51:2 61:1 64:1 68:1 70:1 72:2 73:1 81:1 88:1 97:1
+llp 99:1
+lluvi 12:5
+loans 11:2 22:1
+local 12:1 15:2 20:2 21:3 22:2 37:1 43:1 54:1 60:1 66:1 67:2 81:3 87:1 91:2 99:2
+localiz 94:1
 log 4:1
-logr 0:1 5:1 6:1
+logist 18:1 20:2 54:2 56:5 59:1 73:1 74:2
+logistic 99:1
+logr 0:1 5:1 6:1 12:1 14:1 21:1 22:1 24:1 35:1 41:1 43:2 44:1 51:6 55:1 71:1 74:2 77:1 83:1 88:1 91:1 94:2
+london 64:1
+lopez 37:1 66:3
+lorenz 99:1
+louis 74:1
 low 2:2
-luch 2:1
-luis 4:1 6:1
-madr 3:1
+lowercarbon 11:1 62:1
+lr 56:1 76:1 83:2
+lsqa 60:6
+luc 27:3
+luch 2:1 12:1 25:2 41:2 48:2 100:1
+lucian 18:1
+lucr 48:1
+lugar 37:1 43:1 75:1
+luis 4:1 6:1 51:1 55:1 69:1 70:1 93:1
+lumin 27:1
+lun 15:2 63:1 81:1
+luz 27:7 83:3
+m 11:1 27:1
+ma 14:1
+macri 31:1
+madr 3:1 22:1 33:7 46:1 54:1 66:4 92:3
+madurez 13:1 62:1
+maestr 35:1
+mag 8:1
+magn 69:1
+magnet 54:3
+magnitud 74:1
+maiz 38:1 73:1
+mal 48:1 59:1
+malasi 34:2
+malen 18:1
 mam 2:1
-manch 3:1
-manej 5:1
-manten 0:1 1:1 3:1
-maquin 8:2
-marc 3:1 4:2
-mari 4:1
+man 13:1 18:1 20:1 26:1 44:1 54:1 72:1 83:2 99:1
+manag 12:1 60:1
+management 8:1 21:1 96:1
+managers 38:1
+manch 3:1 33:4
+mand 27:2
+mandat 13:1
+mandatari 59:1 69:2
+manej 5:1 51:1 65:1 96:2
+maner 41:1
+mang 85:1 88:1
+manifest 8:1 12:1 84:1
+manifiest 43:1 78:1
+manipul 74:1
+manizal 88:1
+manten 0:1 1:1 3:1 8:1 17:1 24:1 30:1 37:1 38:2 44:1 46:1 61:1 77:1 81:1 97:1
+mantendr 33:1 42:1 50:1
+manteng 97:2
+mantien 25:1 33:4 35:1 46:1 47:1 61:1 75:1 97:4
+mantuv 15:1 23:2 24:1 30:1 32:1 39:2 49:1 52:1 53:1 73:1
+manual 12:1 21:1 54:1
+manuel 18:1
+mao 91:1
+maquet 12:1
+maquin 8:4 54:4 77:1 94:1
+maquinari 33:1
+mar 12:1 18:1 34:1 51:1 73:1 75:1 80:1 98:1
+marc 3:1 4:2 12:1 20:1 21:1 23:1 26:1 29:2 34:1 43:1 44:1 61:1 64:2 66:7 70:1 75:1 76:1 77:1 79:1 85:1 98:1
+marcel 18:1 63:1
+march 26:1 64:1 89:1
+marg 54:1 91:1
+margen 97:1
+marginal 85:1
+mari 4:1 45:1 76:1 84:1
 marisc 3:1
-marz 3:7
-mas 0:2 1:2 2:3 3:8 4:4 5:3 6:5 8:2
+mark 48:2
+market 66:1
+marketing 66:2 70:1 96:1
+markets 26:1
+markowitz 74:1
+marks 10:2
+marquez 59:1
+marshall 13:1 91:1
+mart 88:2
+martin 18:2 32:1
+martinez 28:2 35:1
+marysol 18:1
+marz 3:7 14:1 29:1 52:1 60:1 73:1 87:1 90:1
+mas 0:2 1:2 2:3 3:8 4:4 5:3 6:5 8:5 10:6 11:3 12:2 13:6 15:3 16:1 17:3 18:1 19:1 20:1 22:4 23:5 24:7 25:5 26:1 27:9 29:3 31:3 32:5 33:7 34:2 35:2 36:3 37:3 38:3 39:2 42:6 43:3 45:1 46:2 47:3 48:17 49:3 50:2 51:5 52:6 53:1 54:8 55:3 58:2 59:5 60:7 61:1 62:3 64:7 65:3 66:2 67:2 68:1 69:8 70:1 72:2 73:1 74:4 75:2 77:3 78:2 79:3 80:3 81:9 83:6 85:5 86:3 88:2 90:2 91:2 92:3 94:10 95:1 96:2 97:9 98:4 99:3 100:2
 masculin 2:1
-matemat 8:1
-materializ 4:1
-mayor 0:1
-med 1:1 4:1 6:1
-mejor 0:1 6:2
-menor 3:1 6:2
-mensaj 4:1
-mensual 3:5
-merc 1:1 2:1 3:1 4:1 5:1
-mes 1:1 3:2
-met 2:1
-metodolog 3:1
-mexic 6:5
-mexican 2:1 6:1
-mi 2:1
+masiv 35:1 59:2 64:1 91:1
+masnatt 18:1
+mast 54:1 64:1
+mastercard 54:1
+mat 18:1
+matemat 8:1 9:1 64:2 74:4
+materi 18:1 29:1 32:1 36:1 38:1 44:1 45:1 46:1 51:2 59:1 60:3 67:1 74:4 76:1 81:2 84:1 85:1 97:3
+material 12:1 62:1
+materialic 60:1
+materializ 4:1 80:1
+mathi 38:1
+matos 43:1
+matricul 46:7
+matriz 18:1 20:2 21:1 48:1
+max 52:1 90:1
+maxim 26:4 27:1 36:1 39:1 47:1 49:1 54:2 94:2 96:1 98:1
+maximiz 86:1
+may 31:1 73:1 95:1 99:1
+mayor 0:1 8:1 24:1 27:1 31:2 36:2 40:1 42:1 44:3 45:1 52:2 55:1 57:1 58:1 73:1 86:1 91:1 94:1 95:1 97:1
+mayoritari 29:1
+mayuscul 91:1
+mañan 32:1 77:1
+mecan 20:2 21:1 24:1 34:1 35:1 74:1
+med 1:1 4:1 6:1 8:1 10:1 11:1 14:4 15:1 21:1 23:2 24:2 27:1 33:2 35:1 38:1 40:1 42:1 47:1 48:3 51:3 55:1 62:1 67:3 73:1 82:4 83:3 85:1 87:1 94:1 95:1 97:4
+medellin 53:1 56:1 72:1 88:1
+medi 10:1 19:1 20:1 24:2 33:1 37:1 42:2 43:1 51:2 52:2 54:3 55:1 65:2 67:1 69:1 70:2 74:1 76:1 78:1 81:2 82:1 84:1 85:1 93:1
+median 21:1 36:1 37:2 52:1 99:1
+medibl 51:1
+medic 14:1 64:7
+medicament 10:3
+medicin 64:2 77:1
+medicion 21:2 35:1 85:1
+mediktor 77:1
+medioambient 51:1 60:1 81:1
+medioambiental 25:1 74:1 85:1
+mediod 83:1
+mediolarg 24:1
+mediterrane 22:1 33:1
+megatendent 62:1 87:1
+mej 75:1 96:1
+mejor 0:1 6:2 21:2 25:1 26:1 27:1 33:2 41:1 42:1 43:2 48:1 50:1 51:2 54:2 55:2 60:1 64:4 71:2 74:1 77:1 79:1 80:1 82:1 84:1 85:1 87:2 89:2 90:1 94:1 98:1
+melill 46:1
+melin 18:1
+melson 38:1
+membres 40:1
+memor 84:3
+mencion 8:1 51:1 91:1 97:1
+mendiet 51:3
+menor 3:1 6:2 10:1 20:2 23:1 24:2 27:1 33:7 38:2 42:1 46:4 50:1 51:1 58:1 81:1 83:3 88:2 90:1 97:4 100:1
+mensaj 4:1 8:1
+mensual 3:5 52:1 54:1 86:1 88:4
+ment 48:1 59:2
+menud 48:3 52:1
+merc 1:1 2:1 3:1 4:1 5:1 11:4 15:4 16:2 17:1 19:1 21:3 22:5 23:2 24:1 26:1 27:1 33:1 34:2 35:3 38:3 44:1 46:1 47:1 48:1 50:1 54:1 60:5 66:4 72:1 73:1 75:3 77:2 78:2 83:1 84:1 90:2 97:2 98:2 99:3
+mercadol 99:1
+mercanc 85:1
+mercantil 20:1
+merec 8:1 55:1
+merecedor 68:1
+mes 1:1 3:2 10:1 11:1 12:1 14:1 15:1 23:9 24:2 26:3 27:1 30:1 32:1 33:2 35:1 36:3 39:3 46:1 48:1 49:3 50:2 51:1 52:1 53:1 54:3 59:1 61:1 71:2 73:1 77:3 81:1 83:5 97:3 99:4
+met 2:1 23:1 29:2 48:1 51:3 52:1 96:1
+metal 38:2 43:1
+metalurg 43:1
+metaner 24:2
+metavers 92:1
+metod 37:1 74:2
+metodolog 3:1 35:1 74:1
+metr 24:1 94:2
+mexic 6:5 11:1 20:5 28:2 34:4 38:1 42:2 51:8 54:2 59:1 69:3 87:1 94:1 95:1 100:1
+mexican 2:1 6:1 28:2 70:1
+mezcl 64:1
+mi 2:1 66:1 72:1
+miami 66:1
+micheel 94:1
+michel 100:1
+microempres 20:1
 microempresari 4:1
+microfin 55:3 76:1
+microproces 54:1
+microsoft 48:41 78:4 79:2
+mid 49:1 75:1
+mied 22:1 27:1 72:1
+miembr 18:1 34:1 40:1 48:2 69:1
+miercol 12:1 29:1 93:1
+miglior 18:1
+migr 73:1 92:1
+migracion 51:1 78:1
 migrant 4:1
-millon 1:1 2:2 5:2
-mit 6:1
-model 2:3 8:1
-moment 8:2
-moned 4:4
-monetari 6:1
-mostr 2:1
-mov 2:1
-muestr 4:1 6:1
-mujer 2:2 4:2
-mund 0:2 1:1 7:1
-mundial 8:1
+miguel 22:1 58:1 97:1
+mil 14:1 48:1 66:1 72:1 91:2
+milennials 81:1
+mill 70:5
+millon 1:1 2:2 5:2 12:1 14:1 19:1 22:6 25:1 29:6 30:2 34:1 37:1 45:1 47:1 48:3 51:1 59:4 60:1 64:2 71:6 73:1 76:2 77:3 80:1 81:3 92:2 94:1 99:11
+millwardbrown 66:1
+milp 43:1
+min 43:2 49:1 69:1 83:2
+mincit 56:1
+miner 43:4
+minim 15:1 23:2 47:2 59:1
+minimic 59:1
+minimiz 25:2 51:1 60:1 94:1
+ministeri 56:1 69:7 71:1 79:1 81:1 84:1
+ministerial 69:1
+ministr 18:2 32:1 69:7 72:1 79:1 83:3 84:1 91:1
+minmin 83:1
+minor 18:1 29:1 30:1 36:1
+mintic 79:2
+minut 26:1 47:1 54:1
+mir 48:2 59:1 72:1
+mirael 48:1
+miscelane 64:1
+mision 74:1 79:4
+mit 6:1 12:1 23:1 29:1 47:2 81:1 85:1 91:1 97:1
+mitig 20:2 24:1 48:1
+mobil 26:1 40:1 54:1 64:1
+mochil 81:1
+mod 62:1 85:1
+modal 47:1 72:1
+model 2:3 8:1 9:2 11:4 21:2 22:3 35:1 44:2 46:1 51:3 54:2 62:6 64:1 65:1 72:1 74:5 85:1 98:3
+moder 18:3 38:1 49:1 51:1 53:1 60:1 67:1 95:1 100:1
+moderarsedel 50:1
+modern 74:1
+moderniz 94:2
+modif 83:2
+moment 8:2 11:2
+mond 30:1
+moned 4:4 19:3 42:1 50:1
+monetari 6:1 32:2 38:1 42:2 50:1 97:2
+monitor 14:1
+monitore 16:1 21:2 64:1
+monitoriz 64:2
+monograf 81:1
+monomer 59:1
+monopoli 14:2
+mont 72:1 83:1 88:1 90:1
+montañ 81:1
+mor 42:1 75:1 98:1
+morador 94:1
+moreli 100:1
+mossi 84:1
+mostr 2:1 17:1 23:6 36:1 39:1 47:1 48:1 49:1 52:1 53:1 55:1 59:1 67:1 95:1
+motiv 27:1 50:1 75:1
+motor 26:1 77:1 91:1
+mov 2:1 46:2
+movil 25:7 32:1 35:2 46:1 51:1 54:8 71:2 74:1 82:3 85:1
+moviliz 12:1 29:5 72:1
+movimient 18:1 27:1 74:1 77:1 81:1 99:1
+movist 35:1
+mpls 78:1
+msci 99:1
+muert 59:2 72:1
+muestr 4:1 6:1 9:1 24:1 51:1 54:1 81:1 97:1
+muev 90:1
+muguruz 11:2 62:5
+muj 69:1 100:1
+mujer 2:2 4:2 55:1 75:3 100:2
+mulliez 30:1
+mult 48:1 72:2
+multidisciplinar 64:1
+multilateral 52:1
+multipl 50:1 91:2
+multiplic 46:1 62:1 81:1 90:1
+multipol 18:1
+multitasking 8:1
+mund 0:2 1:1 7:1 8:1 12:1 13:1 18:3 25:2 29:4 31:3 32:1 34:1 37:2 38:2 40:1 42:1 44:1 48:4 51:2 52:1 55:1 59:4 60:2 64:2 68:2 72:2 73:1 74:3 77:1 81:1 84:1 94:5 100:2
+mundial 8:1 12:1 17:1 22:2 38:4 42:1 51:2 52:2 56:1 59:2 64:3 67:1 68:1 69:1 73:2 77:1 79:1 85:3 97:1
+municipal 91:1 97:1
+municipi 43:1 45:1 80:1
+murat 82:1
+murci 33:6 46:1
+must 9:1
+mut 42:1 60:1
 mutu 1:1
+muñoz 59:4
+my 54:1
+n 12:1
+nac 11:1 58:3
 nach 7:3
-nacional 1:1 5:1 6:2
-necesari 0:1
-negat 6:1
-negoci 0:5
-negr 4:1
+nacion 18:1 34:1 51:1 55:2 69:3 73:2 81:1 91:1 97:1
+nacional 1:1 5:1 6:2 18:2 21:1 33:3 35:2 39:1 43:1 50:1 59:2 67:1 69:1 70:1 88:1 91:4 96:1 99:1
+nadell 48:3
+nahuel 18:1
+nair 19:1
+nariñ 83:1
+nass 59:1
+natali 83:1
+natixis 38:1
+natural 18:1 22:1 24:7 33:2 38:2 41:1 51:1 86:1 87:1 90:1 94:1
+naturalez 85:1
+navarr 33:5 66:1
+nearshor 20:1
+nearshoring 20:8
+neces 10:1 11:1 12:1 18:2 22:1 26:1 27:1 32:1 42:1 46:1 51:3 54:3 62:1 72:1 74:2 77:2 80:1 82:1 84:1 86:1 87:1 98:2
+necesari 0:1 10:1 11:1 18:1 24:2 43:1 51:2 54:1 60:1 62:1 64:1 69:4 77:1 81:1 85:1 91:1 93:1 97:1
+necesit 10:1 11:2 13:2 18:4 22:1 24:1 26:1 27:1 55:1 59:1 62:1 69:1 72:1 74:2 76:1 77:1 80:1 81:1 86:1 94:1
+nefast 59:3
+negat 6:1 13:1 38:1 48:1 67:1 88:1 95:1 97:4
+negoci 0:5 11:2 12:3 13:3 16:1 18:1 19:1 22:4 25:1 29:1 34:3 44:2 47:1 48:4 51:1 52:1 54:4 60:2 62:7 71:1 77:2 78:2 81:1 91:1 92:1 96:2 97:1 98:4 99:1
+negr 4:1 73:1
+nelson 50:1 94:1
 neo 2:1
+neon 62:1
+net 13:1 29:2 38:1 67:1 71:1 77:1 85:1
+netflix 48:1
+networking 79:1
+netzer 29:1 85:1
+neuralg 92:1
+neutr 29:2 76:1 85:1
+neutral 41:2
+next 22:1 33:1 47:1 64:1 68:1 97:1
+nextgeneration 46:1
+nfc 54:3
+ngeu 33:3 46:1 97:2
 nich 2:1
-nivel 6:8
+nieg 93:1
+niev 94:1
+nigeri 19:4
+nigerian 19:1
+ningun 31:1 88:1
+niquel 38:1
+nivel 6:8 11:1 13:1 17:1 20:2 22:2 24:1 27:1 33:5 42:2 46:3 49:1 50:3 51:1 53:1 61:1 62:2 64:1 69:1 74:1 79:1 81:1 85:1 86:1 96:1 97:5 99:1
+niñ 10:5 27:1
+noch 27:2 32:1
+nod 20:2
+nombr 48:1 54:1 59:1 68:1 72:1 75:5
+nomin 11:1 37:1 91:2
+norbert 60:1
+nord 24:1
+norm 8:1 9:1 35:1 72:1 81:1 82:1 91:3
 normal 8:1
-not 1:1
-nuev 3:1
-numer 2:2 4:1
-objet 4:2
-observ 6:2
-obstant 2:1
-ocup 6:2
-ofert 4:1 5:1
-oficin 5:1
-ofrec 4:1
-oper 2:1 4:1 5:1
-oportun 0:1
-organiz 7:1
+normaliz 31:1 38:1
+normat 35:1 91:1 94:1
+nort 20:1 33:1 69:1
+norton 40:1
+norueg 24:1
+not 1:1 15:1
+notabl 52:1 71:2
+notici 25:1 48:1 50:1 75:1 78:1
+noved 75:1
+noven 31:2
+noviembr 14:1 29:1 46:3 47:1 83:3
+nps 77:1
+nub 22:1 48:1 62:1 64:1 78:2 89:2
+nubl 27:1
+nucl 24:1
+nuev 3:1 34:1 42:1 48:1 71:1 88:1
+nul 95:1
+numer 2:2 4:1 8:1 11:1 12:1 25:2 31:1 37:3 48:1 54:1 64:1 67:1 69:3 74:1 78:1 83:1 90:1 99:1
+nutr 64:1
+nutres 75:1 90:1
+nzba 29:1
+objecion 19:1
+objet 4:2 11:3 12:4 18:1 21:1 22:2 23:2 24:1 26:2 29:10 34:2 35:1 37:1 51:6 55:1 60:1 64:1 66:1 67:1 74:3 77:1 85:3 86:1 87:1 89:1 92:1 94:2 96:1 98:1
+oblig 14:1 71:1 83:2 91:1
+obligatori 94:1
+obra 12:1 18:1 20:1 91:2
+obras 12:1 91:4
+observ 6:2 21:1 23:1 39:1 42:1 46:1 47:1 49:1 53:1 72:1 94:1 97:1
+observatori 33:1 50:1
+obstacul 23:1 30:1 48:1 91:1
+obstant 2:1 31:1 33:1 46:1 94:1
+obstruccion 93:1
+obten 43:1 48:1 60:1 71:1 74:2 86:1 90:1 94:2
+obtendr 86:1
+obtendran 26:1
+obtuv 99:1
+obvi 82:1
+ocasion 42:2 48:1 59:1 97:1
+ocde 18:1 38:6 52:4 59:2 69:1
+ocean 34:1
+ocho 51:2
+oci 95:1
+octav 43:1
+octubr 19:1 26:2 31:1 39:1 47:1 53:3 83:1 93:1
+ocu 27:1
+ocup 6:2 66:1 75:1
+ocurr 8:1 13:2 67:1
+ods 12:1 51:1
+oea 93:2
+of 64:1
+ofert 4:1 5:1 11:4 14:1 19:2 23:1 24:1 26:2 27:2 46:4 48:1 50:2 55:1 59:1 62:1 70:2 78:2 81:2 82:1 85:2 87:2 88:1 97:1 98:1 99:1
+offic 21:1 22:1 48:1
+offshoring 20:1
+ofic 60:1
+oficial 19:1 72:1 94:1
+oficin 5:1 37:1 48:3 72:1 78:1 85:1 94:1
+ofrec 4:1 12:1 16:4 19:1 25:3 26:1 27:1 37:2 45:1 48:1 54:5 55:1 60:1 62:2 66:1 70:1 74:1 77:1 79:2 81:1 85:4 86:4 87:1 89:1 90:2 91:2 94:1 96:3 98:1
+ojo 59:1
+okinaw 69:1
+ola 22:1 50:1 64:1
+ole 89:2
+oleksiy 17:1
+oli 48:1
+omicron 42:6
+omnium 22:1
+onlin 27:2 37:2 54:1 64:1 96:1
+onofr 59:1
+onu 51:2 73:3
+opa 82:1 90:1
+opcion 12:1 13:1 16:1 24:2 30:1 37:1 54:3 63:1 72:1 81:1 82:1 83:1 86:4 94:2
+opcional 27:1
+open 11:1 62:2 64:1 92:1
+openmind 41:1
+opep 50:2
+oper 2:1 4:1 5:1 11:3 13:3 20:5 21:2 22:2 23:1 25:2 26:4 29:2 34:2 35:3 37:3 43:1 47:1 48:1 51:1 54:5 56:1 63:1 66:2 71:1 72:1 76:1 78:1 80:1 82:2 83:2 85:1 90:1 96:1
+operacional 43:1
+operat 13:1
+opin 13:2 38:1 72:1
+opinion 29:1 35:1 72:2
+opon 48:1
+oport 22:1
+oportun 0:1 11:2 12:2 13:1 16:1 18:2 20:1 22:2 27:1 29:1 48:2 51:3 55:1 56:1 59:1 62:1 63:2 64:1 66:3 77:3 79:2 85:1 87:1 92:1 95:1 96:1 97:1 98:1 100:1
+oposicion 93:2
+optar 68:1
+optimic 96:1
+optimiz 9:1 64:2 74:4 83:1 94:1 96:1
+oracl 79:1
+orden 14:1 24:1 72:1 74:6 77:1 96:1
+ordinari 90:1
+organ 34:1 52:1 64:1 68:1 69:1 74:1
+organiz 7:1 11:1 12:2 18:2 27:1 38:2 51:6 52:1 59:1 65:1 68:1 69:1 72:1 73:1 74:1 77:1 81:2 85:1 89:1 93:3
+orient 51:1 62:1 87:1 91:1 94:2
 origin 4:1
+original 74:1
+oro 66:1
+orquest 74:1 93:1
+orteg 75:1 80:1
+oscar 75:1
+oscil 31:1
+oscur 27:2
+osori 70:1
+ossa 13:1
+otorg 20:2 51:1 77:1 96:1
+otror 34:1
+outsourcing 20:1
+ovied 88:3
 ovin 3:1
-pag 1:1 4:7
-pais 3:1 4:5 5:1 6:3
+oyent 67:1
+pa 26:1
+paack 54:1
+pabellon 92:1
+pabl 72:1
+pac 48:1
+pacient 42:1 64:6
+pacif 34:5 69:1
+pact 51:2 61:1
+pag 1:1 4:7 11:1 13:1 14:2 19:1 23:1 26:3 35:2 37:7 48:3 54:18 59:1 81:1 82:6 83:3 86:2 90:4
+pagin 11:1 13:1 19:1 27:1 54:1 70:1 93:1
+pais 3:1 4:5 5:1 6:3 11:1 12:1 13:6 15:1 16:1 18:4 19:2 20:6 24:11 26:2 28:1 31:1 33:3 34:6 35:1 37:1 38:2 42:6 43:1 44:1 45:2 52:5 59:5 60:1 64:1 66:1 67:5 68:2 69:8 72:1 73:2 75:1 76:1 79:1 80:1 81:3 84:2 85:1 87:2 91:4 94:2 96:2 97:1 98:1 99:2
+palaci 83:1
+paladi 38:1
+palanc 85:2
 palenquer 4:1
-pandemi 4:1 6:1
-panel 8:1
-panoram 6:1
-papel 4:1 6:1 8:1
-par 1:1
-paralel 0:1
-pard 4:2
-part 1:1
-particul 0:1
-particular 8:1
-pas 6:1
+palm 64:1 73:1
+pamp 12:3
+pamplon 66:1
+panamerican 84:1
+pandemi 4:1 6:1 10:1 13:4 18:1 25:3 39:3 42:2 46:1 49:2 50:1 52:1 53:3 64:3 68:4 73:1 90:1 91:1 94:2
+panel 8:1 18:3 27:2 43:1 51:2
+panic 48:1
+panoram 6:1 11:1 28:1 31:1 75:1
+pantall 54:2
+paol 35:1
+pap 88:4
+papay 88:1
+papel 4:1 6:1 8:2 11:1 18:1 25:1 48:2 55:1 62:1 74:2 75:1 77:1 82:4 85:1
+papu 34:1
+paquet 94:1
+paquiderm 69:1
+par 1:1 19:1 27:1 29:1 50:1 55:1 59:6 70:1 97:1
+paradigm 54:1
+paragu 74:1
+paralel 0:1 29:1 47:1 48:1 54:1
+parametriz 21:1
+parcial 97:1
+pard 4:2 45:1 76:4
+parec 15:2 48:1 54:1 67:1
+pared 94:2
+pari 48:1
+parid 32:1
+parity 74:1
+park 51:1
+part 1:1 13:1 26:1 68:1 84:1 93:1
+particip 11:1 13:1 18:1 22:1 29:1 34:1 43:1 51:2 56:1 60:2 62:1 68:1 74:2 77:2 80:1 82:1 83:1 100:1
+particul 0:1 46:1
+particular 8:1 85:1 97:3 99:1 100:1
+partidari 48:1
+partn 22:1
+partners 32:1
+partnership 62:1
+pas 6:1 8:1 11:1 13:1 18:2 20:1 24:1 27:1 34:3 42:1 43:1 48:1 51:1 52:1 54:3 60:2 63:1 64:1 66:1 67:2 82:3 83:2 85:3 87:1 94:1
 pasajer 2:2
+pasant 84:1
+pasarel 54:1
+pasill 27:1
+pasiv 21:1 94:12
+pasjalidis 18:1
+passaparol 26:1
+passipedi 94:1
+passivhaus 94:9
+patent 48:1
+pati 27:1
+patolog 64:1
+patron 23:1
+paul 22:1
+paygold 54:1
+paz 43:1
+pb 97:3
+pce 23:3
+pcs 71:1
+ped 10:1 48:1 54:1 93:1
+pedr 93:1
+peir 18:1
 pekin 1:1
+pele 48:1
 peligr 6:1
-pendient 6:1
-period 2:1 6:2
-permis 1:1
-permit 1:1
-person 2:1
-personal 3:1
-pes 6:2
+pen 8:1 75:1
+penal 86:1
+penaliz 97:1
+pendient 6:1 35:1
+penetr 16:1 37:1
+peninsul 33:1 62:1
+penn 48:1
+pens 9:1 18:2 23:1 69:1 72:1 91:1 94:1 100:1
+pensamient 18:1
+pension 28:1 58:6
+pensional 21:1
+penumbr 27:1
+peor 15:1 31:1 58:2
+pepsic 66:1
+pequeñ 10:4 37:2 38:1 48:1 54:3 81:1 91:1 94:1
+per 81:1
+percepcion 43:1 74:1
+percib 58:1 97:1
+perd 33:1 42:1 47:1 48:2 59:1 71:2 81:1 97:1 99:2
+pere 67:1
+pereir 53:1 88:1
+perfect 8:1 48:1 74:1 78:1
+perfil 9:2 22:1 64:2 86:3 87:1
+perfor 29:1 40:1
+performanc 21:1
+period 2:1 6:2 12:1 14:1 20:2 26:1 29:2 31:2 35:1 39:3 42:1 46:1 48:1 49:3 52:1 53:3 59:2 66:1 67:1 71:1 83:2 88:1 90:1 93:1 97:3 99:1
+perjudic 58:1
+perleg 65:1
+permanec 49:1
+permanent 44:1 47:1 83:1 91:1 93:1 96:2
+permis 1:1 91:2
+permit 1:1 8:1 11:5 12:1 13:1 16:1 19:1 20:1 22:2 24:1 25:1 26:6 31:1 32:2 33:1 37:3 42:1 54:15 62:1 63:2 64:3 65:1 74:5 79:1 80:2 82:1 83:2 84:2 85:1 86:1 89:1 91:2 92:2 96:1 99:2 100:1
+persig 81:1
+persist 97:1
+persistent 23:2 33:1
+person 2:1 8:5 12:2 13:2 16:6 18:1 26:2 27:1 34:1 42:2 48:3 51:1 55:1 64:2 67:1 70:2 72:1 73:1 79:3 80:2 81:3 83:1 86:4 92:2 94:1 97:1
+personaj 66:1
+personal 3:1 12:1 21:1 23:2 48:1 85:1 96:1
+personaliz 85:1
+perspect 28:1 32:1 33:1 51:4 97:2
+persuad 48:1
+pertenec 39:1 53:1 58:1
+peru 34:6 54:1 59:1 64:1 67:5 69:3 79:1 87:2 93:3 96:3
+peruan 67:2 93:1
+pes 6:2 32:3 54:1 59:1 90:1 97:2
 pesc 3:2
-petr 4:1
+pescad 54:1
+peset 54:1
+pesif 31:1
+pet 10:1 74:1
+petr 4:1 59:4 69:1
+petrole 29:1 38:1 40:1 47:3 50:1
+petroler 50:1
+petst 51:1
+peugeot 66:1
+peñ 55:1
+phi 94:4
+phil 48:1
+pib 33:4 34:1 50:3 61:1 97:6
+pic 36:1 38:1
+pid 24:1 34:1 35:1
+pie 59:2
+piedr 43:1
+piens 58:2 81:1
+pies 94:1
+piez 68:1
+pilar 43:1
 pildor 7:1
+pilot 54:1 94:1
+pin 54:1
 pink 2:1
+pioner 25:1 54:1 82:1 85:1 92:1
+pirajan 50:1
+pis 11:1 27:2
+piscin 27:1
 pix 4:1
-plac 7:1
-plan 1:1 2:1
+plac 7:1 27:1
+plan 1:1 2:1 13:3 24:2 46:1 47:1 48:4 50:2 62:1 64:2 70:1 72:2 80:1 89:1 91:2 97:1 99:2
 plane 5:1
-plant 6:2
-plataform 5:4
-plaz 6:2
-poblacion 4:1 6:5
+planet 31:1 41:1 55:1 69:1 81:2 82:1 85:2 94:1
+planetari 94:1
+planific 9:1 81:1
+plant 6:2 20:1 33:1 51:2 69:2 83:1
+plante 28:1 64:1 85:1
+plastic 54:1 81:2
+plat 66:1
+plataform 5:4 13:4 14:1 19:1 21:1 25:1 26:1 27:1 34:1 44:1 54:1 64:2 65:2 72:2 74:1 78:1
+plataformasest 13:1
+plataformasivooxappl 58:1 61:1 67:1 98:1
+platan 88:2
+platforms 48:1
+playstation 48:1
+plaz 6:2 11:2 14:1 15:1 21:1 23:1 24:7 54:1 56:1 77:2 83:1 85:1 86:1 97:1 99:1
+plazox 54:1
+plc 40:1
+plen 14:1 64:1 74:1
+pobl 19:1
+poblacion 4:1 6:5 12:1 19:1 31:1 34:1 43:1 52:1 55:1 64:2 79:1 84:3
 poblacional 4:1
-pobrez 4:1 6:9
-podcast 7:3
-podr 4:1 6:1
-podran 2:1
-polit 1:1 6:4
-porcentaj 6:1
-porcentual 6:1
+pobr 42:1 52:1 59:1 73:1
+pobresexpert 52:1
+pobrez 4:1 6:9 59:1
+pod 54:2 74:1 76:1 77:1 83:1 91:1
+podcast 7:3 24:1 41:2 57:1 67:4 98:2
+podcastl 58:1 61:1 98:1
+podcastreproducirbbv 24:1 98:1
+podcastspotifygoogl 58:1 61:1
+podcastsspotifygoogl 67:1 98:1
+podcasty 58:1 61:1 67:1 98:1
+poder 14:1 32:1
+podi 75:1
+podr 4:1 6:1 15:1 18:1 20:1 24:2 33:10 37:1 38:2 42:3 46:3 48:3 50:4 51:1 54:1 57:3 64:1 69:1 71:1 73:2 74:3 83:1 85:1 93:1 94:1 97:11 99:3
+podran 2:1 11:1 26:2 37:4 46:1 70:3 79:2 82:1 83:1 85:1 87:2 89:1 96:1
+podras 58:1 61:1 98:1
+pol 34:1 77:1
+polic 72:1
+polit 1:1 6:4 17:2 18:3 21:4 23:2 24:1 32:2 33:1 38:1 40:2 42:2 48:5 50:4 69:5 97:3 100:1
+politiquer 59:1
+poliz 26:1 96:1
+poloni 59:1
+pon 48:1 51:1 66:1
+pondr 11:3 22:1
+pondran 35:1
+ponent 66:1
+pong 74:1
+popayan 88:1
+popul 59:1
+porcentaj 6:1 83:1 97:2
+porcentual 6:1 33:1 39:1 46:1 59:1 77:1 88:1 90:1
 porcion 4:1
-portafoli 5:2
+porqu 67:1
+portacion 35:1
+portafoli 5:2 16:1 21:4 78:1 99:1
 portatil 8:1
-posibil 6:1 8:1
-posicion 6:1
-posit 3:1
-pre 6:1
+portavoz 40:1
+portfoli 74:1
+portugal 22:1 24:1
+pos 20:1 54:1 82:2
+poscov 59:1
+pose 94:1
+posibil 6:1 8:1 16:1 24:3 26:1 27:1 37:1 51:1 74:1 82:1
+posibilit 100:1
+posibl 26:1 42:1 66:1 74:1 76:1 96:1 98:1
+posicion 6:1 43:1 44:1 48:3 64:1 69:1 75:3 99:2
+posit 3:1 13:1 14:1 24:1 50:1 51:1 55:1 85:1 90:1 97:3
+post 18:2 21:2 66:1
+posterior 8:2 37:1 54:2
+postur 48:2 67:1
+potabl 12:1 80:1
+potenci 20:2 27:2 42:1 54:1 63:1 64:1 83:1
+potencial 23:1 26:1 42:1 62:1 74:1 77:1
+potent 25:1 64:1
+powell 23:2
+powerpoint 48:1
+pp 33:10 97:3
+practic 12:1 25:1 28:1 33:1 46:1 48:2 51:1 55:1 72:2 80:1 81:1 94:1 99:1
+prad 80:1
+pre 6:1 22:1 94:1
+preasign 21:1
+precandidat 59:1
 precaried 6:1
-preci 2:2 3:4 6:1
-preocup 1:1 6:2
-prepar 7:1
-presenci 5:1
-present 2:1 5:1
-president 2:1 4:4 5:1
-presion 4:1
-presupuest 6:1
-prev 6:1
-principal 6:3
-priorid 0:1
-prioridad 0:1
-probabl 2:1 8:1
-problem 4:1
-proces 5:1
-product 3:1 4:1
-profesor 7:1
-program 6:1
-promedi 2:2 6:3
+precautori 97:1
+precedent 29:1 64:1
+preci 2:2 3:4 6:1 12:1 17:4 23:11 24:3 26:1 27:1 32:8 33:1 35:1 36:4 38:4 40:1 42:2 43:1 44:1 46:1 47:2 48:2 50:2 52:2 59:7 73:7 83:5 90:2 97:7 99:1
+precis 8:1 64:1 67:1 74:1 75:1 77:1
+precision 51:1
+precursor 54:1
+predec 74:2
+prediccion 74:1
+predict 9:1
+predomin 42:1
+preferencial 76:1 83:1 90:6
+preferent 23:1 25:1 46:2 75:1
+pregunt 8:2 10:1 42:2 100:2
+premi 26:1 66:2 68:5 70:1
+premis 96:1
+prens 48:1 93:1
+preocup 1:1 6:2 10:1 31:1 34:1 42:1 47:1 48:3 50:1 52:1 83:1 97:1
+prepandemi 46:2 49:1
+prepar 7:1 10:1 11:2 22:1 38:1 48:1 51:1 74:1 84:2 92:1 97:2
+prescind 24:1
+preseleccion 79:1
+presenci 5:1 11:1 54:1 78:1
+presencial 37:1 84:1
+present 2:1 5:1 10:1 11:2 12:1 18:1 21:1 22:1 24:2 38:1 42:3 43:3 44:1 48:3 51:5 54:1 64:1 66:1 67:1 69:2 71:2 74:1 75:1 77:1 81:1 83:1 85:1 88:1 90:1 93:1 96:1 97:2 98:1 99:2
+preserv 64:1 93:1
+presidencial 59:1
+president 2:1 4:4 5:1 10:1 12:1 18:2 23:1 29:3 30:1 32:1 40:1 45:2 48:4 50:2 51:1 55:1 59:4 60:1 69:5 75:8 76:2 77:7 78:1 83:2 84:1 85:1 93:2
+presion 4:1 8:1 17:1 23:2 32:2 38:2 42:1 48:2 50:1 51:1 57:1 85:1
+prest 11:1 13:1 23:1 68:1 71:1
+prestacion 13:1
+prestador 13:1 83:1
+prestam 26:1 60:2 76:1
+prestigi 22:1 66:1
+presunt 93:1
+presupuest 6:1 18:1 28:1 73:1
+presupuestari 28:1
+pretend 29:1 81:1 90:1 92:1
+prev 6:1 13:1 17:1 20:1 22:2 33:3 46:4 64:1 82:1 97:1
+preven 8:1 32:1 58:1
+prevencion 16:1 81:1
+previ 22:1 33:1 48:1 53:1 97:1
+previs 57:1
+prevision 29:1 33:9 46:3 57:1 61:1 67:1 97:3
+previst 22:1 23:1 33:1 46:2 87:1 94:1 97:1
+prim 32:1 36:1 38:1 46:1 59:1 60:1 74:2 81:1 85:1 97:3
+primari 55:1 94:1
+primer 48:1 54:2 74:1
+primerisim 11:1 62:2
+princeton 48:1
+principal 6:3 12:1 20:2 21:1 24:1 27:1 28:1 29:1 31:1 38:1 45:1 47:1 48:3 50:1 51:1 85:1 87:1 96:1
+principi 23:2 24:1 32:1 48:5 51:1 55:2 94:1 98:1
+priorid 0:1 85:1
+prioridad 0:1 12:1 29:1 77:1
+prioritari 45:1 51:1 60:1
+pris 24:1
+priv 11:2 14:1 18:3 30:1 33:1 34:1 46:1 48:2 72:1 77:2 79:2 91:1 97:1 99:1
+pro 18:1 55:1
+proactiv 22:1 43:1 48:1
+prob 22:2 72:1
+probabil 42:1 57:1 97:1
+probabl 2:1 8:1 10:1 15:1 36:1 38:2 42:2 97:1
+problem 4:1 15:2 23:1 25:1 27:2 46:1 48:2 69:1 73:1 74:8 97:1
+proced 29:1 85:1
+procedent 24:1
+proces 5:1 10:2 12:1 20:1 21:4 22:1 34:2 35:2 37:2 42:2 43:1 50:1 54:2 55:1 62:1 64:1 66:2 74:1 79:1 89:1 91:2 96:1 98:1
+proct 85:1
+procur 81:1
+prodigi 34:1
+produc 11:1 24:2 40:1 54:1 59:1 64:1 81:3 85:1 91:1 93:1
+produccion 18:1 20:6 24:1 29:2 33:2 43:1 46:2 50:3 51:3 62:1 69:2 74:3 81:3 84:1 85:1 88:1 97:2
+product 3:1 4:1 11:5 17:1 18:1 20:2 22:1 23:1 25:4 26:2 27:2 33:1 44:4 48:3 50:1 55:2 60:1 64:1 71:1 74:2 76:3 81:5 82:1 83:1 84:3 85:6 86:3 87:3 88:2 97:3 98:1 99:2
+productor 38:2 43:1 47:1 73:1 83:1 100:2
+profesional 64:4 66:3 79:1 84:1 85:1 100:1
+profesor 7:1 50:2 85:2
+profund 22:1 23:1 45:1 57:1 60:1
+profundiz 12:1
+program 6:1 12:1 27:1 41:1 46:1 47:1 54:1 55:1 65:1 68:1 70:1 72:1 74:1 79:9 89:1 91:1
+progres 46:1 48:1
+prohib 19:1 81:1
+prohibicion 19:2 73:1
+prolifer 64:1
+prolong 38:1 46:2
+promedi 2:2 6:3 12:2 33:1 39:1 47:1 69:1 97:4
+promet 10:1 91:3
+prometedor 22:1
+prominent 48:1
+promocion 26:4 66:1 79:1
+promotor 76:1
+promov 18:1 22:1 25:1 40:1 55:1 72:1 81:1 92:2
+promuev 21:1 77:1 84:1
+promulg 81:1
+pronost 17:1 32:2
+pronostic 32:2
+pront 35:1 54:1
+pronunci 24:1 36:1
+propag 42:1 50:1
+propel 11:1 62:1
 propens 6:1
+properti 99:1
+propic 59:1
+propici 42:2
+propied 15:1
 propiedad 5:1
-propuest 2:1
-propus 4:1
-proteg 6:1
+propietari 48:1
+proposit 34:1 44:1 66:1 87:1
+proptech 70:1
+propuest 2:1 11:3 18:1 22:1 26:1 44:1 48:1 55:1 77:1 85:1
+propus 4:1 18:1 30:1 48:1 74:3 91:1
+prosegur 16:5
+prospect 11:1
+protagon 18:1 62:1 85:1
+proteccion 16:1 51:1 73:1 85:1
+proteg 6:1 26:1 72:1 73:1 74:1
+protest 99:1
+proveedor 14:1 20:1 51:2 65:1 68:1 76:1 78:1 85:7
+provenient 99:1
+proverbi 51:1
+provien 38:1 51:1 100:1
+provinci 12:1
 provision 4:1
-prox 6:1
-proxim 2:2 4:1
-proyect 0:1 2:2
-public 3:2 4:1 6:4 7:1
-pued 1:1 4:2
-punt 3:6 4:3 6:1
-puntualiz 6:1
+provisional 24:1
+provoc 20:1 27:1 32:1 36:1 42:1 46:1 48:1 52:2 67:1
+prox 6:1 11:1 18:1 23:1 26:1 33:1 36:1 46:1 62:2 97:2
+proxim 2:2 4:1 22:2 24:6 33:2 34:1 37:1 46:1 48:2 50:2 54:1 61:1 62:1 69:1 81:2 97:2
+proyeccion 31:2 36:1 67:3
+proyect 0:1 2:2 11:1 13:1 22:3 28:1 29:2 38:2 41:1 42:1 50:2 51:1 54:1 60:3 64:2 66:1 69:1 74:7 76:1 80:1 81:1 83:1 85:1 90:1 92:2 94:2 99:1
+proyectosn 13:1
+prudent 83:1
+prueb 21:2 35:1 48:2 64:1
+psicolog 8:2
+public 3:2 4:1 6:4 7:1 10:2 14:1 17:1 18:5 19:2 20:3 22:1 23:1 24:1 28:2 31:1 32:2 33:1 35:1 42:2 47:1 48:9 49:2 50:1 53:1 64:1 66:3 67:1 69:1 72:3 74:2 76:1 77:1 79:2 82:1 83:1 85:1 89:1 90:1 91:4 93:1 97:3 100:2
+publicitari 48:1 66:3
+publiqu 35:1
+pud 9:1 12:1 30:1 35:1 44:1 48:1 72:1 79:1 94:1
+puebl 81:1
+pued 1:1 4:2 42:1 64:1 67:1 74:1 83:1
+puent 11:2 64:1
+puert 27:1 34:1 42:1 72:1 73:1 74:1 94:1
+puest 22:2 26:1 31:2 48:1 64:1 72:1 77:3 85:1 91:1 92:1 94:1
+punt 3:6 4:3 6:1 8:1 13:1 23:2 24:2 26:2 27:3 33:1 36:1 37:4 39:1 46:2 48:2 54:2 59:1 64:1 77:1 78:1 82:1 85:2 88:4 92:1 94:1 96:2 97:1 100:1
+punter 22:1 64:1 74:1
+puntuacion 26:1
+puntual 10:1
+puntualiz 6:1 20:1 50:1 51:1 70:1 89:1
+pur 34:1
+purific 80:1
+pus 12:1 64:1 89:1
 pyme 4:1
-que 7:2
+pymes 20:1 37:2 66:1 68:1 77:1
+python 79:1
+qis 87:2
+qr 54:2
+quantitativ 87:1
+quantum 74:2
+que 7:2 8:1 13:4 18:1 24:2 36:1 41:2 42:1 59:1 64:1 67:2 81:1 83:1 85:2 86:2
+qued 13:2 24:1 27:2 31:3 35:1 59:1 74:1 75:1
+quej 48:2
+quer 48:2 64:1
 ques 3:1
+quibim 64:3
+quiebr 59:1
+quien 51:1
+quier 12:1 13:1 29:1 45:1 70:1 85:1 93:1
+quimic 74:1 80:1 82:1
+quint 92:1
+quit 48:1
+quiz 54:1
+quizas 94:1
+quo 77:1
+racion 24:2
+radical 13:1
+rafael 57:1 61:1 97:1
+raic 14:1
+raiz 64:1 99:2
 raizal 4:1
+ralentiz 33:1 97:1
+ram 26:1 69:1
+ramirez 16:1
+rang 30:1
+ranking 43:2 60:1 75:4
+rap 10:3 11:1 12:1 13:1 17:1 23:1 29:2 32:1 36:1 44:1 51:1 62:4 73:1 74:1 95:1
+rapid 10:1 11:1 32:1 48:1
+rascaciel 94:1
+rastreator 66:1
+ratif 96:1
+ratific 34:1
+ratings 21:1
+razon 20:1 61:1 74:1 91:3 97:1
 reaccion 2:1
-real 0:1
-realid 7:1 8:1
-rebaj 3:1
-recient 2:1
-recog 3:1
-recuerd 8:1
-recuper 6:2
-recurs 6:2
-reduc 4:2
-reduccion 6:4
-referent 4:1
-refier 4:1 6:1
-refir 4:1
-reflej 3:1 4:3
-reform 1:1
-reforz 1:3
-registr 3:3
-regl 8:1
-regul 1:4
-regulatori 1:1
-relacion 4:1
-relev 8:1
-renov 4:1
-rentabil 0:1
+reaci 54:1
+reactiv 38:1 45:2 50:1 52:1 79:1 91:1 99:2
+reafirm 65:1
+real 0:1 14:1 18:1 23:1 27:1 54:1 68:1 72:1
+realic 26:1 64:1 82:1
+realid 7:1 8:1 11:1 13:1 24:1 60:1 72:1 81:1 91:1
+realidad 55:2
+realist 24:1
+realiz 9:1 11:1 14:1 18:2 21:1 22:1 25:1 37:1 39:1 45:1 46:2 49:1 51:1 53:1 56:1 64:1 79:1 80:1 86:2 96:1
+realment 12:1 29:1 74:1
+rebaj 3:1 33:2 57:1 61:1
+rebalance 99:2
+rebautiz 54:1 64:1
+rebot 90:1 95:1
+recarg 46:1 85:1
+recaud 22:1 50:1 83:1 96:2
+receptor 20:1
+reces 39:1 53:1 97:2
+recesion 57:1 97:1
+rechaz 54:1
+recib 10:1 12:1 14:1 18:1 19:1 26:2 27:1 35:1 37:1 48:2 54:2 63:1 64:1 66:1 70:1 72:1 82:7 83:4 86:1 90:2 96:2 97:1
+recibidor 27:1
+recicl 82:1
+recien 22:1 94:1
+recient 2:1 10:2 14:1 26:2 48:1 51:1 54:1 65:1 66:1 68:1 91:1 97:1
+recl 100:1
+recog 3:1 22:1 24:2 94:1 96:1
+recoleccion 12:1 51:1
+recomend 30:1 34:1 38:1 74:1 77:1 81:1 86:1
+recomiend 27:1 86:1
+reconoc 8:1 26:1 27:1 43:1 44:1 45:3 68:3 69:1 70:1 75:2 85:1 93:1 94:1 96:1
+reconstruccion 66:1 69:1
+recopil 31:1
+record 27:1 48:1 59:1 60:1 62:1 73:2 77:1 99:1
+recorr 64:1 70:1
+recort 24:3 97:1
+recortesl 50:1
+rectif 14:1
+recuerd 8:1 25:1 59:1 72:1
+recuper 6:2 33:9 39:2 42:2 46:3 49:2 50:3 53:1 59:1 64:1 68:1 71:1 75:1 76:1 86:1 91:3 96:1 97:2
+recurr 11:1 48:1 84:1
+recurrent 28:1
+recurs 6:2 10:1 12:2 18:1 20:1 21:1 45:2 64:1 65:3 86:3 87:3 94:1 96:1 97:3
+red 11:2 20:6 22:3 25:1 35:5 37:1 51:1 54:3 59:1 72:1 78:1 79:1 83:1 87:1
+redefin 20:1 29:1
+redescuent 45:1
+redimension 22:1
+redireccion 20:1
+redirig 24:1
+rediseñ 64:1
+redistribu 18:1
+redobl 29:1
+reduc 4:2 11:1 24:2 27:1 29:2 33:1 48:1 51:2 54:1 60:1 73:1 74:1 81:1 82:3 85:8 94:1 96:1 97:7
+reduccion 6:4 24:1 33:1 42:1 46:1 47:2 51:1 58:1 71:1 81:1 83:1 85:2 94:1
+reduj 54:1 85:1
+redujeron 46:1 73:1
+reduzc 46:1 96:1
+reembols 26:3 54:1
+reemplaz 35:1
+ref 48:1
+refer 29:1
+referencial 15:1
+referent 4:1 11:1 21:1 24:1 25:1 32:1 51:1 60:1 69:1 77:3 90:1 92:1
+refier 4:1 6:1 94:1
+refinanci 83:1
+refir 4:1 76:1 100:1
+reflej 3:1 4:3 20:1 21:1 36:1 38:1 52:1 86:1 99:1
+reflexion 11:1 18:1 51:3 94:1 100:2
+reform 1:1 13:1 33:1 77:1 94:1 97:3 99:1
+reforz 1:3 51:1 94:1
+refriger 94:1
+refugi 25:1 97:1
+reg 83:1
+regal 26:2
+regasif 24:1
+regim 35:1
+region 16:1 18:1 20:1 33:2 34:1 37:1 38:1 43:2 77:1 87:1 94:2
+regional 21:1 33:2 76:1
+registr 3:3 11:1 15:1 19:2 31:1 36:1 39:4 40:1 46:1 49:4 53:2 54:1 63:1 71:1 73:1 75:1 83:1 88:1 95:1 99:2
+regl 8:1 13:1 14:2 19:1 35:1 48:2
+regres 100:1
+regul 1:4 10:2 13:2 14:4 15:1 19:4 27:1 35:4 48:14 83:2 86:1 91:7 97:1
+regular 27:1 48:1
+regulatori 1:1 15:4 20:1 35:1 48:6 51:1
+regulatoriossom 13:1
+rein 48:1
+reindustrializ 81:1
+reinvent 18:1 64:1 98:1
+reiter 23:1 42:1 83:1
+relacion 4:1 11:3 18:2 22:1 29:1 37:1 42:1 43:3 48:4 51:2 64:1 69:2 74:1 77:2 79:1 84:1 91:1 97:1
+relat 14:1 46:1 74:1
+relev 8:1 24:1 33:2 35:1 42:3 49:1 51:1 64:1 65:1 77:1 78:1 100:1
+reliev 54:1 64:2
+religi 69:1
+remach 94:1
+remarc 18:1 60:1
+remit 68:1
+remodel 94:1
+remot 27:1 54:1 60:1 78:1
+remuner 21:1 35:1
+renac 81:1
+rendicion 48:1
+rendimient 44:1 86:1 90:2 99:1
+renegoci 32:1 83:2
+renf 66:1
+renov 4:1 24:3 29:1 41:1 51:1 76:1 77:1 85:1 97:1
+rent 46:3 61:1 97:1 99:1
+rentabil 0:1 20:2 86:3 87:2 90:4 99:2
+rentabl 51:1 77:2
 rentatop 5:1
-report 6:1
-republ 2:1 4:1
-repunt 3:2
-requisit 1:1
-resalt 4:2
+renuev 26:1
+renunci 32:1 51:1
+renz 96:1
+reorden 74:3
+reorient 81:1
+repart 90:1
+repas 25:1 29:1 77:1
+repercusion 67:1
+repercut 50:1
+replant 98:1
+replet 48:1
+replic 59:1 74:2
+report 6:1 12:1 47:1 83:3 88:1 96:1
+repositori 64:1
+repowereu 24:1
+represent 16:2 18:1 20:3 22:1 24:1 34:1 38:1 46:1 47:1 48:4 50:1 72:1 73:1 77:1 82:1 90:1 99:1
+reproduc 51:1
+republ 2:1 4:1 50:1 59:2 69:1 99:1
+republican 48:1
+repunt 3:2 13:1 73:1 97:2
+reput 43:3 68:1 75:3
+reputacional 43:2
+requer 12:1 19:1 29:1 48:1 57:1 74:2 85:1
+requier 18:1 20:1 51:2 62:1 64:1 69:1 74:1 76:1 85:1 91:1
+requisit 1:1 14:1 19:1 40:1 94:1
+res 59:1 88:1
+resalt 4:2 11:2 18:1 50:1 62:1 69:1 77:1 82:1 99:1
 rescind 1:1
-research 6:1
+research 6:1 21:1 33:3 46:7 57:1 61:1 66:2 67:2 95:1 97:11
+reserv 14:2 23:1 24:1 42:1 47:1
+resguard 82:1
 residencial 5:2
-respect 6:1
-respet 1:1
-respons 0:1 4:1
-rest 6:1
-restaur 3:1
-result 1:1 6:1
-ret 0:2 4:2 6:4
-revel 1:2 2:1 6:1
-revision 1:1 6:1
+resident 48:1 94:1
+residu 51:2 81:2
+resilient 64:1 98:1
+resist 24:1 48:1
+resistent 23:1 48:1
+resolu 35:1 48:1 83:6 91:1
+resolv 25:1 74:7
+respald 19:1 21:3 23:1 48:2 86:1
+respect 6:1 22:1 26:1 33:1 44:1 88:3 97:3
+respet 1:1 20:1 35:1
+respond 44:1 47:1 48:1 59:1 66:1 67:2 69:1 74:1 96:1
+respons 0:1 4:1 11:5 12:1 17:1 22:1 23:1 25:1 27:1 32:1 48:2 54:1 55:1 57:1 58:1 59:1 61:1 62:2 64:1 69:1 75:2 76:1 81:1 87:2 97:1
+respuest 68:1 84:1 90:1
+rest 6:1 11:1 20:1 22:1 27:1 37:3 97:3 99:1
+restablezc 24:1
+restaur 3:1 13:1 23:1 39:1 41:1 49:1 53:1 54:1
+restrep 91:1
+restriccion 42:1 46:4 48:2
+restring 59:1 91:1
+resuelt 72:1
+resuelv 13:1
+result 1:1 6:1 8:2 23:1 27:2 30:1 38:2 42:2 43:2 48:3 50:1 58:1 64:1 71:2 74:1 75:2 82:1 90:2 97:1
+resum 35:1 67:2
+resumen 65:1
+ret 0:2 4:2 6:4 11:1 13:1 16:1 21:1 24:1 29:1 35:3 43:1 51:2 55:1 56:2 62:3 64:1 66:3 74:3 76:1 77:1 79:1 85:5 91:1 92:2 98:1
+reten 75:1
+retir 41:1 50:1 86:1 97:1 99:1
+retom 20:1 51:1
+retorn 85:1 90:4
+retr 24:1 97:1
+retras 42:1
+retroced 53:1 73:1
+retroces 48:1
+reun 22:1 43:1 48:1 64:1 77:1 86:1 93:1
+reunion 12:1 29:1 32:1 47:1 68:1 93:1
+reutiliz 81:2
+revel 1:2 2:1 6:1 14:1 42:1 59:1 83:1 88:1
+revis 33:2 48:1 50:1 67:1 83:1 97:1
+revision 1:1 6:1 10:2 15:1 23:2 33:5 35:2 50:1 63:1 75:1 97:3
+revist 68:2
+revolu 54:1 62:2 74:1 79:1
 rey 4:1
-riesg 0:1 1:1
-rioj 3:1
-rodriguez 5:1
-romp 8:1
-rond 5:1
+rezag 13:1 34:1
+rganiz 78:1
+ric 52:2
+ricard 64:1 75:1
+richard 74:1
+riesg 0:1 1:1 10:1 11:3 14:2 15:3 18:1 20:5 21:6 22:1 28:1 33:1 38:1 51:1 62:4 74:2 86:3 96:3 97:2 99:1
+rigur 21:1
+rio 43:1
+riohach 88:1
+rioj 3:1 33:2
+riquez 22:2 97:2
+risk 74:1
+ritm 12:1 23:2 24:2 29:2 32:1 49:1 50:2 52:1 73:1 97:2
+riv 96:2
+rival 48:5
+rivalesdesd 48:1
+roaming 35:2
+rob 96:1
+robert 11:2 22:1 37:1
+robled 72:3
+robust 21:3 74:2
+rod 81:1 97:1
+rode 10:1
+rodill 54:1
+rodrig 60:1
+rodriguez 5:1 18:1 51:1 58:1 74:1
+rol 68:1
+romp 8:2 55:1 77:1
+roncesvall 80:1
+rond 5:1 11:1
+ronder 100:2
+rop 85:2
 ros 2:1
+rosal 9:1 94:1
+rosari 35:1 50:1
+rosend 18:1
+rotacion 21:1 85:1
 rotor 8:1
+roz 26:1
 rrhh 7:1
-rural 4:1 6:1
-rut 2:1
+rrpp 66:1
+rubr 28:1 39:1 88:1
+rued 93:1
+ruid 54:1 94:1
+rumb 64:1
+rural 4:1 6:1 12:1 55:1 64:1 84:2
+rus 24:9 38:1 73:2
+rushmor 66:1
+rusi 24:7 34:1 36:2 38:5 52:1 59:1 61:1 67:1 73:1 77:2
+russi 60:2
+rut 2:1 9:1 18:1 51:1
 ryan 2:2
-sal 1:2
-salari 6:1
-salarial 6:1
-sec 1:3
-secret 8:1
-sector 4:2 5:1 7:2
-segment 4:1
-segu 3:1 4:3 6:2
-segun 2:1 4:1 5:1
-segur 2:1 4:1 6:1
-send 6:2
-senior 6:1
-sent 4:1
-septiembr 3:1
-ser 4:2 5:1 6:1
-seri 3:1
-serv 4:2
-servici 3:1 4:2
-sesion 4:2
-se�al 2:1 4:1 6:1
-si 0:1
-sig 4:1
-signif 6:1
-signific 1:1 5:1 6:1 8:1
-siguient 6:1
+s 95:1
+sa 21:1 71:1
+sab 30:1 81:1
+sac 9:1 48:1 91:3
+saf 24:1
+sal 1:2 9:1 11:1 13:1 31:1 32:3 59:1 64:1 79:1 91:1 99:3
+salari 6:1 23:3 52:1 86:1
+salarial 6:1 23:1 32:1 33:1
+sald 54:1 96:1
+saldañ 80:1
+saldr 38:1
+salirr 64:3
+salt 34:1 35:1 54:1
+salud 12:1 13:1 49:2 55:1 64:16 69:1 77:1 80:2 81:2 87:1 92:1 94:2
+salv 8:1 31:1 41:1 94:1
+san 59:1 75:1 94:1
+sancion 72:1
+sandbox 35:1
+sandoval 83:1
+sandr 50:1 83:1
+saneamient 12:1
+sanitari 42:1 46:1 50:1 64:6
+sant 88:2
+santand 88:1
+santiag 11:1 62:3
+saqu 66:1
+satec 22:1
+satisfac 74:1
+satisfaccion 84:1
+satisfech 43:1 82:1
+saty 48:1
+sav 24:1
+scaglion 18:1
+scaleup 22:1
+scaleups 11:1 22:7 62:2
+scall 12:4
+scherbius 8:1
+school 64:1 66:1
+schwab 85:1
+scientist 8:1 9:1
+scop 85:1
+scoti 99:1
+scotiabank 50:1
+scroogl 48:2
+sdwan 78:1
+sec 1:3 19:3
+secamient 59:1
+secret 8:2 40:1
+secretari 18:2 38:1 69:1 93:1
+sector 4:2 5:1 7:2 11:1 13:1 14:1 15:1 16:1 18:9 19:1 25:2 26:1 28:1 29:4 30:1 33:2 34:1 35:3 37:1 39:1 43:9 45:1 46:2 48:1 49:1 50:3 51:2 53:2 59:4 60:1 62:2 64:9 68:1 69:2 74:1 76:1 77:3 79:1 82:3 83:1 84:4 85:1 86:1 89:1 91:2 92:7 97:5 99:1
+sectorial 22:1 91:1 97:1
+secundari 12:1 34:1
+securiti 99:2
+sed 17:1 48:1
+seduzc 34:1
+segment 4:1 11:1 15:1 29:1 49:1 68:1 95:1
+segu 3:1 4:3 6:2 13:1 15:2 16:1 20:1 22:1 23:1 24:1 25:1 29:1 36:1 37:1 41:1 43:2 45:2 48:1 51:1 59:1 62:1 63:1 64:1 66:1 75:1 78:2 82:1 83:1 84:1 85:1 87:1 88:1
+seguid 18:2
+seguimient 64:1
+segun 2:1 4:1 5:1 12:1 17:2 23:1 27:6 29:1 31:2 32:2 33:1 36:1 38:2 39:1 43:2 46:1 50:1 52:3 53:1 59:2 60:2 62:1 64:2 65:1 69:2 70:1 76:1 78:1 81:2 83:1 85:2 86:2 89:1 90:1 92:1 94:1 97:2
+segur 2:1 4:1 6:1 8:2 10:2 11:1 12:2 13:2 14:1 16:7 25:1 26:3 37:1 38:1 54:3 72:1 75:1 78:1 86:2 96:4 97:2 99:2
+seleccion 68:2 86:1
+select 97:1
+seman 10:1 15:1 23:2 24:1 32:1 34:2 39:1 40:1 47:1 53:1 58:1 67:1 72:1 81:1 83:2 93:2 99:1
+semanal 32:1
+semestr 24:3 46:1 50:1 71:1 97:1
+semestral 86:1
+semill 22:2
+sen 84:4
+senador 48:2 59:4
+sencill 26:2 37:2 54:2 67:1 74:1 86:1 100:1
+send 6:2 50:1
+senior 6:1 66:1
+sensibiliz 25:1
+sensibl 64:1
+sensor 27:1
+sent 4:1 12:4 18:1 29:2 33:1 34:1 43:1 60:1 64:1 66:1 69:1 77:4 85:1 92:1 97:4
+sentimient 94:1
+sep 94:1
+separ 23:1 27:2 35:1 48:1 75:1
+septiembr 3:1 23:1 27:1 30:1 39:3 53:2 83:1 97:1
+ser 4:2 5:1 6:1 8:2 24:6 27:1 32:1 33:2 34:1 38:3 43:1 47:1 48:2 50:2 51:1 58:2 64:1 70:2 83:3 85:1 97:3 100:1
+seran 35:1 42:1 54:1 56:1 83:2
+sergi 35:1 51:1
+seri 3:1 8:2 14:1 15:1 22:1 48:3 83:2 86:1
+serran 20:1 42:3
+serv 4:2 8:1 14:1 24:1 48:1 74:1 92:1
+servic 79:1 89:2
+servici 3:1 4:2 11:5 13:3 16:3 22:3 23:4 25:3 26:4 33:4 37:3 39:1 42:1 46:2 48:2 49:2 54:2 57:1 61:1 62:4 63:1 64:1 68:1 69:1 71:1 72:5 77:1 78:2 82:1 83:3 85:1 86:1 89:1 91:1 96:3 97:4
+servidor 44:1
+sesg 8:1 67:2
+sesion 4:2 14:2 47:1 48:1
+sex 69:1
+señal 2:1 4:1 6:1 12:2 15:2 20:3 23:1 27:1 29:2 37:1 38:2 42:2 46:2 48:1 57:1 64:2 66:1 72:1 75:1 77:3 81:2 85:1 87:1 93:1 95:2 96:1 97:2
+señaliz 35:1
+señor 59:1
+shackleton 66:1
+shanghai 14:1
+sharon 90:1
+shaw 48:1
+shock 24:1
+shor 74:1
+shwepp 66:1
+si 0:1 13:1 27:1 42:1 43:1 48:2 50:1 63:1 69:2 83:1 98:1
+sic 13:1 83:1
+sicili 97:1
+sient 13:1 81:1
+sig 4:1 34:1 38:1 42:1 68:2 72:2 75:1 88:2 90:1
+sigl 29:1 51:1 54:1 74:1 77:1
+signif 6:1 8:1 13:1 16:1 18:1 50:1 75:1
+signific 1:1 5:1 6:1 8:1 20:1 24:1 27:1 37:1 42:3 51:1 52:1 61:1 94:1
+signifiqu 36:1
+sigu 31:1 47:1 52:1 54:1 68:1
+siguient 6:1 54:1 58:1 61:1 67:1 74:1 98:1
+sil 85:1
+silicon 11:1 22:1
 sill 2:1
-sistem 4:3 8:1
-siti 1:1
-situ 3:4
-situacion 6:2
+simil 48:1
+similar 97:1
+simplement 48:1
+simplific 54:1
+simul 68:1 74:2
+sincelej 88:1
+sincer 51:1
+sincroniz 74:1
+sindicat 32:1
+sinergi 20:1 21:2 51:1 62:1 78:1
+singapur 34:3
+singul 74:3
+singular 64:1
+siniestr 96:1
+sinnovation 62:1
+sinovation 11:1
+sinsent 94:1
+sintom 42:1
+siri 31:1
+sirv 27:1 64:3 74:1 81:1
+sistem 4:3 8:2 12:5 13:1 18:1 21:1 48:2 54:7 60:1 64:3 68:1 82:2 85:1 94:1 96:1 97:1
+sistemat 87:1
+siti 1:1 19:1 27:1 48:1 51:1 79:1
+situ 3:4 24:1 25:1 26:1 27:2 29:1 33:2 46:2 77:2 81:1
+situacion 6:2 10:1 18:1 42:3 44:1 46:2 57:1 67:1 69:1 93:2 95:1 97:3
+skandi 99:1
 slog 4:1
+smart 54:1 64:2 85:1
+smartcorp 44:1
+smartpay 54:2
+smartphon 54:1
+smb 78:1
+smith 48:29 72:1
+sms 54:1 71:1
+sobrecarg 8:1
 sobreendeud 4:1
-social 0:2 6:4
+sobreponder 15:2
+sobreregul 91:1
+sobresal 21:1
+sobresalient 21:1
+sobreviv 98:1
+socav 48:2
+soci 22:1 77:1 90:3
+social 0:2 6:4 8:2 12:1 13:1 29:1 42:2 51:5 54:1 59:1 74:1 76:2 82:1 83:1 97:1
+socied 18:3 25:1 43:1 64:2 74:1 77:1 79:1 85:1 92:1 100:1
+sociedad 43:1 51:1 86:1 99:1
+society 66:1
+sofist 8:1
+sofistic 11:1 22:2 54:1 62:1
+softwar 48:2 54:1 64:1
+sol 12:2 23:1 24:2 26:1 27:5 29:1 31:1 38:1 43:1 84:1 85:1
+solar 27:7
+solarisbank 62:1
+solicit 10:2 21:1 63:1 83:1
+solicitud 47:1 63:1 76:1 93:1
+solidar 24:1
+solidez 59:1
+solucion 12:2 16:2 25:2 44:4 46:1 54:7 64:2 69:1 72:1 74:5 78:3 80:1 81:2 82:2 85:3 87:1 89:2 92:1 96:1
+solutions 11:1
+solvent 20:1
+sombr 27:1
 somet 1:1
-sosten 0:3 4:1
-sostenibil 0:3
+sony 48:2
+soport 21:1 23:1 44:1 66:1 78:1 97:1
+sorprend 97:1
+sorprendent 25:1 91:1
+sospech 31:1 48:1
+sosten 0:3 4:1 12:6 23:1 25:3 29:11 43:1 46:1 51:11 55:2 60:10 62:1 68:1 74:2 76:5 80:1 81:4 84:1 85:5 92:1 94:4 97:2 98:1
+sostenibil 0:3 9:1 12:2 25:2 29:2 51:5 55:1 60:4 64:1 75:1 76:2 77:1 82:2 85:3 87:2 94:2 98:1
+sostenibletod 13:1
+sostien 64:1 97:1
+sot 91:1
+south 11:1
+sp 74:1
+spark 11:14 22:3 62:5 77:2
+spenc 48:1
+spot 24:1
+sr 48:5
+sra 66:1
 staff 2:1
-startup 5:1
-sub 3:2
-subyacent 3:2
-sue� 4:1
-sugier 6:1
-sum 5:1
-superintendent 4:2
-superior 5:1
-supervision 1:1
+startup 5:1 64:1
+startups 11:3 22:1 62:2 77:2 92:2
+status 77:1
+stefanini 18:1
+stev 48:1
+stewardship 85:1
+stor 48:1
+strategi 87:1
+strategic 66:1
+strategy 21:1
+stream 24:1
+street 94:1
+strip 22:1
+suav 48:1
+suaviz 97:2
+sub 3:2 17:1 23:7 24:2 36:1 47:1 50:1 52:4 57:1 59:2 97:1
+subcomit 48:1
+subdirector 56:1
+subray 11:2 23:1 25:1 62:1 77:2
+subsidi 47:1 91:1 97:1
+subsidiari 71:1
+substitu 24:2
+subtem 65:1
+subyacent 3:2 23:1 33:1 36:1 97:2
+suced 42:1 50:1 52:1 91:1
+sucr 59:1
+sucursal 25:2
+sudafr 52:1
+sudan 31:1 32:1
+suel 23:1 27:2 31:1 69:1 81:1 86:1 90:1
+sueld 18:1 23:1 52:1
+suen 94:1
+suert 81:1 94:1
+sueñ 4:1 27:1
+suficient 24:2 27:1 33:1 35:1 41:1 42:1 74:2 85:1
+sufr 15:1 64:2 69:1 90:1
+sugier 6:1 23:1
+sujet 71:1
+sum 5:1 11:1 12:1 18:1 27:1 34:1 35:1 37:1 51:1 55:1 57:1 60:1 62:1 66:1 67:1 72:1 77:2 81:1 96:1 97:1 99:1
+sumider 41:1
+suministr 17:1 24:4 27:1 38:2 46:1 50:1 51:1 73:1 74:1 81:1 85:10 97:1
+summit 11:1 78:1 92:1
+super 12:1 23:2 24:1 26:1 29:2 32:1 33:1 39:1 43:1 46:1 52:1 64:1 92:1 94:1
+supercomputing 74:1
+superfici 94:2
+superintendent 4:2 43:1 71:1 72:2 83:2
+superior 5:1 15:1 39:2 46:1 53:1
+supermerc 81:2
+superservici 83:1
+supervision 1:1 21:1
 supervisor 1:1
-supon 7:1
-sustitu 4:1
+supervivent 68:1
+supon 7:1 22:1 27:1 29:1 33:2 46:1 62:2 77:1 81:1 82:1 83:1 85:1
+supondr 24:1
+supply 85:1
+supuest 48:1 81:1 93:1 97:1
+sur 22:2 31:1 33:1 34:1 75:1 87:2 90:2
+suramerican 69:1
+surg 48:1 74:1
+surgimient 50:1
+surj 77:1
+surt 91:1
+suscrib 71:1 84:1
+suscripcion 54:1 63:1 65:1
+suspend 40:2
+suspension 93:1
+sust 72:1
+sustain 85:1
+sustainability 29:1 60:1
+sustanci 82:1
+sustancial 15:1
+sustent 51:1
+sustitu 4:1 24:1 54:1
+são 22:1
+süz 82:1
+tablet 54:1 72:1
+tailandi 34:1
+taiwan 34:1
+talent 9:2 18:1 22:1 51:1 65:1 74:1 75:2 77:1 79:1 84:1 92:1 100:1
 talentboost 7:1
-tambien 1:2 3:3 4:1 8:1
-tarjet 4:2
-tas 3:8 4:2
-telecomun 4:1
-tem 0:2 6:1
-ten 8:1
-tendenci 7:1
-tendr 6:1
-teor 8:1
-terc 3:1 4:1
-terci 6:1
+taller 80:1
+tamashir 79:1
+tamañ 22:1 48:1 54:1 59:1 68:2 74:1
+tambien 1:2 3:3 4:1 8:3 11:4 12:1 18:1 20:1 21:2 22:1 23:3 24:1 26:1 27:4 29:2 30:1 32:2 33:6 34:1 35:1 38:3 41:2 42:4 43:1 44:1 48:1 52:2 54:6 59:1 64:4 66:2 67:1 68:1 69:3 72:1 75:2 77:8 79:1 80:1 81:5 82:2 83:5 84:1 86:1 87:1 90:1 92:1 94:3 96:1 98:1 100:1
+tangibl 29:1
+tant 8:1 27:1 64:1
+tao 14:1
+taponphon 54:1
+taptopay 54:1
+tar 74:1
+tard 24:1 54:1 58:1 81:1 91:1
+tare 43:1 74:1 91:3
+tarif 19:2 83:4
+tarifari 83:1
+tarjet 4:2 11:1 23:1 26:1 37:10 39:1 49:1 53:1 54:25 63:1 82:4 86:1
+tas 3:8 4:2 15:1 17:2 23:2 26:1 32:4 47:2 50:2 52:2 62:1 76:2 83:2 85:1 95:1 97:2 99:1
+tatian 75:1
+tax 54:1
+taxexpress 63:4
+taxi 63:2
+taxis 72:1
+taxist 63:2 72:4
+teams 78:1
+teatr 12:1
+tech 18:1 22:1 27:2 48:1 78:1 94:1
+tecnali 74:2
+tecnic 9:1 12:1 21:1 60:1 66:2 84:1
+tecnolog 11:4 12:1 13:1 14:2 15:1 16:1 18:7 19:1 22:5 27:4 29:1 35:3 41:1 44:3 48:17 51:1 54:8 62:9 64:12 71:1 72:2 74:5 77:3 78:1 79:1 81:1 84:1 87:2 89:3 92:2 96:1
+tecnomecan 63:1
+telecomun 4:1 24:1 64:1 71:1 78:1
+teleconsult 64:1
+telefon 22:1 48:1 54:3 72:1
+telemedicin 64:2
+teletrabaj 9:1
+television 72:1
+tem 0:2 6:1 13:1 34:1 48:2 51:3 58:1 65:1 67:2 69:3 84:1 87:1
+temat 87:3
+temor 24:1
+tempor 41:1 61:1 68:1 81:2
+temporal 97:2
+tempran 11:2 22:1
+ten 8:1 24:1 48:1 54:2 59:1 100:1
+tendenci 7:1 29:1 34:1 54:1 61:1 64:2 87:1 92:1 97:1
+tendr 6:1 23:1 24:1 37:1 38:3 58:1 72:1 82:1 90:1
+tendran 11:1 14:1 24:1 42:1 58:1 62:1 70:1 74:1 83:1 91:2
+tension 38:1 57:1
+tentacion 81:1
+tenu 27:1
+teor 8:1 67:1 74:1 81:1
+teoric 74:1
+terc 3:1 4:1 12:1 18:1 31:1 33:1 88:1 93:1 97:3
+tercer 31:1
+terci 6:1 24:1 81:1 85:1 94:1
+termic 43:1
+termin 19:1 20:1 32:1 42:1 50:2 59:1 69:1 71:1 86:1 88:1 90:1 97:1
+terminal 24:1 37:5 54:3 82:1
+termoelectr 83:2
+terpel 75:1 90:1
+terraz 27:1
+terren 51:1
+territori 33:1 38:1 43:3 59:1 69:1 70:1 77:1 81:1
+territorial 77:1 92:1
+tesis 74:1
+tesor 23:1
+testific 48:2
+the 48:1
 thinktank 7:1
-todav 4:1
-tom 1:1 3:1 4:2
-total 4:1
-tra 2:1
-trabaj 2:1 6:1
-transferent 4:1
-transform 4:1
+thunberg 81:2
+tic 79:5
+tickets 54:1
+tid 85:1
+tiemp 51:1 83:1
+tiend 32:1 48:2 52:1 54:2
+tienenhabl 13:1
+tierr 81:1
+tig 35:1 71:1
+tigr 34:1
+tim 29:1
+tinybird 22:1
+tip 11:1 12:1 20:1 21:1 23:1 27:1 29:1 33:2 35:1 37:1 46:2 48:1 52:1 57:1 61:1 67:1 74:2 76:1 80:1 86:1 90:1 94:1 96:1 97:5
+tir 81:1
+titan 48:1 91:1
+titul 18:1 24:1 48:1 56:2 72:1 77:1 90:1
+titular 37:3
+tmec 20:1
+toc 47:1 67:1 83:1 100:1
+todav 4:1 25:1 54:1 81:1 97:1
+todesc 18:1
+todopoder 34:1
+tom 1:1 3:1 4:2 10:1 12:1 13:2 14:2 21:1 30:1 31:1 35:1 38:1 42:2 50:1 62:1 67:2 70:1 77:1 82:1 86:2 97:1 99:1
+tond 60:1
+tonel 27:1 59:1 85:2
+top 31:1 75:1
+topdown 21:1
+torn 18:1 20:1 24:2 33:1 42:1 46:1 67:1 74:1 89:1
+torr 12:1 18:1 29:2 51:1 63:1 77:6 94:1
+total 4:1 24:1 26:2 29:1 71:1 91:1
+tpv 37:3 54:16
+tpvs 37:1 54:1 82:1
+tra 2:1 20:1 38:1 43:1 49:1 83:1 91:1
+trabaj 2:1 6:1 13:2 18:1 24:1 25:1 32:1 45:1 48:2 58:1 59:1 65:1 72:3 75:1 81:1 91:1 97:3 98:1
+track 39:1 49:1 53:1
+tradicional 21:1 25:1 54:2 62:2 72:2 74:2 75:1
+traduc 81:1
+traduj 13:1
+traduzc 88:1
+trafic 35:1 93:1
+traj 9:1
+tram 85:1
+tramit 26:1 54:2 85:1 91:1
+tranquil 16:1
+transaccion 19:1 30:1 37:4 39:1 47:1 49:1 53:1 54:1 70:1 76:1 82:1
+transaccional 21:1 86:1
+transalpin 26:1
+transcurr 83:1
+transferent 4:1 14:1 33:1 37:1 79:1
+transform 4:1 20:1 25:1 29:1 41:1 51:2 60:1 62:3 64:3 66:1 74:1 78:2 79:1 89:1 92:2 94:1 98:1
 transfronteriz 4:1
-transicion 0:1
-transport 1:1 3:2
-trat 0:1 2:1 8:1
-trimestr 2:1 6:6
-turn 4:1
-ubic 6:1
-ultim 2:1 3:1 4:1 6:3
-unid 1:1
-univers 7:1
-urban 6:1
-urgent 4:1
-us 2:3 5:2
-usuari 1:1
-utiliz 4:2 5:1 8:1
-valencian 3:1
-valor 1:4 6:1
-variacion 3:1
-vasc 3:1
-ve 6:1
-ventaj 7:1
-version 4:1
+transicion 0:1 24:1 25:2 29:1 43:1 60:1 81:2 85:1
+transit 24:1 42:1 72:1 91:1
+transitori 47:1 83:1 97:1
+transmision 83:1
+transmisor 83:1
+transmit 48:1 54:1 83:1
+transnacional 20:3
+transnacionales 20:1
+transpacif 34:1
+transparent 87:2 91:1 96:2
+transport 1:1 3:2 17:1 24:3 41:1 42:1 46:1 56:1 72:5 81:2 85:3 97:1
+transversal 62:1
+tranz 54:1
+trascend 84:1
+trasl 20:1 33:2
+traslacion 97:1
+traslad 54:1
+traspas 97:1
+trat 0:1 2:1 8:1 19:1 32:1 34:2 48:4 54:1 59:1 73:1 90:1
+tratamient 64:2
+traves 11:3 16:1 20:1 22:3 26:2 37:4 45:1 46:1 47:1 48:1 49:2 51:1 54:6 62:2 64:2 77:2 78:2 79:1 83:1 84:1 87:2 90:1 92:2 96:1 100:1
+trayectori 11:1 66:2 96:1
+tregu 48:2
+treviñ 51:4
+tributari 99:1
+trifulc 35:1
+trig 38:2
+trimestr 2:1 6:6 23:1 29:2 33:2 46:2 50:1 61:1 67:2 71:1 95:1 97:7
+trimestral 23:1 86:1 97:2
+tripl 33:1 94:1
+triplic 29:1
+trm 47:1
+tropiez 91:2
+trudeau 69:1
+ttf 24:1
+tuite 48:1
+tunj 88:1
+turbulent 57:1
+turc 25:1 82:3
+turism 33:5 46:6 69:1
+turist 33:3
+turn 4:1 34:1 68:1 78:1
+turqu 25:1 52:2 59:1 82:2
+twitt 48:1 59:1
+u 8:1 11:1
+ualet 99:1
+uber 63:6 66:1 72:2
+ubic 6:1 20:1 31:1 39:1 43:1 45:1 49:3 53:1
+ubres 59:1
+ucrani 17:1 24:1 33:1 36:1 38:4 52:1 57:1 61:1 67:1 73:2 77:2 97:1
+ue 24:11 38:1
+ugart 20:4 66:5
+ultim 2:1 3:1 4:1 6:3 11:1 12:1 16:1 18:2 20:1 21:1 22:1 23:4 24:2 28:1 30:1 31:2 37:1 39:1 43:1 46:2 50:1 51:1 54:3 58:1 59:1 61:1 64:1 66:1 67:2 68:3 69:1 71:2 74:1 75:1 83:2 85:1 94:1 95:1 97:6 98:1
+umbral 97:1
+unaj 18:3
+unanim 35:1
+une 33:1 40:1 92:1
+unen 16:1 64:1
+unep 55:1
+unesc 12:1
+uni 48:1
+unic 11:1 21:1 26:1 37:1 39:1 42:1 54:1 78:1 81:1 92:1
+unicorni 11:1 64:1
+unid 1:1 9:1 11:1 16:1 24:1 33:1 34:3 38:1 42:2 44:1 47:2 48:3 50:4 51:1 54:2 55:3 59:1 62:1 69:1 70:1 73:2 81:1 87:1 94:1
+unidad 46:1 50:1 83:1 96:1
+uniendos 55:1 89:1
+unim 92:1
+union 18:2 24:2 33:1 44:1
+unitari 20:1 83:1
+univers 7:1 13:1 22:1 35:2 50:3 64:1 66:4 79:2 84:2 85:1
+universal 11:1
+universitari 99:1
+urban 6:1 33:1
+urgenci 51:1
+urgent 4:1 10:1
+urquij 28:1
+uruguay 60:9
+us 2:3 5:2 14:1 19:1 34:1 47:3 48:1
+usad 23:1
+usand 8:1 72:1 74:1
+usen 48:1
+usos 28:1 41:1
+ussd 71:1
+usuari 1:1 11:1 13:1 16:2 27:1 35:2 48:1 60:1 63:1 65:3 70:3 87:1
+util 13:1 27:1 64:1 71:2 90:1 99:2
+utilic 86:1
+utiliz 4:2 5:1 8:2 12:2 19:1 23:1 24:2 27:1 38:1 46:1 48:1 51:1 54:2 64:2 74:3 81:1 86:1 89:1 97:2
+uu 10:2 23:3 36:1 38:1 48:3 95:1 97:1
+uuel 47:1
+vacanci 93:1
+vacun 10:6 15:1 42:4 46:1 50:1 59:1 99:2
+vacunacionserran 42:1
+val 69:1 75:1 96:1
+valadez 100:2
+valderram 79:1
+valdes 18:1
+valenci 81:1 83:1
+valencian 3:1 33:5 46:1
+valid 54:4 60:1
+validez 69:1
+valios 16:1
+valley 11:1 22:1
+valor 1:4 6:1 15:1 19:2 21:1 26:2 30:1 34:4 42:1 64:2 83:1 90:1 97:1 98:1 99:6
+valoriz 99:3
+valparais 34:1
+van 91:1
+vancouv 94:2
+vanguard 34:1
+vanguardi 31:1
+varg 90:2
+vari 83:1
+variabl 21:1 43:1 59:1 74:1 83:1 86:1 99:1
+variacion 3:1 83:3 88:9 90:1 95:1 97:2
+variant 10:1 42:6 50:1
+vas 81:1
+vasc 3:1 33:3
+vati 27:2
+vay 99:1
+ve 6:1 13:1 32:1 38:1
+vea 27:1 42:1
+veam 8:1
+vean 86:1
+vedoy 18:1
+vegetal 17:1 73:4
+vehicul 23:1 46:6 60:1 85:1
+veint 74:1
+vel 13:1 21:1
+velez 83:3
+veloz 20:1
+vem 11:1 13:1 15:1 18:1 22:1 94:1
+ven 32:1 34:1 38:1 42:1 48:1
+venc 90:1
+vend 27:1 50:1
+vendedor 85:1
+venezuel 31:2 32:1
+venider 50:1
+vent 25:1 37:4 44:1 46:5 50:1 54:5 66:1 71:1 81:1 82:1 87:1 97:1
+ventaj 7:1 20:3 37:1 64:1 77:1
+ventan 27:2 94:2 100:1
+ventil 94:4
+ventur 11:5 22:1 62:3
+ver 38:1 48:1 83:1
+veran 26:1 27:1 33:1 62:1 83:1
+verd 24:1 60:1 62:1 81:1 90:1
+verdug 99:1
+verif 63:1
+verifon 54:1
+vers 33:1 99:2 100:1
+version 4:1 74:3 82:1
+vertebral 65:1
+vertical 11:1
+vestuari 39:1
+veteran 48:1
+vgr 20:1
+via 24:1 54:2
 viabil 0:1
-viaj 2:1
-vid 4:1 6:1
-viend 4:1
-viern 1:1 4:1
-vill 4:3
-vision 7:1
-vist 3:1
-viv 2:7
-viviend 3:1
-vulner 6:3
-web 1:1
-york 1:1 2:1
+viabl 69:1
+viaj 2:1 37:2 70:2 81:1
+vial 99:1
+vias 18:1 41:1
+viceministr 56:1 83:1
+vicepresident 14:1 16:1 18:1 37:1 48:1 89:1
+vicevers 72:1
+victor 59:2
+vid 4:1 6:1 8:1 11:1 16:1 25:1 55:1 58:2 60:1 64:2 70:1 73:1 80:1 82:1 84:1 85:1 89:1
+vide 12:1 29:3 48:1 66:3
+videojueg 92:10
+viend 4:1 59:1
+vient 97:1
+viern 1:1 4:1 10:1 14:2 17:1 23:3 30:1 40:1 42:1 77:2 83:1
+vieron 30:1
+vietnam 34:2
+vigenci 14:1
+vigent 20:1
+vigil 72:1 86:1
+vigor 27:1 83:1
+viii 34:1
+vil 12:1 29:2 77:6
+vill 4:3 74:1 90:2 92:1
+villamarin 69:2
+villanuev 99:3
+villeg 80:1
+vincul 24:1 43:1 48:1 54:1 74:3
+vio 48:1
+viraj 81:1
+virgini 48:1
+virtual 54:3 64:1 71:1 78:1 79:1
+virus 42:2 50:1 80:1
+vis 54:2
+visibil 35:1 66:1
+vision 7:1 11:1 35:1 48:1 58:1 75:3 84:1 100:1
+visit 12:1 48:1 77:2
+vislumbr 64:1
+visper 47:1
+vist 3:1 8:1 9:1 13:1 47:1 49:1 73:1 97:1 99:2 100:1
+visualic 66:1
+visualiz 82:2
+vital 98:1
+viv 2:7 28:1 34:1 55:2 62:1 81:1 94:1 99:1 100:1
+viviend 3:1 27:1 33:1 36:1 50:2 70:2 76:1 94:3 97:2
+vizcay 54:1
+voc 56:1 81:1 100:1
+vocal 48:1
+vocer 76:1 83:1
+volatil 15:1 36:1 42:1 87:1 99:1
+volc 94:1
+volum 13:1
+volunt 35:1 83:1
+voluntari 82:1
+volv 14:2 36:1 48:2 54:1 69:2
+vot 34:1 93:2
+votacion 93:1
+voz 18:1 35:1 48:2 71:1
+vuelt 13:1 23:1 91:1
+vuelv 14:1 23:1 64:1 66:1 69:1
+vulner 6:3 8:1 12:1 18:1 24:3 28:2 52:1 55:2 84:2 97:1
+waffl 75:1
+walk 48:1
+wall 11:1 62:1
+wap 25:1
+warn 48:1
+washington 12:1 29:1 48:3
+wassouf 94:6
+wbds 66:1
+web 1:1 11:1 19:1 27:1 48:1 54:2 70:1 79:2 89:2 93:1 94:1
+webs 54:1
+wechat 54:1
+wechatpay 54:1
+wifi 54:1
+wildlif 40:1
+windows 48:1
+winston 8:1
+wint 24:1
+witt 94:1
+wolfgang 94:1
+wom 35:3
+woodcock 10:2
+world 40:1 64:1 66:1
+worlds 68:1
+wti 47:1
+x 58:1
+xia 14:1
+xm 83:2
+yfn 64:1
+york 1:1 2:1 51:1 70:1
+yuanqi 14:1
+z 78:1
+zaldu 64:2
+zamoran 84:3
+zaragoz 94:1
+zarich 18:2
+zeland 34:2
+zenten 78:1
+zer 26:1 85:1
+zeron 51:1
+zijin 43:1
+zimbabu 31:2
+zoil 18:1
+zon 27:2 38:1 55:1 76:1 80:1
+zurich 26:4

@@ -16,7 +16,7 @@ stemmer = SnowballStemmer("spanish")
 
 with open('BD2/stoplist.txt', 'r') as file:
     stoplist = file.read().splitlines()
-stoplist += ['.', ',', ';', ':', '!', '?', '¿', '¡', '(', ')', '[', ']', '{', '}', '"', "'", '``', "''","111âº","111º","«","»"]
+stoplist += ['.', ',', ';', ':', '!', '?', '¿', '¡', '(', ')', '[', ']', '{', '}', '"', "'", '``', "''","111âº","111º","«","»","ª","º","ºc","ð","π"]
 
 def preprocesamiento(text):
     if text is None:
@@ -44,7 +44,7 @@ def preprocesamiento(text):
 
 # Construcción del Índice Invertido usando SPIMI
 def spimi_invert(token_stream, block_size):
-    output_file = open(f"block_{spimi_invert.block_count}.txt", "w")
+    output_file = open(f"block_{spimi_invert.block_count}.txt", "w", encoding='utf-8')
     spimi_invert.block_count += 1
     
     dictionary = defaultdict(dict)
@@ -81,7 +81,7 @@ def merge_blocks(block_files, total_docs):
     doc_freq = defaultdict(int)
 
     for block_file in block_files:
-        with open(block_file, "r") as f:
+        with open(block_file, "r", encoding='utf-8') as f:
             for line in f:
                 term, postings = line.strip().split(' ', 1)
                 postings_list = postings.split()
@@ -95,7 +95,7 @@ def merge_blocks(block_files, total_docs):
                     doc_freq[term] += 1
 
     sorted_terms = sorted(term_dict.items())
-    with open("final_index.txt", "w") as f:
+    with open("final_index.txt", "w", encoding='utf-8') as f:
         for term, postings in sorted_terms:
             if doc_freq[term] == 0: # si no aparece en ningun documento, idf = 0
                 idf = 0
@@ -158,7 +158,7 @@ for doc_id, text in librillos.items():
 
 dataton = pd.read_csv('BD2/df_total.csv')
 #solo guardar 100 documentos
-dataton = dataton.head(25)
+dataton = dataton
 
 # crear diccionario de documentos
 documentos_sin_procesar = {}
@@ -171,7 +171,7 @@ for doc_id, text in documentos_sin_procesar.items():
 
 #build_index(documents, 7)
 #build_index(librillos, 500)
-build_index(documentos_sin_procesar, 800)
+build_index(documentos_sin_procesar, 4096)
 
 
 
