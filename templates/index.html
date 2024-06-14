@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <title>Full-Text Search</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script>
@@ -12,6 +13,12 @@
             const data = await response.json();
             const results = data.results;
             const time = data.time;
+            
+            // get
+            const getUrlButton = document.getElementById('get-url-button');
+            getUrlButton.href = `http://localhost:5000/search?query=${query}&k=${k}`;
+            // Habilitar el botón de GET
+            getUrlButton.classList.remove('disabled');
 
             const resultDiv = document.getElementById('results');
             resultDiv.innerHTML = '';
@@ -62,7 +69,12 @@
         <div class="form-group">
             <input type="number" id="topk" class="form-control" value="5">
         </div>
-        <button onclick="search()" class="btn btn-primary">Buscar</button>
+        <!-- Envolver los botones en un div y usar las clases de Bootstrap para alinearlos -->
+        <div class="form-group d-flex">
+            <button onclick="search()" class="btn btn-primary mr-2">Buscar</button>
+            <!-- Botón para hacer el GET -->
+            <a id="get-url-button" target="_blank" class="btn btn-secondary disabled">Ver GET</a>
+        </div>
         <div id="results" class="mt-5"></div>
     </div>
 </body>

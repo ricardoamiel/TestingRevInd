@@ -19,6 +19,8 @@ with open('BD2/stoplist.txt', 'r') as file:
 stoplist += ['.', ',', ';', ':', '!', '?', '¿', '¡', '(', ')', '[', ']', '{', '}', '"', "'", '``', "''","111âº","111º","«","»"]
 
 def preprocesamiento(text):
+    if text is None:
+        return ""
     # Reemplazar siglas con puntos por la misma sigla sin puntos
     text = re.sub(r'\b(\w\.)+\b', lambda match: match.group(0).replace('.', ''), text)
     # Separar números de las palabras
@@ -169,7 +171,7 @@ for doc_id, text in documentos_sin_procesar.items():
 
 #build_index(documents, 7)
 #build_index(librillos, 500)
-build_index(documentos_procesados, 800)
+build_index(documentos_sin_procesar, 800)
 
 
 
@@ -200,7 +202,6 @@ def calculate_norms(index):
 norms = calculate_norms(index)
 
 def cosine_similarity(query, index, norms, k): # search
-    start = time.time()
     scores = defaultdict(float)
     query_tokens = preprocesamiento(query).split()
     query_tf = defaultdict(int)
@@ -218,9 +219,7 @@ def cosine_similarity(query, index, norms, k): # search
     for doc_id in scores:
         scores[doc_id] /= query_norm * norms[doc_id]
     result = sorted(scores.items(), key=lambda x: x[1], reverse=True)[:k]
-    end = time.time()
-    duration = end - start
-    return result, duration
+    return result
 
 def retrieval_documents(result, docs):
     for doc_id, score in result:
@@ -232,8 +231,8 @@ def retrieval_documents(result, docs):
 
 
 Query1 = "El pais de China y su cooperacion"
-result, duration = cosine_similarity(Query1, index, norms, 3)
-print(f'{result}, tiempo de la query: {duration} segundos')
+result = cosine_similarity(Query1, index, norms, 3)
+print(f'{result}')
 retrieval_documents(result, documentos_sin_procesar)
 
 def retrieval_documents(result, docs):
@@ -247,6 +246,9 @@ def retrieval_documents(result, docs):
 #print(cosine_similarity("por la muerte de gandalf",index,norms,2))
 
 Query1 = "El pais de China y su cooperacion"
-result, duration = cosine_similarity(Query1, index, norms, 3)
+result = cosine_similarity(Query1, index, norms, 3)
 print(result)
 retrieval_documents(result, documentos_sin_procesar)
+
+#print(cosine_similarity("criptomon",index,norms,2))
+print(preprocesamiento("criptomonedas y aconsejar").split())

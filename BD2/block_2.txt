@@ -1,36 +1,30 @@
-abacum 22:1
 abiert 22:1
-abord 22:1
 acced 16:1
 acces 16:2 19:1
-accion 15:1
-acel 22:1
-acompañ 18:1 22:1
+accion 15:3
+acompañ 18:1
 acopl 20:1
 acord 18:1
-actitud 22:1
 activ 16:1 18:1 19:7 21:2
 actuacion 21:1
 actualiz 21:1
 acuerd 16:1 18:2 20:1
 acumul 22:1
-adem 18:1 20:2 21:3
+ademas 18:1 20:2 21:3
 administr 21:1
 adopt 18:1 19:1
 adviert 20:1
-afect 17:1
-afirm 21:1 22:1
+afect 15:1 17:1
+afirm 21:1
 afric 19:1
 agenci 21:1
 agil 20:1
 agost 17:3
 agreg 15:1
 ahond 18:1
-ai 22:1
 air 18:4
 alarm 16:2
 alarms 16:2
-albaladej 22:1
 alent 18:1
 alfa 17:1
 ali 16:1
@@ -39,36 +33,37 @@ alin 21:1
 alla 20:1
 alta 15:1 21:1
 altern 20:2
-alto 17:1 22:1
+alto 17:1
 amay 16:1
 ampli 15:1 16:1 18:1 19:1 21:1
 ana 16:1
+anal 15:1
 analisis 20:3 21:5
 andreani 18:1
 angul 18:1
-antigu 22:1
+anunc 14:1
 aplic 20:1 21:2
 aport 22:1
 apost 18:1
-apoy 21:1 22:2
+apoy 14:1 21:1 22:1
 aprovech 18:1 20:1
 apuest 16:1
 aqu 15:1
 are 21:4
 argentin 18:11
-ari 22:1
 arquitectur 20:1
 arrast 16:1
 articul 20:2
 asegur 16:1
-asi 16:1 17:1 18:1 21:4 22:2
+asi 16:1 17:1 18:1 21:4 22:1
 asign 21:1
 asim 20:1
 asset 21:1
 asum 18:1
+atencion 14:1
 atent 21:1
 atract 20:1
-atravi 20:1
+atravies 20:1
 atribu 21:1
 attribution 21:1
 aument 17:2 20:1
@@ -77,60 +72,59 @@ automat 21:1
 automatiz 21:1
 automotriz 20:1
 axis 22:1
-ayud 20:2 22:1
+ayud 20:2
 azuc 17:1
 año 17:2 19:1
-años 18:1 21:1 22:1
+años 15:1 18:1 21:1
 baji 20:1
 balanc 20:3
-banc 15:2 16:2 17:2 19:4 20:2
-bancari 20:2 22:1
+banc 14:3 15:4 16:2 17:2 19:4 20:2
+bancari 14:1 20:2
 bancolombi 16:5
 bank 17:1
-banking 22:1
-barcelon 22:1
 bas 18:2 21:1 22:1
 basic 17:1
-bbva 18:3 20:3 21:7 22:8
+bbva 18:3 20:3 21:7 22:3
 bedwell 20:1
 benefici 20:1
+bien 16:1
 bitcoin 19:1
 blinov 17:2
-blockchain 22:1
 bocc 18:1
 bols 19:1
 brech 18:1
 brind 16:1 18:1
-busc 22:1
 cabez 17:1
-cad 20:2
+caden 20:2
 caid 17:1
-cal 16:1 21:1 22:1
+calid 16:1 21:1
 calif 21:4
+calific 14:1
 call 18:1
-cam 18:1
-cambi 17:1 18:1
+cam 14:1 18:1
+cambi 15:3 17:1 18:1
 camin 18:1
 cancill 18:1
-capac 18:1 22:1
+capac 18:1
 capital 20:1 22:3
 captacion 22:1
 carl 18:1
 carolin 16:1
-cart 22:2
+carter 22:1
 cas 16:1 20:2 21:1
 categoriz 21:1
+caus 15:1
 cco 18:1
 cecili 18:1
-centr 18:2 22:2
-central 17:2 18:1 19:2
+centr 18:2
+central 14:1 17:2 18:1 19:2
 ceo 18:2
-cerc 20:3
+cercan 20:3
 certez 20:1
-chin 15:2 20:1
+chin 14:1 15:6 20:1
 chisp 18:1
 cienci 18:1
-cierr 18:1 20:1 22:1
+cierr 18:1 20:1
 cirimel 18:1
 cit 18:1
 ciud 18:2
@@ -142,27 +136,27 @@ clust 18:1
 clusters 20:1
 coderhous 18:1
 cofund 18:2
-colect 18:1 21:2
-colombi 16:3 21:2
+colect 14:1 18:1 21:2
+coloc 14:1
+colombi 16:2 21:1
+colombian 16:1 21:1
 column 18:1 20:1
 com 18:2 20:1
 combust 17:1
 coment 18:1
-comenz 22:1
+comenz 14:1
 comerci 19:2
-comercial 20:2
+comercial 14:1 20:2
 comision 18:2 19:2
-comit 21:2
-comp 16:1 17:2
-compani 22:1
-compañ 21:2 22:3
+comites 21:2
+comp 16:1
+compar 17:2
+compañ 14:1 21:2
+compens 14:1
 competit 20:1
 compit 22:1
-complej 22:1
 complementari 20:1
 complic 15:1
-component 22:1
-compromet 22:1
 compromis 18:1 22:1
 comun 18:2
 concientiz 18:1
@@ -172,144 +166,147 @@ conjunt 19:1
 conoc 18:1 22:1
 consens 18:3
 consistent 21:1
-consol 21:1
+consolid 21:1
 constant 18:1 21:3
 constitu 20:2
 constru 18:1
 construccion 20:1
 consult 20:1
 consumidor 17:1
-cont 16:1 18:2 22:1
-continu 18:2 20:1
+cont 16:1 18:2
+continu 15:1 18:2 20:1
 contrat 16:1
 contribu 22:1
 control 19:1 21:6
 converg 15:1
 convers 18:1
+convert 14:1
 conviert 16:1
 coordin 18:1
 corpor 21:1 22:1
+correccion 15:1
 correct 21:1
+correspondient 14:1
 cort 15:1
 cost 17:2 20:2
-cre 18:1 22:2
-creacion 22:2
-crec 18:3 22:1
-crecimient 15:1 18:5 22:3
+cre 18:1
+creacion 22:1
+crec 18:3
+crecimient 14:1 15:2 18:5
 credit 15:1 16:1
 crezc 18:1
 criptoact 19:1
-criptomon 19:3
+criptomoned 19:3
 cristin 16:1
-critic 22:1
+csi 15:1
+cual 20:1
 cuantit 21:2
-cubr 22:1
-cuent 16:1 22:1
+cuent 16:1
 cuid 16:2
 cultur 16:1
 cultural 20:3
+cumpl 14:1
 cup 21:1
 custodi 19:2
+dad 15:1
 dat 17:1
-deb 18:1
+deb 14:1 18:1
 debat 18:3
-debt 22:1
 dec 20:1
 decision 19:1 21:2
+dedic 14:1
 defin 21:1
 dei 18:1
-demostr 22:1
 derram 20:1
 desafi 18:2 20:2
 desarroll 15:1 18:3 20:1
+descont 15:1
 descubr 18:1
 desempeñ 21:2
 destac 21:2
 detall 20:1 21:1
-detr 17:1 22:1
+detras 17:1
 devalu 17:1
 diagnost 18:1
 dialog 18:1
-diari 18:1 21:1 22:1
+diari 18:1 21:1
 dich 15:1 20:1 21:1
 dieg 18:1
-diferencial 15:1 16:1 22:1
+diferencial 15:1 16:1
 diferent 16:1 19:1
 digital 18:1 19:8
 diput 18:2
 direct 18:1 21:1
-director 16:1 18:2
+director 14:1 16:1 18:2
+dirig 15:1
 disciplin 21:2
 discusion 21:2
 disminu 15:2 17:1 20:1
-disposicion 22:1
 distanci 20:1
-distint 18:1 22:2
+distint 18:1 22:1
 divers 18:1 21:1
 document 19:1 21:1
 dolor 17:1
 donov 18:1
-econom 17:1 18:4 20:7
-ecosistem 22:2
+econom 14:2 15:1 17:1 18:4 20:7
 edicion 18:1
-educ 18:1
+educ 15:1 18:1
 efect 21:1
 ejerc 18:1
 ejercici 21:1
+eleg 14:1
 elev 20:3
-emergent 15:2
+emergent 15:3
 emision 19:1
 emisor 21:1
 empez 20:1
-emprend 22:2
-emprendedor 22:3
-empres 16:5 18:5 20:7 21:1 22:4
+emprend 22:1
+empres 14:3 16:5 18:5 20:7 21:1 22:3
 empresari 18:1
 empresarial 20:2
-ena 19:1
+enair 19:1
 encamin 21:1
 encontr 19:1
-encuentr 18:1 22:1
+encuentr 18:1
 enfoc 21:1
 enfrent 16:1 18:1
+ente 14:1
 entend 18:1
 entorn 16:1 20:1
+entraran 14:1
 entreg 16:1
 entrevist 18:1
 entusiasm 19:1
-equip 18:1 22:2
+equip 18:1
+escrib 15:1
 españ 21:1 22:2
-español 22:1
-especial 20:1 22:1
+especial 20:1
 especializ 18:1
 esper 15:2 17:2 19:1
 esquem 20:1
+esta 16:1 18:1 19:1
 establec 19:1 21:1
 estadounidens 20:2
+estan 14:1 18:1 19:1 21:1
+estar 21:1
 estrateg 16:1
 estrategi 20:1 21:1
 estrell 20:1
 estres 21:2
 estructur 20:1 21:2
-etap 22:3
-eur 22:5
-europ 22:1
+eur 22:3
 event 18:2
 evident 21:1
-evit 19:1
-evolu 22:1
+evit 15:1 19:1
 evolucion 20:1
 excelentecol 21:1
 excentr 20:1
 exces 15:1
 exclu 15:1
 exist 20:1
-exoticc 22:1
 expand 18:1
-expansion 22:1
-experient 22:1
 expert 19:1
-explic 18:3 20:1 22:1
+explic 18:3 20:1
 expon 20:1
 export 18:1
 expres 16:1
@@ -318,162 +315,164 @@ exsubsecretari 18:1
 externaliz 20:2
 facil 20:1
 facilit 19:2 20:1
-factor 22:1
-factorial 22:1
 fam 18:1
-famili 22:1
 family 22:1
-fas 22:3
+fas 22:1
+fech 15:1
 fic 21:2
 fideicomis 21:1
 fiduciari 21:2
 filial 21:1
 filosof 21:1
-final 22:1
-financ 19:1 20:1 22:1
-financi 19:1 20:5 21:2 22:4
-firm 21:1 22:2
+fin 17:1
+financ 19:1 20:1
+financi 14:1 20:2
+financier 19:1 20:3 21:2
+firm 21:1
 fitch 21:3
 florenci 18:1
 fluj 20:2 21:1
-foment 16:1 22:1
-fond 21:2 22:6
-for 22:1
+foment 16:1
+fond 21:2 22:4
 form 20:4
 formal 21:1
 formaliz 21:1
 fortalec 20:1
-front 18:1 20:1 21:1
+front 21:1
+fronter 18:1 20:1
 fuert 21:2
-fund 22:5
+fuerz 14:1
+funcionari 14:1
+fund 22:2
 fundacion 18:1
 fundador 18:1
 fundamental 20:1 21:2
 futur 18:3
-ganador 22:1
 gananci 15:1
-gen 18:4 20:2
+gener 18:4 20:2
 general 16:1
 generatric 20:1
 genet 18:1
-geograf 20:4 22:1
+geograf 20:4
 geronim 20:1
-gestion 21:4 22:2
+gestion 21:4 22:1
 gestor 22:1
 gis 21:1
-global 18:2 20:3 21:3 22:2
+global 15:2 18:2 20:3 21:3 22:1
 globant 18:1
 gobiern 21:1
 gohub 22:1
-golp 17:1
-graci 16:1
+golpe 17:1
+graci 14:1 16:1
 gridx 18:1
 grobocopatel 18:1
 group 18:1
-growth 22:2
 grup 18:1 21:3
 guerr 17:1
 hab 17:1
 habil 18:1
 habilit 22:1
 habitat 18:1
-habl 20:1 22:1
+habl 20:1
 haciend 18:2
-herr 20:1
-hog 16:3
+herrer 20:1
+hog 16:1
+hogar 16:2
 hoj 18:1
 hryvni 17:1
 huev 17:1
-hum 18:1
+human 18:1
 ico 22:2
 ide 18:1
 identif 21:1
-idiom 20:1 22:1
-impact 17:1 20:1 22:1
+idiom 20:1
+impact 15:1 17:1 20:1
 implement 21:1
 implic 20:1
-import 16:1 22:1
+import 14:1 16:1
 impuls 17:1 18:1 20:1
 incorpor 21:2
 independient 22:1
-indic 18:1 19:1
+indic 15:1 18:1 19:1
 indispens 16:1
 individual 21:1
-industri 20:1 22:1
+industri 20:1
 industrial 18:1 20:1
 industrializ 20:1
 inflacion 17:3 20:2
 inflacionc 20:1
-inform 20:1
+inform 14:1 20:1
 inic 18:1
-inici 16:1 22:2
+inici 16:1 22:1
 inmediat 16:1
 inmobiliari 16:3
 inmuebl 16:1
-innov 18:1 22:3
+innov 18:1
 insercion 18:1
 instanci 18:1 21:1
 institu 19:1 20:1
-institucional 22:2
+institucional 22:1
 insum 20:1
 integr 20:1 21:2
-integral 16:1 22:1
+integral 16:1
 intencion 22:1
-inter 21:1
 intercambi 19:3
+interes 21:1
 intern 21:3
 internacional 18:1 20:1 21:1
+internet 14:1
 interrog 18:1
-inversion 20:3 21:12 22:4
-inversor 22:4
-invert 22:2
+inversion 20:3 21:12 22:1
+inversor 22:3
+invert 22:1
 investig 17:1 21:1
 investment 21:1
 invit 18:1
-iot 22:1
 jef 17:1 20:1
 joaquin 18:1
 jorn 18:1
-jov 18:2 19:1
-jpmorg 15:1
+jov 18:1 19:1
+joven 18:1
+jpmorg 15:3
 juan 18:1
 juev 17:1
 juli 17:2 20:1
 junt 21:1
-k 22:4
+k 22:2
 kyiv 17:1
 labor 18:1 21:1
 laboral 18:3 20:1
 lanz 19:1
 laspin 18:1
-latinoam 16:1 22:2
-leadwind 22:5
+latinoamer 16:1 22:1
+leadwind 22:3
 learning 18:1
 legal 20:1
 legisl 18:1
-lej 20:1
+lejan 20:1
 lem 18:1
 lent 17:1
 levement 17:1
-lid 16:2 22:1
+liang 14:1
+lid 16:1
+lider 16:1
 limit 21:1
-lin 18:1
+line 18:1
 lineamient 21:1
 link 20:1
-lisb 22:1
-llam 20:1 22:1
-lleg 22:2
+liquid 15:1
+llam 20:1
+lleg 22:1
 llev 18:1
-loans 22:1
-local 20:2 21:3 22:1
+local 15:2 20:2 21:3
 logist 18:1 20:2
 logr 21:1 22:1
-luci 18:1
-madr 22:1
-mal 18:1
+lucian 18:1
+lun 15:2
+malen 18:1
 man 18:1 20:1
 management 21:1
-mant 17:1
+manten 17:1
 mantuv 15:1
 manual 21:1
 manuel 18:1
@@ -482,35 +481,38 @@ marc 20:1 21:1
 marcel 18:1
 martin 18:2
 marysol 18:1
-mas 16:1 17:3 18:1 19:1 20:1 22:2
+marz 14:1
+mas 15:3 16:1 17:3 18:1 19:1 20:1
 masnatt 18:1
 mat 18:1
 materi 18:1
 matriz 18:1 20:2 21:1
-mec 20:2 21:1
-med 21:1
-medi 19:1 20:1 21:1
+mecan 20:2 21:1
+med 14:2 15:1 21:1
+medi 19:1 20:1
+median 21:1
+medic 14:1
 medicion 21:2
-mediterran 22:1
+mejor 21:2
 melin 18:1
 menor 20:2
-merc 15:2 16:2 17:1 19:1 21:3 22:3
+merc 15:4 16:2 17:1 19:1 21:3 22:1
 mercantil 20:1
+mes 14:1 15:1
 mexic 20:5
-microempr 20:1
-mied 22:1
+microempres 20:1
 miembr 18:1
 miglior 18:1
-miguel 22:1
-millon 19:1 22:5
+millon 19:1 22:3
 minim 15:1
 ministr 18:2
 minor 18:1
 mitig 20:2
-mod 18:3
-model 21:2 22:3
-mon 19:3
-monitor 16:1 21:2
+model 21:2
+moder 18:3
+moned 19:3
+monitor 14:1
+monitore 16:1 21:2
 mostr 17:1
 movimient 18:1
 multipol 18:1
@@ -520,19 +522,20 @@ nacion 18:1
 nacional 18:2 21:1
 nahuel 18:1
 nair 19:1
-natural 18:1 22:1
+natural 18:1
 nearshor 20:1
 nearshoring 20:8
-nec 18:2 22:1
+neces 18:2
 necesari 18:1
-necesit 18:4 22:1
-negoci 16:1 18:1 19:1 22:4
+necesit 18:4
+negoci 16:1 18:1 19:1 22:1
 next 22:1
-nigeri 19:5
+nigeri 19:4
+nigerian 19:1
 nivel 17:1 20:2 22:1
 nod 20:2
 nort 20:1
-nub 22:1
+not 15:1
 objecion 19:1
 objet 18:1 21:1 22:1
 obra 18:1 20:1
@@ -548,13 +551,12 @@ ola 22:1
 oleksiy 17:1
 omnium 22:1
 opcion 16:1
-oper 20:5 21:2 22:1
-oport 22:1
+oper 20:5 21:2
 oportun 16:1 18:2 20:1 22:1
 organiz 18:2
 otorg 20:2
 outsourcing 20:1
-pag 19:1
+pag 14:1 19:1
 pagin 19:1
 pais 15:1 16:1 18:4 19:2 20:6
 pandemi 18:1
@@ -563,61 +565,58 @@ papel 18:1
 par 19:1
 parametriz 21:1
 parec 15:2
-particip 18:1 22:1
-partn 22:1
+particip 18:1
 pas 18:2 20:1
 pasiv 21:1
 pasjalidis 18:1
-paul 22:1
 peir 18:1
 penetr 16:1
 pens 18:2
 pensamient 18:1
 pensional 21:1
-perfil 22:1
+peor 15:1
 performanc 21:1
-period 20:2
-permit 16:1 19:1 20:1 22:2
+period 14:1 20:2
+permit 16:1 19:1 20:1
 person 16:6 18:1
 personal 21:1
 plant 20:1
-plataform 19:1 21:1
-plaz 15:1 21:1
+plataform 14:1 19:1 21:1
+plaz 14:1 15:1 21:1
+plen 14:1
 pobl 19:1
 poblacion 19:1
 podr 15:1 18:1 20:1
 polit 17:2 18:3 21:4
-pondr 22:1
 portafoli 16:1 21:4
 portugal 22:1
 pos 20:1
 posibil 16:1
 post 18:2 21:2
 potenci 20:2
-pre 22:1
 preasign 21:1
 preci 17:4
-prep 22:1
-present 18:1 21:1 22:1
+present 18:1 21:1
 president 18:2
 presion 17:1
 presupuest 18:1
-prev 17:1 20:1 22:2
+prev 17:1 20:1
 prevencion 16:1
 principal 20:2 21:1
-priv 18:3
+priv 14:1 18:3
 pro 18:1
-prob 22:2
-proc 20:1 21:4 22:1
+probabl 15:1
+problem 15:2
+proces 20:1 21:4
 produccion 18:1 20:6
-product 17:1 18:1 20:2 22:1
+product 17:1 18:1 20:2
 prohib 19:1
 prohibicion 19:2
-prometedor 22:1
 promov 18:1 22:1
 promuev 21:1
 pronost 17:1
-propuest 18:1 22:1
+propied 15:1
+propuest 18:1
 propus 18:1
 prosegur 16:5
 protagon 18:1
@@ -625,59 +624,58 @@ proteccion 16:1
 proveedor 20:1
 provoc 20:1
 prox 18:1
-proyect 22:2
 prueb 21:2
 public 17:1 18:5 19:2 20:3
-puest 22:1
-punt 22:1
+punter 22:1
 puntualiz 20:1
 pymes 20:1
+que 18:1
 ramirez 16:1
 rap 17:1
 ratings 21:1
 razon 20:1
-real 18:1
-realiz 18:2 21:1 22:1
+real 14:1 18:1
+realiz 14:1 18:2 21:1 22:1
 receptor 20:1
 recib 18:1 19:1
 recurs 18:1 20:1 21:1
-red 20:6 22:1
+red 20:6
 redefin 20:1
-redimension 22:1
 redireccion 20:1
 redistribu 18:1
+referencial 15:1
 referent 21:1
 reflej 20:1 21:1
 reflexion 18:1
 region 16:1 18:1 20:1
 regional 21:1
-registr 19:2
+registr 15:1 19:2
 regl 19:1
-regul 19:4
-regulatori 15:1 20:1
+regul 14:2 15:1 19:4
+regulatori 15:4 20:1
 reinvent 18:1
-relacion 18:2 22:1
+relacion 18:2
 remarc 18:1
-remun 21:1
+remuner 21:1
 rentabil 20:2
 represent 16:2 18:1 20:3 22:1
-requ 19:1
-requi 18:1 20:1
+requer 19:1
+requier 18:1 20:1
 requisit 19:1
 resalt 18:1
 research 21:1
+reserv 14:2
 respald 19:1 21:3
 respect 22:1
 respet 20:1
-respons 17:1 22:1
+respons 17:1
 rest 20:1 22:1
 ret 16:1 21:1
 retom 20:1
 reun 22:1
-riesg 15:1 18:1 20:5 21:6 22:1
+revision 15:1
+riesg 14:2 15:3 18:1 20:5 21:6 22:1
 rigur 21:1
-riquez 22:1
-robert 22:1
 robust 21:3
 rodriguez 18:1
 rosend 18:1
@@ -686,67 +684,64 @@ rut 18:1
 sa 21:1
 satec 22:1
 scaglion 18:1
-scaleup 22:1
-scaleups 22:3
 sec 19:3
 secretari 18:2
-sector 16:1 18:9 19:1
-sectorial 22:1
+sector 14:1 15:1 16:1 18:9 19:1
 sed 17:1
-segu 15:1 16:1 18:2 20:1
+segment 15:1
+segu 15:2 16:1 20:1
+seguid 18:2
 segun 17:2
 segur 16:7
-semill 22:2
+seman 15:1
 sent 18:1
-seri 22:1
-serr 20:1
-servici 16:3 22:3
+seri 15:1
+serran 20:1
+serv 14:1
+servici 16:3
+sesion 14:1
 señal 15:2 20:3
 signif 16:1 18:1
 signific 20:1
-silicon 22:1
 sinergi 20:1 21:2
 sistem 18:1 21:1
 siti 19:1
 situacion 18:1
-sobrepond 15:1
+sobreponder 15:2
 sobresal 21:1
 sobresalient 21:1
-soci 18:3 22:1
-sofistic 22:1
+soci 22:1
+socied 18:3
 solicit 21:1
 solucion 16:2
 solvent 20:1
 soport 21:1
-spark 22:3
 stefanini 18:1
 strategy 21:1
-strip 22:1
 sub 17:1
 sueld 18:1
+sufr 15:1
 sum 18:1
 suministr 17:1
+superior 15:1
 supervision 21:1
-supon 22:1
-sur 22:1
-são 22:1
+sustancial 15:1
 talent 18:1
-tambi 18:1 20:1 21:2
+tambien 18:1 20:1 21:2
 tarif 19:2
 tas 15:1 17:2
 tech 18:1 22:1
 tecnic 21:1
-tecnolog 16:1 18:7 19:1 22:4
+tecnolog 15:1 16:1 18:7 19:1 22:3
 telefon 22:1
-tempr 22:1
+tendran 14:1
 terc 18:1
 termin 19:1 20:1
-tinybird 22:1
 tip 20:1 21:1
 titul 18:1
 tmec 20:1
 todesc 18:1
-tom 21:1
+tom 14:2 21:1
 topdown 21:1
 torn 18:1 20:1
 torr 18:1
@@ -756,12 +751,14 @@ tradicional 21:1
 tranquil 16:1
 transaccion 19:1
 transaccional 21:1
+transferent 14:1
 transform 20:1
-transnacional 20:4
+transnacional 20:3
+transnacionales 20:1
 transport 17:1
 trasl 20:1
 trat 19:1
-trav 16:1 20:1 22:3
+traves 16:1 20:1 22:2
 ubic 20:1
 ucrani 17:1
 ugart 20:4
@@ -776,26 +773,29 @@ us 19:1
 usuari 16:2
 utiliz 19:1
 vacun 15:1
-vald 18:1
-vali 16:1
-valley 22:1
+valdes 18:1
+valios 16:1
+valor 15:1 19:2 21:1
 variabl 21:1
 vedoy 18:1
 vegetal 17:1
 vel 21:1
 veloz 20:1
-vem 18:1 22:1
+vem 15:1 18:1
 ventaj 20:3
-ventur 22:1
 vgr 20:1
 vias 18:1
 vicepresident 16:1 18:1
 vid 16:1
-viern 17:1
+viern 14:1 17:1
+vigenci 14:1
 vigent 20:1
 volatil 15:1
+volv 14:1
 voz 18:1
-vuln 18:1
+vulner 18:1
 web 19:1
+xia 14:1
+yuanqi 14:1
 zarich 18:2
 zoil 18:1
