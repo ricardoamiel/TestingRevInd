@@ -3,20 +3,21 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Full-Text Search</title>
+    <title>Spotify-Filter-Song-by-Text Search</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script>
         async function search() {
             const query = document.getElementById('query').value;
             const k = document.getElementById('topk').value;
-            const response = await fetch(`/search?query=${query}&k=${k}`);
+            const language = document.getElementById('language').value;
+            const response = await fetch(`/search?query=${query}&k=${k}&language=${language}`);
             const data = await response.json();
             const results = data.results;
             const time = data.time;
             
             // get
             const getUrlButton = document.getElementById('get-url-button');
-            getUrlButton.href = `http://localhost:5000/search?query=${query}&k=${k}`;
+            getUrlButton.href = `http://localhost:5000/search?query=${query}&k=${k}&language=${language}`;
             // Habilitar el botón de GET
             getUrlButton.classList.remove('disabled');
 
@@ -33,8 +34,10 @@
             const thead = document.createElement('thead');
             const headerRow = document.createElement('tr');
             headerRow.innerHTML = `
-                <th>Documento</th>
-                <th>Texto</th>
+                <th>Canción ID</th>
+                <th>Letra</th>
+                <th>Datos de la canción</th>
+                <th>Artista</th>
                 <th>Score</th>
             `;
             thead.appendChild(headerRow);
@@ -44,11 +47,13 @@
 
             for (const result of results) {
                 const docResponse = await fetch(`/document?doc_id=${result.doc_id}`);
-                const docText = await docResponse.text();
+                const docData = await docResponse.json();
                 const row = document.createElement('tr');
                 row.innerHTML = `
                     <td>${result.doc_id}</td>
-                    <td>${docText}</td>
+                    <td>${docData.lyrics}</td>
+                    <td>${docData.track_name}</td>
+                    <td>${docData.track_artist}</td>
                     <td>${result.score}</td>
                 `;
                 tbody.appendChild(row);
@@ -62,12 +67,18 @@
 
 <body>
     <div class="container">
-        <h1 class="mt-5">Full-Text Search</h1>
+        <h1 class="mt-5">Spotify-Filter-Song-by-Text Search</h1>
         <div class="form-group">
             <input type="text" id="query" class="form-control" placeholder="Ingrese su consulta">
         </div>
         <div class="form-group">
             <input type="number" id="topk" class="form-control" value="5">
+        </div>
+        <div class="form-group">
+            <select id="language" class="form-control">
+                <option value="es">Español</option>
+                <option value="en">Inglés</option>
+            </select>
         </div>
         <!-- Envolver los botones en un div y usar las clases de Bootstrap para alinearlos -->
         <div class="form-group d-flex">
