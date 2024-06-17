@@ -11,6 +11,7 @@ from nltk.corpus import stopwords
 import pandas as pd
 import time
 nltk.download('punkt')
+nltk.download('stopwords')
 
 with open('BD2/stoplist.txt', 'r') as file:
     stoplist = file.read().splitlines()
