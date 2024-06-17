@@ -14,7 +14,7 @@ Es importante utilizar índices, ya que minimiza el tiempo de búsqueda de simil
 Para construir un índice invertido en memoria secundaria, hemos utilizado una lógica basada en el tamaño de los bloques. Asumiendo un tamaño de bloque de 4096 bytes y considerando que para cada término guardamos su doc_id y su valor de tf-idf, estamos almacenando 8 bytes por registro (4 bytes para doc_id y 4 bytes para tf-idf). Esto permite almacenar hasta 4096 registros por bloque, con un total de 32,768 bytes por bloque. Si limitamos la construcción del índice invertido a usar 1MB de RAM, podemos calcular el número de índices invertidos locales como \( \frac{1024 \times 1024}{4096 \times 8} \), lo que da aproximadamente 32 índices invertidos locales. Sin embargo, en la práctica, los registros pueden ocupar más espacio. Por ejemplo, si cada término aparece en 4 documentos y almacenamos 4 valores de tf-idf por término, el tamaño por registro sería 32 bytes (4 doc_ids y 4 tf-idf). Si limitamos la RAM a 4MB, el cálculo sería \( \frac{4 \times 1024 \times 1024}{4096 \times 32} \), lo que también da aproximadamente 32 índices invertidos locales. Esto implica que un término puede aparecer en más de un índice invertido si alcanza el límite de tamaño del bloque.
 
 ### Ejecución óptima de consultas aplicando Similitud de Coseno
-
+La similitud de coseno es una medida fundamental para comparar la similitud entre distintos archivos, en este caso, canciones. Se utiliza para calcular qué tan cercanas son dos canciones en términos de contenido, mediante la representación de cada canción como un vector de características basado en términos relevantes ponderados (como TF-IDF). Al aplicar la fórmula del coseno entre estos vectores, se obtiene un valor que indica la proximidad entre las canciones: valores cercanos a 1 denotan alta similitud, mientras que cercanos a 0 indican diferencias significativas. Esto permite realizar recomendaciones de canciones similares y agrupar por temas líricos comunes dentro de la base de datos musical de manera eficiente y precisa.
 
 ### Construcción del índice invertido en PostgreSQL
 En PostgreSQL, la técnica para aplicar el índice invertido se denomina GIN (Generalized Inverted Index). GIN está diseñado para trabajar con valores compuestos, permitiendo la combinación de múltiples celdas en un solo índice. 
@@ -27,7 +27,10 @@ Cada clave se almacena solo una vez, haciendo el índice compacto. Los índices 
 Cuando se realiza una consulta que contiene múltiples términos (usando AND), PostgreSQL busca los documentos que contienen todos los términos especificados. Esto se hace combinando las listas de postings de cada término.
 
 ## Frontend
-Screenshots de la GUI
+Tenemos opción para colocar idioma y el valor de k para hayar los top k más relacionados.
+Te devuelve el ID de la canción, nombre, lyrics, artista y score de similitud.
+<img width="1440" alt="Screen Shot 2024-06-17 at 3 34 22 PM" src="https://github.com/ricardoamiel/TestingRevInd/assets/102993411/0e7ad3fb-bd60-40a3-b591-f5d5850b2737">
+<img width="1439" alt="Screen Shot 2024-06-17 at 3 35 14 PM" src="https://github.com/ricardoamiel/TestingRevInd/assets/102993411/dcb2103d-e8f0-4752-bbd5-fd56f4b5fa7d">
 
 ## Experimentación
 Tablas y gráficos de los resultados experimentales
