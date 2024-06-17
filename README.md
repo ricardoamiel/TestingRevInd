@@ -33,7 +33,9 @@ Te devuelve el ID de la canción, nombre, lyrics, artista y score de similitud.
 <img width="1439" alt="Screen Shot 2024-06-17 at 3 35 14 PM" src="https://github.com/ricardoamiel/TestingRevInd/assets/102993411/dcb2103d-e8f0-4752-bbd5-fd56f4b5fa7d">
 
 ## Experimentación
-Tablas y gráficos de los resultados experimentales
-Análisis y discusión
+### Tablas y gráficos de los resultados experimentales
+#### Query: "Feel Love"
+<img width="1006" alt="Screen Shot 2024-06-17 at 5 28 15 PM" src="https://github.com/ricardoamiel/TestingRevInd/assets/102993411/27ef1366-061b-4d4c-9c99-266b5c204131">
 
-Debe incluir imágenes o diagramas para una mejor comprensión.
+### Análisis y discusión
+Al investigar cómo funciona el índice GIN en PostgreSQL, notamos que este trabaja con el operador AND, realizando una intersección de palabras en las consultas. Por ejemplo, devuelve resultados de canciones que contengan tanto la palabra "feel" como "love", lo que incrementa el tiempo de búsqueda. Por otro lado, nuestro índice invertido utiliza el operador OR, lo que resulta en tiempos de búsqueda mucho menores, ya que realiza una unión y devuelve todas las canciones que contienen la palabra "feel" o "love". En términos de efectividad, ambos índices son útiles; el de PostgreSQL es más efectivo para encontrar coincidencias exactas en una oración o una frase compuesta, mientras que para búsquedas de palabras individuales, ambos métodos son igualmente efectivos.
