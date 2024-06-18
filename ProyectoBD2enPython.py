@@ -11,7 +11,6 @@ from nltk.corpus import stopwords
 import pandas as pd
 import time
 nltk.download('punkt')
-nltk.download('stopwords')
 
 with open('BD2/stoplist.txt', 'r') as file:
     stoplist = file.read().splitlines()
@@ -105,6 +104,8 @@ def parse_docs(documents, languages):
             token_stream.append((token, doc_id))
     return token_stream
 
+'''
+estrategia 2 pointers
 def merge_blocks(block_files, total_docs):
     term_dict = defaultdict(dict)
     doc_freq = defaultdict(int)
@@ -128,11 +129,64 @@ def merge_blocks(block_files, total_docs):
         for term, postings in sorted_terms:
             if doc_freq[term] == 0: # si no aparece en ningun documento, idf = 0
                 idf = 0
-            idf = math.log10(1 + (total_docs / len(term_dict[term])))
+            idf = math.log10((total_docs / doc_freq[term]))
             postings_str = " ".join([f"{doc_id}:{round((1 + math.log10(tf)) * idf,2)}" for doc_id, tf in postings.items()])
             f.write(f"{term} {postings_str}\n")
             
+    print("Índice invertido construido con éxito")'''
+
+# Estrategia de mezcla de bloques con heap y 2 punteros
+def merge_blocks(block_files, total_docs):
+    term_dict = defaultdict(dict)
+    doc_freq = defaultdict(int)
+
+    heap = []
+    file_pointers = []
+
+    # Inicializar los punteros de archivo
+    for i, block_file in enumerate(block_files):
+        f = open(block_file, "r", encoding='utf-8')
+        file_pointers.append(f)
+        line = f.readline()
+        if line:
+            term, postings = line.strip().split(' ', 1)
+            heapq.heappush(heap, (term, postings, i))  # Almacena el índice en lugar del objeto de archivo
+
+    while heap:
+        term, postings, file_index = heapq.heappop(heap)
+        f = file_pointers[file_index]  # Usa el índice para recuperar el objeto de archivo
+        if term not in term_dict:
+            term_dict[term] = defaultdict(int)
+        postings_list = postings.split()
+        for posting in postings_list:
+            doc_id, tf = posting.split(':')
+            doc_id = int(doc_id)
+            tf = int(tf)
+            term_dict[term][doc_id] += tf
+            doc_freq[term] += 1
+
+        next_line = f.readline()
+        if next_line:
+            next_term, next_postings = next_line.strip().split(' ', 1)
+            heapq.heappush(heap, (next_term, next_postings, file_index))
+
+    # Cerrar todos los archivos
+    for f in file_pointers:
+        f.close()
+
+    sorted_terms = term_dict.items()
+    with open("final_index.txt", "w", encoding='utf-8') as f:
+        for term, postings in sorted_terms:
+            if doc_freq[term] == 0: # si no aparece en ningun documento, idf = 0
+                idf = 0
+            else:
+                idf = math.log10(1 + (total_docs / len(term_dict[term])))
+            postings_str = " ".join([f"{doc_id}:{round((1 + math.log10(tf)) * idf, 2)}" for doc_id, tf in postings.items()])
+            f.write(f"{term} {postings_str}\n")
+
     print("Índice invertido construido con éxito")
+
+
 
 def build_index(documents, languages, block_size):
     total_docs = len(documents)
@@ -177,7 +231,7 @@ with open("final_index.txt", "r", encoding="utf-8") as f:
             if doc_id not in index[term]:
                 index[term][doc_id] = 0
             index[term][doc_id] += tfidf
-            
+        
 # Calcular la norma de los documentos y guardarlo en un diccionario
 def calculate_norms(index):
     norms = defaultdict(float)
@@ -214,10 +268,6 @@ def retrieval_documents(result, docs):
     for doc_id, score in result:
         print(f"Song {doc_id}: {docs[doc_id]}, Score: {score}")
 
-def retrieval_documents(result, docs):
-    for doc_id, score in result:
-        print(f"Song {doc_id}: {docs[doc_id]}, Score: {score}")
-
 Query1 = "Sunflower Post Malone and Swae Lee"
 Query2 = "Ricky Martin y sus conciertos"
 result = cosine_similarity(Query1, index, norms, 2,'en')
@@ -228,3 +278,4 @@ print("*"*50)
 retrieval_documents(result2, documentos_sin_procesar)
 print("*"*50)
 print(preprocesamiento("Latina (feat. Maluma) Reykon Latina (feat. Maluma)",'es').split())
+
