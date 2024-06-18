@@ -302,6 +302,34 @@ Nuestro frontend muestra no solo los datos obtenidos usando nuestro índice inve
 ![](./imgs/2.jpg)
 ![](./imgs/3.jpg)
 
+#### Conección con PostgreSQL
+
+El experimento fue corrido en datagrip, simplemente se carga el csv en una tabla con el mismo nombre (spotify_songs) y se corre el código de experimento.
+
+Primero juntamos en una sola columna el nombre de la canción, el artista, el álbum y la letra de esta misma, nos servirá para poder mostrar la tabla proporcionada por postgres en el frontend. Además de ello, se crean los índices respectivos, con ello listo, podemos correr el experimento
+
+```sql
+-- merge columnas nombre cancion, nombre artista, nombre album, y letra cancion
+ALTER TABLE spotify_songs
+ADD COLUMN listo_index text;
+UPDATE spotify_songs
+SET listo_index = CONCAT_WS(' ', track_name, track_artist, track_album_name, lyrics);
+
+-- Crear un índice GIN en la columna listo_index
+CREATE INDEX idx_listo_index_spanish_gin
+    ON spotify_songs USING gin(to_tsvector('spanish', listo_index))
+    WHERE language = 'es';
+
+-- Crear un índice GIN en la columna listo_index
+CREATE INDEX idx_listo_index_english_gin
+    ON spotify_songs USING gin(to_tsvector('english', listo_index))
+    WHERE language = 'en';
+```
+
+#### Ejecución del código
+
+Debemos tener en cuenta el `schema` y la `contraseña` de nuestra cuenta de postgreSQL, con la tabla y los índices creados, solo ejecutando `app.py` podrás escribir consultas en lenguaje natural en nuestra GUI, y ver las diferencias entre nuestro índice invertido y el índice GiN de PostgreSQL.
+
 ## Experimentación
 ### Tablas y gráficos de los resultados experimentales
 #### Query: "Feel Love"
