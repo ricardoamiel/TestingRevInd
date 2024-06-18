@@ -5,46 +5,68 @@
     <meta charset="UTF-8">
     <title>Spotify-Filter-Song-by-Text Search</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .result-table {
+            width: 48%;
+            margin: 0 1%;
+            display: inline-block;
+            vertical-align: top;
+        }
+    </style>
     <script>
         async function search() {
             const query = document.getElementById('query').value;
             const k = document.getElementById('topk').value;
             const language = document.getElementById('language').value;
+            
             const response = await fetch(`/search?query=${query}&k=${k}&language=${language}`);
             const data = await response.json();
             const results = data.results;
             const time = data.time;
             
+            const response_pg = await fetch(`/search_postgresql?query=${query}&k=${k}&language=${language}`);
+            const data_pg = await response_pg.json();
+            const results_pg = data_pg.results;
+            const time_pg = data_pg.time;
+            
             // get
-            const getUrlButton = document.getElementById('get-url-button');
-            getUrlButton.href = `http://localhost:5000/search?query=${query}&k=${k}&language=${language}`;
-            // Habilitar el botón de GET
-            getUrlButton.classList.remove('disabled');
+            const getUrlButtonInv = document.getElementById('get-url-button-inv');
+            getUrlButtonInv.href = `http://localhost:5000/search?query=${query}&k=${k}&language=${language}`;
+            // Habilitar el botón de GET Inverted Index
+            getUrlButtonInv.classList.remove('disabled');
+
+            const getUrlButtonPsql = document.getElementById('get-url-button-psql');
+            getUrlButtonPsql.href = `http://localhost:5000/search_postgresql?query=${query}&k=${k}&language=${language}`;
+            // Habilitar el botón de GET PostgreSQL
+            getUrlButtonPsql.classList.remove('disabled');
 
             const resultDiv = document.getElementById('results');
             resultDiv.innerHTML = '';
 
-            const timeDiv = document.createElement('div');
-            timeDiv.className = 'alert alert-info';
-            timeDiv.innerText = `Tiempo de búsqueda: ${time.toFixed(4)} segundos`;
-            resultDiv.appendChild(timeDiv);
+            const inMemoryDiv = document.createElement('div');
+            inMemoryDiv.className = 'result-table';
+            const inMemoryTimeDiv = document.createElement('div');
+            inMemoryTimeDiv.className = 'alert alert-info';
+            inMemoryTimeDiv.innerText = `Tiempo de búsqueda (In-Memory): ${time.toFixed(4)} segundos`;
+            inMemoryDiv.appendChild(inMemoryTimeDiv);
 
-            const table = document.createElement('table');
-            table.className = 'table table-striped';
-            const thead = document.createElement('thead');
-            const headerRow = document.createElement('tr');
-            headerRow.innerHTML = `
+            const inMemoryTable = document.createElement('table');
+            inMemoryTable.className = 'table table-striped';
+            const inMemoryThead = document.createElement('thead');
+            const inMemoryHeaderRow = document.createElement('tr');
+            inMemoryHeaderRow.innerHTML = `
                 <th>Canción ID</th>
                 <th>Letra</th>
-                <th>Nombre</th>
+                <th>Datos de la canción</th>
                 <th>Artista</th>
                 <th>Score</th>
             `;
-            thead.appendChild(headerRow);
-            table.appendChild(thead);
+            inMemoryThead.appendChild(inMemoryHeaderRow);
+            inMemoryTable.appendChild(inMemoryThead);
 
-            const tbody = document.createElement('tbody');
+            const inMemoryTbody = document.createElement('tbody');
 
+            // Resultados del índice invertido
             for (const result of results) {
                 const docResponse = await fetch(`/document?doc_id=${result.doc_id}`);
                 const docData = await docResponse.json();
@@ -56,11 +78,53 @@
                     <td>${docData.track_artist}</td>
                     <td>${result.score}</td>
                 `;
-                tbody.appendChild(row);
+                inMemoryTbody.appendChild(row);
             }
 
-            table.appendChild(tbody);
-            resultDiv.appendChild(table);
+            inMemoryTable.appendChild(inMemoryTbody);
+            inMemoryDiv.appendChild(inMemoryTable);
+
+            const postgresDiv = document.createElement('div');
+            postgresDiv.className = 'result-table';
+            const postgresTimeDiv = document.createElement('div');
+            postgresTimeDiv.className = 'alert alert-info';
+            postgresTimeDiv.innerText = `Tiempo de búsqueda (PostgreSQL): ${time_pg.toFixed(4)} segundos`;
+            postgresDiv.appendChild(postgresTimeDiv);
+
+            const postgresTable = document.createElement('table');
+            postgresTable.className = 'table table-striped';
+            const postgresThead = document.createElement('thead');
+            const postgresHeaderRow = document.createElement('tr');
+            postgresHeaderRow.innerHTML = `
+                <th>Canción ID</th>
+                <th>Letra</th>
+                <th>Datos de la canción</th>
+                <th>Artista</th>
+                <th>Score</th>
+            `;
+            postgresThead.appendChild(postgresHeaderRow);
+            postgresTable.appendChild(postgresThead);
+
+            const postgresTbody = document.createElement('tbody');
+
+            // Resultados de PostgreSQL
+            for (const result of results_pg) {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${result.track_name}</td>
+                    <td>${result.lyrics}</td>
+                    <td>${result.track_name}</td>
+                    <td>${result.track_artist}</td>
+                    <td>${result.score}</td>
+                `;
+                postgresTbody.appendChild(row);
+            }
+
+            postgresTable.appendChild(postgresTbody);
+            postgresDiv.appendChild(postgresTable);
+
+            resultDiv.appendChild(inMemoryDiv);
+            resultDiv.appendChild(postgresDiv);
         }
     </script>
 </head>
@@ -76,15 +140,14 @@
         </div>
         <div class="form-group">
             <select id="language" class="form-control">
-                <option value="es">Español</option>
                 <option value="en">Inglés</option>
+                <option value="es">Español</option>
             </select>
         </div>
-        <!-- Envolver los botones en un div y usar las clases de Bootstrap para alinearlos -->
         <div class="form-group d-flex">
             <button onclick="search()" class="btn btn-primary mr-2">Buscar</button>
-            <!-- Botón para hacer el GET -->
-            <a id="get-url-button" target="_blank" class="btn btn-secondary disabled">Ver GET</a>
+            <a id="get-url-button-inv" target="_blank" class="btn btn-secondary disabled">Ver GET Inverted Index</a>
+            <a id="get-url-button-psql" target="_blank" class="btn btn-secondary disabled">Ver GET PostgreSQL</a>
         </div>
         <div id="results" class="mt-5"></div>
     </div>
