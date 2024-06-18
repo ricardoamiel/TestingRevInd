@@ -37,11 +37,13 @@ Te devuelve el ID de la canción, nombre, lyrics, artista y score de similitud.
 #### Query: "Feel Love"
 <img width="1006" alt="Screen Shot 2024-06-17 at 5 28 15 PM" src="https://github.com/ricardoamiel/TestingRevInd/assets/102993411/27ef1366-061b-4d4c-9c99-266b5c204131">
 
+#### Query: "Roar"
+<img width="1086" alt="Screen Shot 2024-06-17 at 11 19 39 PM" src="https://github.com/ricardoamiel/TestingRevInd/assets/102993411/b3c89888-c3bb-4ebc-b83d-aa09fb41b0d0">
+<https://docs.google.com/spreadsheets/d/1Hz1B3FfuxvhOOhrPeBV6ze1CJF0ue693COQl0Q4s_Cs/edit?usp=sharing>
+
 ### Análisis y discusión
 Al investigar cómo funciona el índice GIN en PostgreSQL, notamos que este trabaja con el operador AND, realizando una intersección de palabras en las consultas. Por ejemplo, devuelve resultados de canciones que contengan tanto la palabra "feel" como "love", lo que incrementa el tiempo de búsqueda. Por otro lado, nuestro índice invertido utiliza el operador OR, lo que resulta en tiempos de búsqueda mucho menores, ya que realiza una unión y devuelve todas las canciones que contienen la palabra "feel" o "love". En términos de efectividad, ambos índices son útiles; el de PostgreSQL es más efectivo para encontrar coincidencias exactas en una oración o una frase compuesta, mientras que para búsquedas de palabras individuales, ambos métodos son igualmente efectivos.
 
 Las similitudes cosenos implementadas son muy diferentes, y el factor principal de esto es la `metadata`, un motor de búsqueda de canciones como spotify se rige por el nombre del artista o el nombre de la canción, y el peso que tengan los keywords en ello deberían ser por obvias razones mayor que cualquier otro keyword que aparezca en las líricas de una canción, en caso contrario de un motor de búsqueda de papers donde sí se muestra más ese balance entre frecuencia de keywords y rareza de estos (`tf-idf`), es por ello la diferencia notoria en los score entre ambos índices.
 
-El no normalizar (en el caso del índice GiN) podría generar un desbalance entre la frecuencia y la rareza de los keywords, en consecuencia, una gran diferencia en los scores obtenidos dependiendo la query (obteniendo scores muy altos o scores muy bajos).
-
-
+El normalizar los vectores en la implementación de nuestro índice, ayuda a equilibrar las frecuencias de las palabras clave y asegurar que los resultados sean más consistentes y rápidos. PostgreSQL podría no estar normalizando en la misma medida, lo que puede generar variaciones significativas en los scores y, consecuentemente, en los tiempos de búsqueda dependiendo de la consulta. El no normalizar (en el caso del índice GIN) podría generar un desbalance entre la frecuencia y la rareza de los keywords, en consecuencia, una gran diferencia en los scores obtenidos dependiendo de la query (obteniendo scores muy altos o scores muy bajos).
