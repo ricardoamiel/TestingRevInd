@@ -76,7 +76,7 @@
                     <td>${docData.lyrics}</td>
                     <td>${docData.track_name}</td>
                     <td>${docData.track_artist}</td>
-                    <td>${result.score}</td>
+                    <td>${Math.round(result.score * 10000) / 10000}</td>
                 `;
                 inMemoryTbody.appendChild(row);
             }
@@ -115,7 +115,7 @@
                     <td>${result.lyrics}</td>
                     <td>${result.track_name}</td>
                     <td>${result.track_artist}</td>
-                    <td>${result.score}</td>
+                    <td>${Math.round(result.score * 10000) / 10000}</td>
                 `;
                 postgresTbody.appendChild(row);
             }
@@ -152,4 +152,5 @@
         <div id="results" class="mt-5"></div>
     </div>
 </body>
+
 </html>
