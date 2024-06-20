@@ -1,7 +1,23 @@
 from flask import Flask, request, jsonify, render_template
-import ProyectoBD2enPython as PBD
 import psycopg2
 import time
+import TableCreation
+
+# Inputs
+db_name = input("database[postgres]: ")  or 'postgres'
+db_user = input('user[postgres]: ') or 'postgres'
+db_password = input("password: ")
+
+# Crear tabla en PostgreSQL
+temp = ''
+
+while temp != 'y' and temp != 'n':
+    temp = input("¿Desea crear la tabla en PostgreSQL? [y/n]: ")
+    
+if temp == 'y':
+    TableCreation.create_table(db_user, db_password, db_name)
+
+import ProyectoBD2enPython as PBD
 
 # Inicializar la aplicación Flask
 app = Flask(__name__)
@@ -14,14 +30,14 @@ track_info = PBD.track_info
 
 # Conectar a PostgreSQL
 conn = psycopg2.connect(
-    dbname="postgres",
-    user="postgres",
-    password="my_password", # tu password de postgresql
+    dbname=db_name,
+    user=db_user,
+    password=db_password,
     host="localhost",
     port="5432"
 )
 
-my_table = 'db2.spotify_songs' # cambiar por el nombre de la tabla en PostgreSQL y tu schema
+my_table = 'db2.spotify_songs'
 
 @app.route('/')
 def home():
@@ -97,4 +113,4 @@ def search_postgresql():
     return jsonify(response)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()

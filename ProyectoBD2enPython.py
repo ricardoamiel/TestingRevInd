@@ -10,6 +10,7 @@ from nltk.tokenize import RegexpTokenizer
 from nltk.corpus import stopwords
 import pandas as pd
 import time
+import os
 nltk.download('punkt')
 
 with open('BD2/stoplist.txt', 'r') as file:
@@ -71,7 +72,7 @@ def preprocesamiento(text, language):
 
 # Construcción del Índice Invertido usando SPIMI
 def spimi_invert(token_stream, block_size):
-    output_file = open(f"block_{spimi_invert.block_count}.txt", "w", encoding='utf-8')
+    output_file = open(os.getcwd() + "/blocks/" + f"block_{spimi_invert.block_count}.txt", "w", encoding='utf-8')
     spimi_invert.block_count += 1
     
     dictionary = defaultdict(dict)
@@ -175,7 +176,7 @@ def merge_blocks(block_files, total_docs):
         f.close()
 
     sorted_terms = term_dict.items()
-    with open("final_index.txt", "w", encoding='utf-8') as f:
+    with open(os.getcwd() + "/blocks/" + "final_index.txt", "w", encoding='utf-8') as f:
         for term, postings in sorted_terms:
             if doc_freq[term] == 0: # si no aparece en ningun documento, idf = 0
                 idf = 0
@@ -220,7 +221,7 @@ build_index(documentos_sin_procesar, languages, 8192) # 4096
 
 # Cargar el índice invertido
 index = defaultdict(dict)
-with open("final_index.txt", "r", encoding="utf-8") as f:
+with open(os.getcwd() + "/blocks/" + "final_index.txt", "r", encoding="utf-8") as f:
     for line in f:
         term, postings = line.strip().split(' ', 1)
         postings_list = postings.split()
