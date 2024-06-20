@@ -125,7 +125,7 @@ Se implementa la lógica de `block_size`, cada vez que se rompe esa condición, 
 
 ```python
 def spimi_invert(token_stream, block_size):
-    output_file = open(f"block_{spimi_invert.block_count}.txt", "w", encoding='utf-8')
+    output_file = open(os.getcwd() + "/blocks/" + f"block_{spimi_invert.block_count}.txt", "w", encoding='utf-8')
     spimi_invert.block_count += 1
     
     dictionary = defaultdict(dict)
@@ -193,7 +193,7 @@ def merge_blocks(block_files, total_docs):
         f.close()
 
     sorted_terms = term_dict.items()
-    with open("final_index.txt", "w", encoding='utf-8') as f:
+    with open(os.getcwd() + "/blocks/" + "final_index.txt", "w", encoding='utf-8') as f:
         for term, postings in sorted_terms:
             if doc_freq[term] == 0: # si no aparece en ningun documento, idf = 0
                 idf = 0
@@ -264,14 +264,15 @@ def merge_blocks(block_files, total_docs):
 * **Construcción del Índice Invertido Final:**
   ```python
   sorted_terms = term_dict.items()
-  with open("final_index.txt", "w", encoding='utf-8') as f:
-      for term, postings in sorted_terms:
-          if doc_freq[term] == 0: # si no aparece en ningun documento, idf = 0
-              idf = 0
-          else:
-              idf = math.log10(1 + (total_docs / len(term_dict[term])))
-          postings_str = " ".join([f"{doc_id}:{round((1 + math.log10(tf)) * idf, 2)}" for doc_id, tf in postings.items()])
-          f.write(f"{term} {postings_str}\n")
+  with open(os.getcwd() + "/blocks/" + "final_index.txt", "w", encoding='utf-8') as f:
+        for term, postings in sorted_terms:
+            if doc_freq[term] == 0: # si no aparece en ningun documento, idf = 0
+                idf = 0
+            else:
+                idf = math.log10(1 + (total_docs / len(term_dict[term])))
+            postings_str = " ".join([f"{doc_id}:{round((1 + math.log10(tf)) * idf, 2)}" for doc_id, tf in postings.items()])
+            f.write(f"{term} {postings_str}\n")
+
   ```
   - Los  términos en `term_dict` ya están ordenados gracias al heap lexicográficamente.
   - Calcula el IDF para cada término y construye la cadena de postings.
@@ -304,31 +305,187 @@ Nuestro frontend muestra no solo los datos obtenidos usando nuestro índice inve
 
 #### Conección con PostgreSQL
 
-El experimento fue corrido en datagrip, simplemente se carga el csv en una tabla con el mismo nombre (spotify_songs) y se corre el código de experimento.
+El experimento fue corrido en datagrip, en un principio la data se cargaba mediante el csv spotify_songs, por temas de reducir tiempo entre cargas, lo automatizamos mediante el script `TableCreation.py`.
 
-Primero juntamos en una sola columna el nombre de la canción, el artista, el álbum y la letra de esta misma, nos servirá para poder mostrar la tabla proporcionada por postgres en el frontend. Además de ello, se crean los índices respectivos, con ello listo, podemos correr el experimento
+Creamos una función `create_table` que recibe el usuario, la contraseña y la base de datos (asumiendo que trabajaremos en localhost y puerto 5432), creamos el schema `db2` y la tabla solo con las columnas que nos dan información (así evitamos cargar información extra y tarda menos en cargar la tabla). Después de ello, podemos insertar los datos mediante el método de `engine`.
 
-```sql
--- merge columnas nombre cancion, nombre artista, nombre album, y letra cancion
-ALTER TABLE spotify_songs
-ADD COLUMN listo_index text;
-UPDATE spotify_songs
-SET listo_index = CONCAT_WS(' ', track_name, track_artist, track_album_name, lyrics);
+Procedemos a crear los índices, este sería el código completo.
 
--- Crear un índice GIN en la columna listo_index
-CREATE INDEX idx_listo_index_spanish_gin
-    ON spotify_songs USING gin(to_tsvector('spanish', listo_index))
-    WHERE language = 'es';
+```python
+import pandas as pd
+from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String, text, inspect
+from sqlalchemy.schema import CreateSchema
+import os
+def create_table(user, password, database):
 
--- Crear un índice GIN en la columna listo_index
-CREATE INDEX idx_listo_index_english_gin
-    ON spotify_songs USING gin(to_tsvector('english', listo_index))
-    WHERE language = 'en';
+    csv_file_path = os.getcwd() + "\BD2\spotify_songs_pj.csv"
+
+    df = pd.read_csv(csv_file_path)
+    # Conectar a la base de datos
+    engine = create_engine(f'postgresql://{user}:{password}@localhost:5432/{database}')
+    conn = engine.connect()
+
+    # Crear esquema si no existe
+
+    inspector = inspect(engine)
+    schemas = inspector.get_schema_names()
+    if 'db2' not in schemas:
+        conn.execute(text("create schema db2;"))
+        conn.commit()
+
+    # Crear tabla
+
+    metadata = MetaData()
+
+    spotify_songs = Table(
+        'spotify_songs', metadata,
+        Column('track_name', String),
+        Column('track_artist', String),
+        Column('track_album_name', String),
+        Column('lyrics', String),
+        Column('language', String),
+        Column('track_ID', Integer, primary_key=True),
+        schema='db2'
+        )
+
+    metadata.create_all(engine)
+
+    # Insertar datos en la tabla
+    df.to_sql('spotify_songs', engine, if_exists='replace', schema='db2', index=False)
+
+    conn.execute(text("ALTER TABLE db2.spotify_songs ADD COLUMN listo_index text;"))
+    conn.execute(text("UPDATE db2.spotify_songs SET listo_index = CONCAT_WS(' ', track_name, track_artist, track_album_name, lyrics);"))
+
+    # Creacion de indices
+
+    conn.execute(text("CREATE INDEX idx_listo_index_spanish_gin ON db2.spotify_songs USING gin(to_tsvector('spanish', listo_index)) WHERE language = 'es';"))
+    conn.execute(text("CREATE INDEX idx_listo_index_english_gin ON db2.spotify_songs USING gin(to_tsvector('english', listo_index))WHERE language = 'en';"))
+
+    conn.commit()
 ```
 
 #### Ejecución del código
 
-Debemos tener en cuenta el `schema` y la `contraseña` de nuestra cuenta de postgreSQL, con la tabla y los índices creados, solo ejecutando `app.py` podrás escribir consultas en lenguaje natural en nuestra GUI, y ver las diferencias entre nuestro índice invertido y el índice GiN de PostgreSQL.
+Solo ejecutando `app.py` podrás escribir consultas en lenguaje natural en nuestra GUI, y ver las diferencias entre nuestro índice invertido y el índice GiN de PostgreSQL. **Al correr el programa te pedirá tu usuario, la base de datos y la contraseña de cuenta de localhost de postgres, si es la primera vez que corres el programa cuándo te pregunten si deseas crear la tabla acepta (y), las siguientes veces tendrás que colocar (n)**
+
+```python
+from flask import Flask, request, jsonify, render_template
+import psycopg2
+import time
+import TableCreation
+
+# Inputs
+db_name = input("database[postgres]: ")  or 'postgres'
+db_user = input('user[postgres]: ') or 'postgres'
+db_password = input("password: ")
+
+# Crear tabla en PostgreSQL
+temp = ''
+
+while temp != 'y' and temp != 'n':
+    temp = input("¿Desea crear la tabla en PostgreSQL? [y/n]: ")
+    
+if temp == 'y':
+    TableCreation.create_table(db_user, db_password, db_name)
+
+import ProyectoBD2enPython as PBD
+
+# Inicializar la aplicación Flask
+app = Flask(__name__)
+
+# Cargar el índice invertido y calcular normas
+index = PBD.index
+norms = PBD.calculate_norms(index)
+docs = PBD.documentos_sin_procesar
+track_info = PBD.track_info
+
+# Conectar a PostgreSQL
+conn = psycopg2.connect(
+    dbname=db_name,
+    user=db_user,
+    password=db_password,
+    host="localhost",
+    port="5432"
+)
+
+my_table = 'db2.spotify_songs'
+
+@app.route('/')
+def home():
+    return render_template('index.html')
+
+# muestra el contenido de un top k documento
+@app.route('/document', methods=['GET'])
+def get_document():
+    doc_id = request.args.get('doc_id', type=int)
+    return {
+        'lyrics': docs[doc_id],
+        'track_name': track_info[doc_id]['track_name'],
+        'track_artist': track_info[doc_id]['track_artist']
+    }
+
+# llama los top k documentos con sus scores
+@app.route('/search', methods=['GET'])
+def search():
+    query = request.args.get('query')
+    k = request.args.get('k', type=int)
+    language = request.args.get('language')
+    start_time = time.time()
+    results = PBD.cosine_similarity(query, index, norms, k, language)
+    duracion = time.time() - start_time
+    response = { # puede haber error 
+        'results': [{'doc_id': doc_id, 'score': score} for doc_id, score in results],
+        'time': duracion
+    }
+    return jsonify(response)
+
+# llama los top k documentos con sus scores desde PostgreSQL
+@app.route('/search_postgresql', methods=['GET'])
+def search_postgresql():
+    query = request.args.get('query')
+    k = request.args.get('k', type=int)
+    language = request.args.get('language')
+    
+    ### convertir query separado por espacios en query separado por &
+    ### ejemplo query = 'Feel Love' => query = 'Feel & Love'
+    query = ' & '.join(query.split())
+
+    if language == 'en':
+        ts_query = f"to_tsquery('english', '{query}')"
+    else:
+        ts_query = f"to_tsquery('spanish', '{query}')"
+        
+    
+    # transformar language == en => english o es => spanish
+    if language == 'en':
+        language = 'english'
+    else:
+        language = 'spanish'
+    
+    sql = f"""
+        SELECT track_name, track_artist, track_album_name, listo_index,
+               ts_rank(to_tsvector('{language}', listo_index), {ts_query}) AS rank
+        FROM {my_table}
+        WHERE to_tsvector('{language}', listo_index) @@ {ts_query}
+        ORDER BY rank DESC
+        LIMIT {k};
+    """
+
+    start_time = time.time()
+    with conn.cursor() as cur:
+        cur.execute(sql)
+        results = cur.fetchall()
+    duracion = time.time() - start_time
+
+    response = {
+        'results': [{'track_name': row[0], 'track_artist': row[1], 'track_album_name': row[2], 'lyrics': row[3], 'score': row[4]} for row in results],
+        'time': duracion
+    }
+    return jsonify(response)
+
+if __name__ == '__main__':
+    app.run()
+```
 
 ## Experimentación
 ### Tablas y gráficos de los resultados experimentales
