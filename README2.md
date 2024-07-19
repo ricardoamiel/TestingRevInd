@@ -74,7 +74,7 @@ Nuestra base de datos contiene aproximadamente 25,000 canciones de distintos gé
 | 16k             | 49.965             | 2.6500     | 0.023975 | 0.004762    |
 
 ### Gráfica de Resultados de los Algoritmos de Búsqueda KNN
-<img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/Range_KNN.png">
+<img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/Tiempos.png?raw=true">
 
 ## Análisis y discusión
 #### Tiempo de Ejecución
