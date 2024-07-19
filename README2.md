@@ -62,7 +62,7 @@ Nuestra base de datos contiene aproximadamente 25,000 canciones de distintos gé
 ### Gráfica 
 <img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/Range_KNN.png">
 
-### Análisis y discusión
+## Análisis y discusión
 #### Resultados Generales de los Algoritmos KNN
 
 Las tablas de resultados muestran el desempeño de tres algoritmos KNN (`Range KNN Priority Queue`, `RTree KNN`, y `HighD (knn_faiss)`) en función del tamaño de datos. Los tiempos de ejecución, medidos en segundos, proporcionan una visión clara de la eficiencia de cada algoritmo a medida que se incrementa el tamaño del conjunto de datos.
