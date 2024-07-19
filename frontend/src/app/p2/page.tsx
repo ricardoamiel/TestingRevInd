@@ -15,6 +15,10 @@ export default function Home() {
     searchPostgresSQLResponse | undefined
   >(undefined);
   const [isLoading, setIsLoading] = useState(false);
+  const [viewingState, setViewingState] = useState(0);
+  // 0 is none
+  // 1 is inverted index
+  // 2 is postgresSQL
 
   async function handleSearch() {
     const queryText = (
@@ -49,10 +53,10 @@ export default function Home() {
     setIsLoading(false);
   }
   async function handleViewInvertedIndex() {
-    console.log("Viewing Inverted Index");
+    setViewingState(1);
   }
   async function handleViewPostgresSQL() {
-    console.log("Viewing PostgresSQL");
+    setViewingState(2);
   }
   return (
     <>
@@ -109,6 +113,34 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {viewingState === 1 && (
+        <div className="bg-white bg-opacity-10 p-10 rounded-md my-3">
+          <button
+            className="float-right bg-red-700 hover:bg-red-900 rounded-md p-2"
+            onClick={() => {
+              setViewingState(0);
+            }}
+          >
+            Cerrar
+          </button>
+          <pre className="overflow-auto">{JSON.stringify(searchResults, null, 2)}</pre>
+        </div>
+      )}
+      {viewingState === 2 && (
+        <div className="bg-white bg-opacity-10 p-10 rounded-md my-3">
+                    <button
+            className="float-right bg-red-700 hover:bg-red-900 rounded-md p-2"
+            onClick={() => {
+              setViewingState(0);
+            }}
+          >
+            Cerrar
+          </button>
+          <pre className="overflow-auto">{JSON.stringify(searchPostgresSQLResults, null, 2)}</pre>
+        </div>
+      )}
+
       {isLoading ? (
         // Loading spinner using a rounded div with a border
         <div className="flex justify-center items-center h-96">

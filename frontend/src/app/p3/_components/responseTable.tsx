@@ -4,7 +4,7 @@ export interface ResponseTableP3Props {
   responseData: {
     results: [
       {
-        doc_id: number;
+        id: number;
         score: number;
       }
     ];
