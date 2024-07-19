@@ -47,6 +47,8 @@ Nuestra base de datos contiene aproximadamente 25,000 canciones de distintos gé
 | 8k              | 25.527                   | 0.001432      | 0.002268    |
 | 16k             | 49.965                   | 0.023975      | 0.004762    |
 
+<img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/Algoritmos.png">
+
 
 | Tamaño de Datos | Radio 1 | Tiempo 1 | Radio 2 | Tiempo 2 | Radio 3 | Tiempo 3 |
 |-----------------|---------|----------|---------|----------|---------|----------|
@@ -56,6 +58,6 @@ Nuestra base de datos contiene aproximadamente 25,000 canciones de distintos gé
 | 8k              | 63.87   | 1.3710   | 79.53   | 1.3429   | 94.80   | 1.3910   |
 | 16k             | 62.46   | 2.6490   | 77.87   | 2.6441   | 92.01   | 2.6570   |
 
-
+<img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/Range_KNN.png">
 ### Análisis y discusión
 
