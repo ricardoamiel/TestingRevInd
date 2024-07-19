@@ -38,15 +38,15 @@ Nuestra base de datos contiene aproximadamente 25,000 canciones de distintos gé
 ### Análisis comparativo visual con otras implementaciones
 
 ## Experimentación
-### Tablas y gráficos de los resultados experimentales
 ## Tabla de Resultados
-| Tamaño de Datos | Tiempo Range KNN Priority Queue (segundos) | Tiempo RTree KNN (segundos) | Tiempo HighD (knn_faiss) (segundos) |
-|-----------------|----------------------------------------------|-----------------------------|------------------------------------|
-| 1k              | 3.280                                        | 0.000416                    | 0.000396                           |
-| 2k              | 6.102                                        | 0.001113                    | 0.000778                           |
-| 4k              | 12.977                                       | 0.005534                    | 0.001001                           |
-| 8k              | 25.527                                       | 0.001432                    | 0.002268                           |
-| 16k             | 49.965                                       | 0.023975                    | 0.004762                           |
+| Tamaño de Datos | Range KNN Priority Queue | RTree KNN     | HighD (knn_faiss)|
+|-----------------|--------------------------|---------------|-------------|
+| 1k              | 3.280                    | 0.000416      | 0.000396    |
+| 2k              | 6.102                    | 0.001113      | 0.000778    |
+| 4k              | 12.977                   | 0.005534      | 0.001001    |
+| 8k              | 25.527                   | 0.001432      | 0.002268    |
+| 16k             | 49.965                   | 0.023975      | 0.004762    |
+
 
 ### Análisis y discusión
 
