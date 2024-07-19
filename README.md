@@ -4,7 +4,7 @@
 ## Introducción
 ### Objetivo del proyecto
 - Este proyecto fue desarrollado con el fin de facilitar la búsqueda de canciones a través de palabras específicas o de audios relacionados a través como por ejemplo las top 10 canciones más relacionadas al amor o tristeza. Esto simpilifica y devuelve los resultados más acorde a lo que buscamos en un tiempo mínimo. 
-- Además decidimos desarrollar una herramienta efectiva que facilite la búsqueda y el reconocimiento de canciones a través de sus características principales. Inspirado en aplicaciones como Shazam, este proyecto se centra en la extracción de vectores característicos de cada canción en una base de datos, lo que permite realizar búsquedas eficientes y precisas basadas en distintas características y similitudes entre canciones. Esta herramienta está diseñada para mejorar la experiencia del usuario en la identificación y descubrimiento de música, proporcionando resultados rápidos y relevantes que se ajusten a sus preferencias y necesidades musicales.
+- Además, decidimos desarrollar una herramienta efectiva que facilite la búsqueda y el reconocimiento de canciones a través de sus características principales. Inspirado en aplicaciones como Shazam, este proyecto se centra en la extracción de vectores característicos de cada canción en una base de datos, lo que permite realizar búsquedas eficientes y precisas basadas en distintas características y similitudes entre canciones. Esta herramienta está diseñada para mejorar la experiencia del usuario en la identificación y descubrimiento de música, proporcionando resultados rápidos y relevantes que se ajusten a sus preferencias y necesidades musicales.
 
 ### Descripción del dominio de datos y la importancia de aplicar indexación
 La base de datos contiene más de 17 mil registros de canciones con especificaciones como: nombre, artista, letra de la canción, popularidad, nombre del album, fecha de lanzamiento, género, instrumentos, etc. De las cuales, estamos usando principalmente las columnas del artista, nombre y letra de la canción para poder ingresar un conjunto de palabras y que devuelva las top k canciones que se relacionan más a las palabras ingresadas.
@@ -537,6 +537,7 @@ El normalizar los vectores en la implementación de nuestro índice, ayuda a equ
 #### Mini-manual de usuario
 #### Screenshots de la GUI
 ### Análisis comparativo visual con otras implementaciones
+
 
 ## Experimentación
 ### Tabla de Resultados de los Algoritmo (KNN) 
