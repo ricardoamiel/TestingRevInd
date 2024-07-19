@@ -194,7 +194,7 @@ def knn_rtree():
         
         return jsonify(response)
     
-@app.route('/high_d', methods=['PUT'])
+@app.route('/high_d', methods=['POST'])
 def high_d():
     # Check if the request has the file part
     if 'file' not in request.files:
@@ -219,6 +219,10 @@ def high_d():
         }
         
         return jsonify(response)
+    
+@app.route('/download', methods=['GET'])
+def download():
+    return
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()

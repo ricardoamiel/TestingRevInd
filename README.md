@@ -535,6 +535,25 @@ El normalizar los vectores en la implementación de nuestro índice, ayuda a equ
 ## Frontend
 ### Diseño de la GUI
 #### Mini-manual de usuario
+Para instalar y ejecutar el proyecto Frontend, sigue estos pasos:
+
+1. **Cambiar al directorio "Frontend"**
+
+    ```bash
+    cd Frontend
+    ```
+    
+2. **Instalar las dependencias del proyecto**
+
+    ```bash
+    npm install
+    ```
+
+3. **Ejecutar el proyecto**
+
+    ```bash
+    npm run dev
+    ```
 #### Screenshots de la GUI
 ### Análisis comparativo visual con otras implementaciones
 - **Shazam**
