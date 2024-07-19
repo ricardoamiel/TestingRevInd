@@ -17,18 +17,14 @@ function page() {
     }
     setIsLoading(true);
   
-    // Create a FormData object and append the file
+
     const formData = new FormData();
     formData.append("file", fileUploadField.files[0]);
-  
-    // Include other fields if necessary
-    // formData.append("kValue", kValue);
+
   
     const response = await fetch(`http://localhost:5000/${selectValue}?k=${kValue}`, {
       method: "POST",
-      body: formData, // Use FormData object
-      // Do not set Content-Type header when using FormData
-      // The browser will set it automatically, including the boundary parameter
+      body: formData, 
     });
   
     const data = await response.json();

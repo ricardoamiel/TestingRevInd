@@ -24,7 +24,7 @@ function ResponseTableP3({ responseData, usableData }: ResponseTableP3Props) {
       alert("Please fill in all fields");
       return;
     }
-    window.open(`http://localhost:5000/download/${trackId}`);
+    window.open(`http://localhost:5000/download?id=${trackId}`);
   };
   return (
     <div className="mt-6">
