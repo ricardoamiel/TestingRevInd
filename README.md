@@ -576,7 +576,7 @@ Esta opción en el navegador de Google se basa prácticamente en reconocer tu vo
 | 16k             | 49.965             | 0.023975  | 0.004762         |
 
 ### Gráfica de Resultados de los Algoritmos (KNN) 
-<img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/Algoritmos.png">
+<img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/1.png?raw=true">
 
 ### Tabla de Resultados del los Algoritmo de Búsqueda KNN (que no requieren radio) 
 | Tamaño de Datos | Radio 1 | Tiempo 1 | Radio 2 | Tiempo 2 | Radio 3 | Tiempo 3 |
@@ -589,7 +589,7 @@ Esta opción en el navegador de Google se basa prácticamente en reconocer tu vo
 
 
 ### Gráfica de Resultados del Algoritmo Range KNN
-<img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/Range_KNN.png">
+<img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/2.png?raw=true">
 
 
 ### Tabla de Resultados de los Algoritmos de Búsqueda KNN 
@@ -602,7 +602,7 @@ Esta opción en el navegador de Google se basa prácticamente en reconocer tu vo
 | 16k             | 49.965             | 2.6500     | 0.023975 | 0.004762    |
 
 ### Gráfica de Resultados de los Algoritmos de Búsqueda KNN
-<img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/Tiempos.png?raw=true">
+<img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/3.png?raw=true">
 
 ## Análisis y discusión
 #### Tiempo de Ejecución
