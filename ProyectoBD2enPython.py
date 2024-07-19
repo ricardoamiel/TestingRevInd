@@ -218,8 +218,6 @@ for i in range(len(musics)):
 
 languages = musics['language']
 
-build_index(documentos_sin_procesar, languages, 8192) # 4096
-
 # Cargar el índice invertido
 index = defaultdict(dict)
 with open(os.getcwd() + "/blocks/" + "final_index.txt", "r", encoding="utf-8") as f:
@@ -236,3 +234,40 @@ with open(os.getcwd() + "/blocks/" + "final_index.txt", "r", encoding="utf-8") a
         
 
 norms = calculate_norms(index)
+
+def main():
+    # filtrar solo músicas en español o ingles
+    musics = musics[(musics['language'] == 'es') | (musics['language'] == 'en')]
+    #resetear indices
+    musics = musics.reset_index(drop=True)
+
+    # unir en una sola columna el nombre de la canción, el nombre del artista, el nombre del album y las letras de la canción
+    musics['lyrics'] = musics['track_name'] + ' ' + musics['track_artist'] + ' ' + musics['track_album_name'] + ' ' + musics['lyrics']
+
+    # crear diccionario de canciones
+    documentos_sin_procesar = {}
+    track_info = {}
+    for i in range(len(musics)):
+        documentos_sin_procesar[i] = musics['lyrics'][i]
+        track_info[i] = {'track_name': musics['track_name'][i], 'track_artist': musics['track_artist'][i]}
+
+    languages = musics['language']
+
+    build_index(documentos_sin_procesar, languages, 8192) # 4096
+
+    # Cargar el índice invertido
+    index = defaultdict(dict)
+    with open(os.getcwd() + "/blocks/" + "final_index.txt", "r", encoding="utf-8") as f:
+        for line in f:
+            term, postings = line.strip().split(' ', 1)
+            postings_list = postings.split()
+            for posting in postings_list:
+                doc_id, tfidf = posting.split(':')
+                doc_id = int(doc_id)
+                tfidf = float(tfidf)
+                if doc_id not in index[term]:
+                    index[term][doc_id] = 0
+                index[term][doc_id] += tfidf
+            
+
+    norms = calculate_norms(index)
