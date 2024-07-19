@@ -3,6 +3,28 @@ from flask_cors import CORS
 import psycopg2
 import time
 import TableCreation
+import ProyectoBD2enPython as PBD
+import p3_funcs as p3
+import pandas as pd
+import os
+from werkzeug.utils import secure_filename
+import rtree
+import numpy as np
+
+# AuxFuncs
+def allowed_file(filename):
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in {'mp3'}
+
+def accepted(file):
+    # If the user does not select a file, the browser submits an
+    # empty file without a filename.
+    if file.filename == '':
+        return ''
+    if file and allowed_file(file.filename):
+        filename = secure_filename(file.filename)
+        filepath = os.path.join('/uplads', filename)
+        file.save(filepath)
+    return filepath
 
 # Inputs
 db_name = input("database[postgres]: ")  or 'postgres'
@@ -18,7 +40,6 @@ while temp != 'y' and temp != 'n':
 if temp == 'y':
     TableCreation.create_table(db_user, db_password, db_name)
 
-import ProyectoBD2enPython as PBD
 
 # Inicializar la aplicación Flask
 app = Flask(__name__)
@@ -113,6 +134,91 @@ def search_postgresql():
         'time': duracion
     }
     return jsonify(response)
+
+@app.route('/knn_pq', methods=['PUT'])
+def knn_pq():
+    # Check if the request has the file part
+    if 'file' not in request.files:
+        return jsonify({'error': 'No file part'}), 400
+    file = request.files['file']
+    filepath = accepted(file)
+    if filepath == '':
+        return jsonify({'error': 'No selected file'}), 400
+    else:
+        # Procesar la consulta
+        datatrain = pd.read_csv('songs/features.csv')
+        datatrain_ = datatrain.iloc[:,1:].values
+    
+        query = p3.features_extraction(filepath)
+        k = request.args.get('k', type=int)
+    
+        start_time = time.time()
+        result = p3.knnSearch(datatrain_, query, k)
+        end_time = time.time() - start_time
+        
+        for i in range(len(result)):
+            result[i] = datatrain.iloc[result[i],0]
+        
+        jj = []
+        for i in result:
+            jj.append({'id': i[0], 'score': i[1]})
+        
+        response = {
+            'results': jj,
+            'time': end_time
+        }
+
+@app.route('/knn_rtree', methods=['PUT'])
+def knn_rtree():
+    # Check if the request has the file part
+    if 'file' not in request.files:
+        return jsonify({'error': 'No file part'}), 400
+    file = request.files['file']
+    filepath = accepted(file)
+    if filepath == '':
+        return jsonify({'error': 'No selected file'}), 400
+    else:
+        # Procesar la consulta
+        datatrain = pd.read_csv('songs/features.csv')
+        datatrain_ = datatrain.iloc[:,1:].values
+    
+        query = p3.features_extraction(filepath)
+        k = request.args.get('k', type=int)
+
+        indexes, scores, time_ = p3.knn_rtree(datatrain_, query, k, 32)
+        
+        response = {
+            'results': [{'id': indexes[i], 'score': scores[i]} for i in range(indexes)],
+            'time': time_
+        }
+        
+        return jsonify(response)
+    
+@app.route('/high_d', methods=['PUT'])
+def high_d():
+    # Check if the request has the file part
+    if 'file' not in request.files:
+        return jsonify({'error': 'No file part'}), 400
+    file = request.files['file']
+    filepath = accepted(file)
+    if filepath == '':
+        return jsonify({'error': 'No selected file'}), 400
+    else:
+        # Procesar la consulta
+        datatrain = pd.read_csv('songs/features.csv')
+        datatrain_ = datatrain.iloc[:,1:].values
+    
+        query = p3.features_extraction(filepath)
+        k = request.args.get('k', type=int)
+        
+        indexes, scores, time_ = p3.knn_faiss(datatrain_, query, k)
+        
+        response = {
+            'results': [{'id': indexes[i], 'score': scores[i]} for i in range(indexes)],
+            'time': time_
+        }
+        
+        return jsonify(response)
 
 if __name__ == '__main__':
     app.run()

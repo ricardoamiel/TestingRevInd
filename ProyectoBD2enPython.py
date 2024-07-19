@@ -94,8 +94,6 @@ def spimi_invert(token_stream, block_size):
 
     return output_file.name
 
-spimi_invert.block_count = 0
-
 def parse_docs(documents, languages):
     token_stream = deque()
     for doc_id, text in documents.items():
@@ -104,37 +102,6 @@ def parse_docs(documents, languages):
         for token in tokens:
             token_stream.append((token, doc_id))
     return token_stream
-
-'''
-estrategia 2 pointers
-def merge_blocks(block_files, total_docs):
-    term_dict = defaultdict(dict)
-    doc_freq = defaultdict(int)
-
-    for block_file in block_files:
-        with open(block_file, "r", encoding='utf-8') as f:
-            for line in f:
-                term, postings = line.strip().split(' ', 1)
-                postings_list = postings.split()
-                for posting in postings_list:
-                    doc_id, tf = posting.split(':')
-                    doc_id = int(doc_id)
-                    tf = int(tf)
-                    if doc_id not in term_dict[term]:
-                        term_dict[term][doc_id] = 0
-                    term_dict[term][doc_id] += tf
-                    doc_freq[term] += 1
-
-    sorted_terms = sorted(term_dict.items())
-    with open("final_index.txt", "w", encoding='utf-8') as f:
-        for term, postings in sorted_terms:
-            if doc_freq[term] == 0: # si no aparece en ningun documento, idf = 0
-                idf = 0
-            idf = math.log10((total_docs / doc_freq[term]))
-            postings_str = " ".join([f"{doc_id}:{round((1 + math.log10(tf)) * idf,2)}" for doc_id, tf in postings.items()])
-            f.write(f"{term} {postings_str}\n")
-            
-    print("Índice invertido construido con éxito")'''
 
 # Estrategia de mezcla de bloques con heap y 2 punteros
 def merge_blocks(block_files, total_docs):
@@ -187,8 +154,6 @@ def merge_blocks(block_files, total_docs):
 
     print("Índice invertido construido con éxito")
 
-
-
 def build_index(documents, languages, block_size):
     total_docs = len(documents)
     token_stream = parse_docs(documents, languages)
@@ -197,6 +162,42 @@ def build_index(documents, languages, block_size):
         block_file = spimi_invert(token_stream, block_size)
         block_files.append(block_file)
     merge_blocks(block_files, total_docs)
+
+# Calcular la norma de los documentos y guardarlo en un diccionario
+def calculate_norms(index):
+    norms = defaultdict(float)
+    for term, postings in index.items():
+        for doc_id, tfidf in postings.items():
+            norms[doc_id] += tfidf ** 2
+    for doc_id in norms:
+        norms[doc_id] = math.sqrt(norms[doc_id])
+    return norms
+    
+spimi_invert.block_count = 0
+
+def cosine_similarity(query, index, norms, k, language): # search
+    scores = defaultdict(float)
+    query_tokens = preprocesamiento(query, language).split()
+    query_tf = defaultdict(int)
+    for token in query_tokens:
+        query_tf[token] += 1
+    query_vector = {token: 1 + math.log10(tf) for token, tf in query_tf.items() if token in index}
+    
+    query_norm = math.sqrt(sum((1 + math.log10(tf))**2 for tf in query_tf.values() if tf > 0))
+    
+    for token, weight in query_vector.items():
+        if token in index:
+            for doc_id, tfidf in index[token].items():
+                scores[doc_id] += weight * tfidf
+    
+    for doc_id in scores:
+        scores[doc_id] /= query_norm * norms[doc_id]
+    result = sorted(scores.items(), key=lambda x: x[1], reverse=True)[:k]
+    return result
+
+def retrieval_documents(result, docs):
+    for doc_id, score in result:
+        print(f"Song {doc_id}: {docs[doc_id]}, Score: {score}")
 
 musics = pd.read_csv('BD2/spotify_songs.csv')
 
@@ -233,50 +234,5 @@ with open(os.getcwd() + "/blocks/" + "final_index.txt", "r", encoding="utf-8") a
                 index[term][doc_id] = 0
             index[term][doc_id] += tfidf
         
-# Calcular la norma de los documentos y guardarlo en un diccionario
-def calculate_norms(index):
-    norms = defaultdict(float)
-    for term, postings in index.items():
-        for doc_id, tfidf in postings.items():
-            norms[doc_id] += tfidf ** 2
-    for doc_id in norms:
-        norms[doc_id] = math.sqrt(norms[doc_id])
-    return norms
 
 norms = calculate_norms(index)
-
-def cosine_similarity(query, index, norms, k, language): # search
-    scores = defaultdict(float)
-    query_tokens = preprocesamiento(query, language).split()
-    query_tf = defaultdict(int)
-    for token in query_tokens:
-        query_tf[token] += 1
-    query_vector = {token: 1 + math.log10(tf) for token, tf in query_tf.items() if token in index}
-    
-    query_norm = math.sqrt(sum((1 + math.log10(tf))**2 for tf in query_tf.values() if tf > 0))
-    
-    for token, weight in query_vector.items():
-        if token in index:
-            for doc_id, tfidf in index[token].items():
-                scores[doc_id] += weight * tfidf
-    
-    for doc_id in scores:
-        scores[doc_id] /= query_norm * norms[doc_id]
-    result = sorted(scores.items(), key=lambda x: x[1], reverse=True)[:k]
-    return result
-
-def retrieval_documents(result, docs):
-    for doc_id, score in result:
-        print(f"Song {doc_id}: {docs[doc_id]}, Score: {score}")
-
-Query1 = "Sunflower Post Malone and Swae Lee"
-Query2 = "Ricky Martin y sus conciertos"
-result = cosine_similarity(Query1, index, norms, 2,'en')
-result2 = cosine_similarity(Query2, index, norms, 2,'es')
-print(result)
-retrieval_documents(result, documentos_sin_procesar)
-print("*"*50)
-retrieval_documents(result2, documentos_sin_procesar)
-print("*"*50)
-print(preprocesamiento("Latina (feat. Maluma) Reykon Latina (feat. Maluma)",'es').split())
-
