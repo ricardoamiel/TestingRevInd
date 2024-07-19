@@ -55,11 +55,6 @@ Nuestra base de datos contiene aproximadamente 25,000 canciones de distintos gé
 
 | Algoritmo                  | Tamaño de Datos | Tiempo de Ejecución (segundos) |
 |----------------------------|-----------------|--------------------------------|
-| Range KNN Priority Queue   | 1k              | 3.280                          |
-|                            | 2k              | 6.102                          |
-|                            | 4k              | 12.977                         |
-|                            | 8k              | 25.527                         |
-|                            | 16k             | 49.965                         |
 | Range KNN                  | 1k              | 0.1739 (Radio 1)               |
 |                            |                 | 0.1724 (Radio 2)               |
 |                            |                 | 0.1743 (Radio 3)               |
@@ -75,16 +70,7 @@ Nuestra base de datos contiene aproximadamente 25,000 canciones de distintos gé
 |                            | 16k             | 2.6490 (Radio 1)               |
 |                            |                 | 2.6441 (Radio 2)               |
 |                            |                 | 2.6570 (Radio 3)               |
-| RTree KNN                  | 1k              | 0.000416                        |
-|                            | 2k              | 0.001113                        |
-|                            | 4k              | 0.005534                        |
-|                            | 8k              | 0.001432                        |
-|                            | 16k             | 0.023975                        |
-| HighD (knn_faiss)          | 1k              | 0.000396                        |
-|                            | 2k              | 0.000778                        |
-|                            | 4k              | 0.001001                        |
-|                            | 8k              | 0.002268                        |
-|                            | 16k             | 0.004762                        |
+
 
 ### Gráfica de Resultados del Algoritmo Range KNN
 <img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/Range_KNN.png">
