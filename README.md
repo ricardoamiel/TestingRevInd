@@ -537,6 +537,14 @@ El normalizar los vectores en la implementación de nuestro índice, ayuda a equ
 #### Mini-manual de usuario
 #### Screenshots de la GUI
 ### Análisis comparativo visual con otras implementaciones
+- **Shazam**
+<img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/WhatsApp Image 2024-07-18 at 11.10.31 PM.jpeg">
+Esta aplicación, es mundialmente conocida por reconocer sonidos a tu alrededor y hacer match con alguna canción en su base de datos (están casi todas las canciones existentes)
+
+- **Google Audio**
+<img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/WhatsApp Image 2024-07-18 at 11.15.22 PM.jpeg">
+<img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/WhatsApp Image 2024-07-18 at 11.15.37 PM.jpeg">
+Esta opción en el navegador de Google se basa prácticamente en reconocer tu voz, en este caso, alguna canción que estes tarareando o cantando y te lleva al buscador de Google que te dará como resultado la canción más parecida o, en el mejor de los casos, a la canción que estás buscando.
 
 
 ## Experimentación
