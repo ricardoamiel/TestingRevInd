@@ -50,7 +50,7 @@ Nuestra base de datos contiene aproximadamente 25,000 canciones de distintos gé
 ### Gráfica de Resultados de los Algoritmos (KNN) 
 <img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/Algoritmos.png">
 
-### Tabla de Resultados del Algoritmo Range KNN
+### Tabla de Resultados del los Algoritmo de Búsqueda KNN (que no requieren radio) 
 | Tamaño de Datos | Radio 1 | Tiempo 1 | Radio 2 | Tiempo 2 | Radio 3 | Tiempo 3 |
 |-----------------|---------|----------|---------|----------|---------|----------|
 | 1k              | 58.15   | 0.1739   | 72.75   | 0.1724   | 86.82   | 0.1743   |
