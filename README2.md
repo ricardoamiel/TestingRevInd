@@ -59,7 +59,7 @@ Nuestra base de datos contiene aproximadamente 25,000 canciones de distintos gé
 | 8k              | 63.87   | 1.3710   | 79.53   | 1.3429   | 94.80   | 1.3910   |
 | 16k             | 62.46   | 2.6490   | 77.87   | 2.6441   | 92.01   | 2.6570   |
 
-### Gráfica 
+### Gráfica de Resultados del Algoritmo Range KNN
 <img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/Range_KNN.png">
 
 ## Análisis y discusión
