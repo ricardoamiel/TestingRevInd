@@ -66,49 +66,35 @@ Nuestra base de datos contiene aproximadamente 25,000 canciones de distintos gé
 #### Tiempo de Ejecución
 
 1. **HighD (knn_faiss)**:
-   - **Mejor Tiempo de Ejecución**: `HighD (knn_faiss)` muestra el menor tiempo de ejecución en todos los tamaños de datos. En el caso de 16k, el tiempo de ejecución es 0.004762 segundos, que es significativamente más bajo que los otros algoritmos.
-   
+   - **Mejor Tiempo de Ejecución**: `HighD (knn_faiss)` muestra el menor tiempo de ejecución en todos los tamaños de datos. Por ejemplo, para 16k datos, el tiempo de ejecución es 0.004762 segundos, superando ampliamente a los otros algoritmos. Esto lo hace ideal para aplicaciones donde el tiempo de respuesta es crítico.
+
 2. **RTree KNN**:
-   - **Segundo Mejor Tiempo de Ejecución**: `RTree KNN` también ofrece buenos tiempos de ejecución, aunque mayores que `HighD (knn_faiss)`. Para 16k, el tiempo es 0.023975 segundos.
-   
+   - **Segundo Mejor Tiempo de Ejecución**: `RTree KNN` también ofrece buenos tiempos de ejecución, aunque mayores que `HighD (knn_faiss)`. Para 16k datos, el tiempo de ejecución es 0.023975 segundos. Aun así, es una opción viable para escenarios que requieren tiempos de respuesta rápidos.
+
 3. **Range KNN**:
-   - **Tiempos de Ejecución Altos**: `Range KNN` muestra tiempos de ejecución mucho mayores que `RTree KNN` y `HighD (knn_faiss)`, creciendo de manera exponencial con el tamaño del conjunto de datos. Por ejemplo, para 16k, el tiempo es 49.965 segundos.
-   
+   - **Tiempos de Ejecución Moderados**: `Range KNN` tiene tiempos de ejecución significativamente mayores que `HighD (knn_faiss)` y `RTree KNN`, pero sigue siendo más rápido que `Range KNN Priority Queue`. Por ejemplo, para 16k datos, el tiempo de ejecución varía entre 2.6441 y 2.6570 segundos dependiendo del radio, lo cual es mucho más lento que los dos anteriores.
+
 4. **Range KNN Priority Queue**:
-   - **El Peor Tiempo de Ejecución**: `Range KNN Priority Queue` tiene los tiempos de ejecución más altos, con un crecimiento exponencial aún más pronunciado a medida que aumenta el tamaño del conjunto de datos.
+   - **El Peor Tiempo de Ejecución**: `Range KNN Priority Queue` tiene los tiempos de ejecución más altos, con un crecimiento exponencial a medida que aumenta el tamaño del conjunto de datos. Para 16k datos, el tiempo de ejecución es 49.965 segundos, lo que lo hace poco práctico para grandes volúmenes de datos.
 
 #### Escalabilidad
 
 1. **HighD (knn_faiss)**:
-   - **Mejor Escalabilidad**: `HighD (knn_faiss)` muestra una escalabilidad superior, con tiempos de ejecución que aumentan de manera más controlada en comparación con los otros algoritmos. Es capaz de manejar grandes volúmenes de datos con un impacto mínimo en el tiempo de ejecución.
-   
+   - **Mejor Escalabilidad**: `HighD (knn_faiss)` muestra una escalabilidad superior, con tiempos de ejecución que aumentan de manera muy controlada a medida que crece el tamaño del conjunto de datos. Este algoritmo puede manejar grandes volúmenes de datos con un impacto mínimo en el tiempo de ejecución, haciéndolo adecuado para aplicaciones de alta demanda.
+
 2. **RTree KNN**:
-   - **Buena Escalabilidad**: `RTree KNN` tiene una escalabilidad relativamente buena, con tiempos de ejecución que crecen de manera más controlada que `Range KNN` y `Range KNN Priority Queue`. Sin embargo, no es tan eficiente como `HighD (knn_faiss)` en conjuntos de datos grandes.
-   
+   - **Buena Escalabilidad**: `RTree KNN` también tiene una escalabilidad razonable, con tiempos de ejecución que crecen de manera más controlada que `Range KNN` y `Range KNN Priority Queue`. Aunque no es tan eficiente como `HighD (knn_faiss)`, sigue siendo una opción escalable para conjuntos de datos medianos a grandes.
+
 3. **Range KNN**:
-   - **Escalabilidad Limitada**: `Range KNN` muestra una escalabilidad deficiente, con tiempos de ejecución que crecen exponencialmente a medida que aumenta el tamaño del conjunto de datos, lo que lo hace menos adecuado para grandes volúmenes de datos.
-   
+   - **Escalabilidad Moderada**: `Range KNN` muestra una escalabilidad deficiente en comparación con `HighD (knn_faiss)` y `RTree KNN`. Los tiempos de ejecución aumentan significativamente con el tamaño del conjunto de datos, lo que limita su utilidad para grandes volúmenes de datos. Por ejemplo, de 1k a 16k datos, el tiempo de ejecución pasa de 0.1739 a 2.6570 segundos.
+
 4. **Range KNN Priority Queue**:
-   - **Escalabilidad Muy Limitada**: `Range KNN Priority Queue` tiene la peor escalabilidad, con un incremento muy alto en los tiempos de ejecución a medida que aumenta el tamaño del conjunto de datos.
-
-#### Flexibilidad
-
-1. **Range KNN Priority Queue**:
-   - **Más Flexible en Parámetros**: Permite ajustar el tamaño de la cola de prioridad, lo que puede ser útil para optimizar ciertos casos de uso. Sin embargo, su flexibilidad viene a costa de un alto tiempo de ejecución.
-   
-2. **Range KNN**:
-   - **Moderada Flexibilidad**: Ofrece flexibilidad a través de ajustes del radio, pero el impacto en el tiempo de ejecución no es suficiente para superar a los métodos más eficientes. Aún así, permite cierta adaptación a diferentes configuraciones de parámetros.
-   
-3. **RTree KNN**:
-   - **Menos Flexible**: Menos flexible en comparación con `Range KNN`, pero ofrece una buena combinación de eficiencia y facilidad de uso. Es más adecuado para aplicaciones con requisitos de tiempo de ejecución más estrictos.
-   
-4. **HighD (knn_faiss)**:
-   - **Menos Necesidad de Flexibilidad**: Aunque no proporciona tanta flexibilidad en términos de ajustes de parámetros, la eficiencia de `HighD (knn_faiss)` reduce la necesidad de ajustes, ya que maneja grandes volúmenes de datos de manera eficaz con tiempos de ejecución mínimos.
+   - **Pobre Escalabilidad**: `Range KNN Priority Queue` tiene la peor escalabilidad entre los algoritmos comparados. El incremento en los tiempos de ejecución es exponencial a medida que aumenta el tamaño del conjunto de datos. Para aplicaciones con grandes volúmenes de datos, este algoritmo no es práctico debido a su tiempo de ejecución extremadamente alto.
 
 ### Conclusión
 
-- **HighD (knn_faiss)** es el algoritmo más eficiente y escalable, con el mejor rendimiento en términos de tiempo de ejecución y capacidad para manejar grandes volúmenes de datos.
-- **RTree KNN** ofrece un buen equilibrio entre tiempo de ejecución y escalabilidad, aunque no alcanza la eficiencia de `HighD (knn_faiss)`.
-- **Range KNN** y **Range KNN Priority Queue** tienen tiempos de ejecución significativamente mayores y muestran una escalabilidad deficiente, con `Range KNN Priority Queue` siendo el menos eficiente en términos de tiempo de ejecución.
-- La flexibilidad de `Range KNN Priority Queue` y `Range KNN` puede ser útil para ciertos ajustes, pero la eficiencia de `HighD (knn_faiss)` y la escalabilidad de `RTree KNN` lo convierten en la mejor opción para aplicaciones que requieren un alto rendimiento.
+- **HighD (knn_faiss)** es claramente el algoritmo más eficiente y escalable, siendo ideal para aplicaciones que requieren tiempos de respuesta rápidos y pueden manejar grandes volúmenes de datos.
+- **RTree KNN** es una buena alternativa con tiempos de ejecución razonables y buena escalabilidad, adecuado para aplicaciones que no requieren el rendimiento extremo de `HighD (knn_faiss)`.
+- **Range KNN** ofrece tiempos de ejecución moderados y una escalabilidad limitada, siendo menos eficiente que `HighD (knn_faiss)` y `RTree KNN`.
+- **Range KNN Priority Queue** es el menos eficiente y escalable, con tiempos de ejecución muy altos y pobre escalabilidad, haciendo que sea poco práctico para la mayoría de aplicaciones con grandes volúmenes de datos.
 
