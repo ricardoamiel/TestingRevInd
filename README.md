@@ -546,44 +546,44 @@ Esta aplicación, es mundialmente conocida por reconocer sonidos a tu alrededor 
 <img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/WhatsApp Image 2024-07-18 at 11.15.37 PM.jpeg">
 Esta opción en el navegador de Google se basa prácticamente en reconocer tu voz, en este caso, alguna canción que estes tarareando o cantando y te lleva al buscador de Google que te dará como resultado la canción más parecida o, en el mejor de los casos, a la canción que estás buscando.
 
-
 ## Experimentación
-### Tabla de Resultados de los Algoritmo (KNN) 
-| Tamaño de Datos | Range KNN Priority Queue | RTree KNN     | HighD (knn_faiss)|
-|-----------------|--------------------------|---------------|-------------|
-| 1k              | 3.280                    | 0.000416      | 0.000396    |
-| 2k              | 6.102                    | 0.001113      | 0.000778    |
-| 4k              | 12.977                   | 0.005534      | 0.001001    |
-| 8k              | 25.527                   | 0.001432      | 0.002268    |
-| 16k             | 49.965                   | 0.023975      | 0.004762    |
+### Tabla de Resultados de los Algoritmo de Búsqueda KNN (que no requieren radio) 
+| Tamaño de Datos | KNN Priority Queue | RTree KNN | HighD (knn_faiss) |
+|-----------------|--------------------|-----------|------------------|
+| 1k              | 3.280              | 0.000416  | 0.000396         |
+| 2k              | 6.102              | 0.001113  | 0.000778         |
+| 4k              | 12.977             | 0.005534  | 0.001001         |
+| 8k              | 25.527             | 0.001432  | 0.002268         |
+| 16k             | 49.965             | 0.023975  | 0.004762         |
 
 ### Gráfica de Resultados de los Algoritmos (KNN) 
 <img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/Algoritmos.png">
 
-### Tabla de Resultados del Algoritmo Range KNN
-### Comparación de Algoritmos
-
-| Algoritmo                  | Tamaño de Datos | Tiempo de Ejecución (segundos) |
-|----------------------------|-----------------|--------------------------------|
-| Range KNN                  | 1k              | 0.1739 (Radio 1)               |
-|                            |                 | 0.1724 (Radio 2)               |
-|                            |                 | 0.1743 (Radio 3)               |
-|                            | 2k              | 0.3452 (Radio 1)               |
-|                            |                 | 0.3395 (Radio 2)               |
-|                            |                 | 0.3536 (Radio 3)               |
-|                            | 4k              | 0.6835 (Radio 1)               |
-|                            |                 | 0.6995 (Radio 2)               |
-|                            |                 | 0.6690 (Radio 3)               |
-|                            | 8k              | 1.3710 (Radio 1)               |
-|                            |                 | 1.3429 (Radio 2)               |
-|                            |                 | 1.3910 (Radio 3)               |
-|                            | 16k             | 2.6490 (Radio 1)               |
-|                            |                 | 2.6441 (Radio 2)               |
-|                            |                 | 2.6570 (Radio 3)               |
+### Tabla de Resultados del los Algoritmo de Búsqueda KNN (que no requieren radio) 
+| Tamaño de Datos | Radio 1 | Tiempo 1 | Radio 2 | Tiempo 2 | Radio 3 | Tiempo 3 |
+|-----------------|---------|----------|---------|----------|---------|----------|
+| 1k              | 58.15   | 0.1739   | 72.75   | 0.1724   | 86.82   | 0.1743   |
+| 2k              | 60.40   | 0.3452   | 76.06   | 0.3395   | 91.70   | 0.3536   |
+| 4k              | 63.43   | 0.6835   | 79.89   | 0.6995   | 96.14   | 0.6690   |
+| 8k              | 63.87   | 1.3710   | 79.53   | 1.3429   | 94.80   | 1.3910   |
+| 16k             | 62.46   | 2.6490   | 77.87   | 2.6441   | 92.01   | 2.6570   |
 
 
 ### Gráfica de Resultados del Algoritmo Range KNN
 <img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/Range_KNN.png">
+
+
+### Tabla de Resultados de los Algoritmos de Búsqueda KNN 
+| Tamaño de Datos | KNN Priority Queue | Range KNN | RTree KNN | HighD (knn_faiss)|
+|-----------------|--------------------|------------|----------|--------------|
+| 1k              | 3.280              | 0.1735     | 0.000416 | 0.000396    |
+| 2k              | 6.102              | 0.3461     | 0.001113 | 0.000778    |
+| 4k              | 12.977             | 0.6840     | 0.005534 | 0.001001    |
+| 8k              | 25.527             | 1.3683     | 0.001432 | 0.002268    |
+| 16k             | 49.965             | 2.6500     | 0.023975 | 0.004762    |
+
+### Gráfica de Resultados de los Algoritmos de Búsqueda KNN
+<img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/Tiempos.png?raw=true">
 
 ## Análisis y discusión
 #### Tiempo de Ejecución
@@ -597,7 +597,7 @@ Esta opción en el navegador de Google se basa prácticamente en reconocer tu vo
 3. **Range KNN**:
    - **Tiempos de Ejecución Moderados**: `Range KNN` tiene tiempos de ejecución significativamente mayores que `HighD (knn_faiss)` y `RTree KNN`, pero sigue siendo más rápido que `Range KNN Priority Queue`. Por ejemplo, para 16k datos, el tiempo de ejecución varía entre 2.6441 y 2.6570 segundos dependiendo del radio, lo cual es mucho más lento que los dos anteriores.
 
-4. **Range KNN Priority Queue**:
+4. **KNN Priority Queue**:
    - **El Peor Tiempo de Ejecución**: `Range KNN Priority Queue` tiene los tiempos de ejecución más altos, con un crecimiento exponencial a medida que aumenta el tamaño del conjunto de datos. Para 16k datos, el tiempo de ejecución es 49.965 segundos, lo que lo hace poco práctico para grandes volúmenes de datos.
 
 #### Escalabilidad
@@ -611,7 +611,7 @@ Esta opción en el navegador de Google se basa prácticamente en reconocer tu vo
 3. **Range KNN**:
    - **Escalabilidad Moderada**: `Range KNN` muestra una escalabilidad deficiente en comparación con `HighD (knn_faiss)` y `RTree KNN`. Los tiempos de ejecución aumentan significativamente con el tamaño del conjunto de datos, lo que limita su utilidad para grandes volúmenes de datos. Por ejemplo, de 1k a 16k datos, el tiempo de ejecución pasa de 0.1739 a 2.6570 segundos.
 
-4. **Range KNN Priority Queue**:
+4. **KNN Priority Queue**:
    - **Pobre Escalabilidad**: `Range KNN Priority Queue` tiene la peor escalabilidad entre los algoritmos comparados. El incremento en los tiempos de ejecución es exponencial a medida que aumenta el tamaño del conjunto de datos. Para aplicaciones con grandes volúmenes de datos, este algoritmo no es práctico debido a su tiempo de ejecución extremadamente alto.
 
 ### Conclusión
