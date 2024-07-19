@@ -11,17 +11,27 @@ function page() {
     const kValue = (document.getElementById("kValueField") as HTMLInputElement).value;
     const fileUploadField = document.getElementById("fileUploadField") as HTMLInputElement;
     const selectValue = (document.getElementById("searchTypeSelect") as HTMLSelectElement).value;
-    if (!kValue || !fileUploadField.files || !selectValue) {
-        alert("Please fill in all fields");
-        return;
-      }
-      setIsLoading(true);
-    const repsonse = await fetch(`http://localhost:5000/${selectValue}?k=${kValue}`, 
-    {
+    if (!kValue || !fileUploadField.files || fileUploadField.files.length === 0 || !selectValue) {
+      alert("Please fill in all fields");
+      return;
+    }
+    setIsLoading(true);
+  
+    // Create a FormData object and append the file
+    const formData = new FormData();
+    formData.append("file", fileUploadField.files[0]);
+  
+    // Include other fields if necessary
+    // formData.append("kValue", kValue);
+  
+    const response = await fetch(`http://localhost:5000/${selectValue}?k=${kValue}`, {
       method: "POST",
-      body: fileUploadField.files[0]
+      body: formData, // Use FormData object
+      // Do not set Content-Type header when using FormData
+      // The browser will set it automatically, including the boundary parameter
     });
-    const data = await repsonse.json();
+  
+    const data = await response.json();
     setSearchResults(data);
     setUsableData(true);
     setIsLoading(false);
