@@ -38,41 +38,42 @@ Nuestra base de datos contiene aproximadamente 25,000 canciones de distintos gé
 ### Análisis comparativo visual con otras implementaciones
 
 ## Experimentación
-### Tabla de Resultados de los Algoritmo (KNN) 
-| Tamaño de Datos | Range KNN Priority Queue | RTree KNN     | HighD (knn_faiss)|
-|-----------------|--------------------------|---------------|-------------|
-| 1k              | 3.280                    | 0.000416      | 0.000396    |
-| 2k              | 6.102                    | 0.001113      | 0.000778    |
-| 4k              | 12.977                   | 0.005534      | 0.001001    |
-| 8k              | 25.527                   | 0.001432      | 0.002268    |
-| 16k             | 49.965                   | 0.023975      | 0.004762    |
+### Tabla de Resultados de los Algoritmo de Búsqueda KNN (que no requieren radio) 
+| Tamaño de Datos | KNN Priority Queue | RTree KNN | HighD (knn_faiss) |
+|-----------------|--------------------|-----------|------------------|
+| 1k              | 3.280              | 0.000416  | 0.000396         |
+| 2k              | 6.102              | 0.001113  | 0.000778         |
+| 4k              | 12.977             | 0.005534  | 0.001001         |
+| 8k              | 25.527             | 0.001432  | 0.002268         |
+| 16k             | 49.965             | 0.023975  | 0.004762         |
 
 ### Gráfica de Resultados de los Algoritmos (KNN) 
 <img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/Algoritmos.png">
 
 ### Tabla de Resultados del Algoritmo Range KNN
-### Comparación de Algoritmos
-
-| Algoritmo                  | Tamaño de Datos | Tiempo de Ejecución (segundos) |
-|----------------------------|-----------------|--------------------------------|
-| Range KNN                  | 1k              | 0.1739 (Radio 1)               |
-|                            |                 | 0.1724 (Radio 2)               |
-|                            |                 | 0.1743 (Radio 3)               |
-|                            | 2k              | 0.3452 (Radio 1)               |
-|                            |                 | 0.3395 (Radio 2)               |
-|                            |                 | 0.3536 (Radio 3)               |
-|                            | 4k              | 0.6835 (Radio 1)               |
-|                            |                 | 0.6995 (Radio 2)               |
-|                            |                 | 0.6690 (Radio 3)               |
-|                            | 8k              | 1.3710 (Radio 1)               |
-|                            |                 | 1.3429 (Radio 2)               |
-|                            |                 | 1.3910 (Radio 3)               |
-|                            | 16k             | 2.6490 (Radio 1)               |
-|                            |                 | 2.6441 (Radio 2)               |
-|                            |                 | 2.6570 (Radio 3)               |
+| Tamaño de Datos | Radio 1 | Tiempo 1 | Radio 2 | Tiempo 2 | Radio 3 | Tiempo 3 |
+|-----------------|---------|----------|---------|----------|---------|----------|
+| 1k              | 58.15   | 0.1739   | 72.75   | 0.1724   | 86.82   | 0.1743   |
+| 2k              | 60.40   | 0.3452   | 76.06   | 0.3395   | 91.70   | 0.3536   |
+| 4k              | 63.43   | 0.6835   | 79.89   | 0.6995   | 96.14   | 0.6690   |
+| 8k              | 63.87   | 1.3710   | 79.53   | 1.3429   | 94.80   | 1.3910   |
+| 16k             | 62.46   | 2.6490   | 77.87   | 2.6441   | 92.01   | 2.6570   |
 
 
 ### Gráfica de Resultados del Algoritmo Range KNN
+<img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/Range_KNN.png">
+
+
+### Tabla de Resultados de los Algoritmos de Búsqueda KNN 
+| Tamaño de Datos | KNN Priority Queue | Range KNN | RTree KNN | HighD (knn_faiss)|
+|-----------------|--------------------|------------|----------|--------------|
+| 1k              | 3.280              | 0.1735     | 0.000416 | 0.000396    |
+| 2k              | 6.102              | 0.3461     | 0.001113 | 0.000778    |
+| 4k              | 12.977             | 0.6840     | 0.005534 | 0.001001    |
+| 8k              | 25.527             | 1.3683     | 0.001432 | 0.002268    |
+| 16k             | 49.965             | 2.6500     | 0.023975 | 0.004762    |
+
+### Gráfica de Resultados de los Algoritmos de Búsqueda KNN
 <img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/Range_KNN.png">
 
 ## Análisis y discusión
