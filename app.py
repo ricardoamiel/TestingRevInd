@@ -135,7 +135,7 @@ def search_postgresql():
     }
     return jsonify(response)
 
-@app.route('/knn_pq', methods=['PUT'])
+@app.route('/knn_pq', methods=['POST'])
 def knn_pq():
     # Check if the request has the file part
     if 'file' not in request.files:
@@ -168,7 +168,7 @@ def knn_pq():
             'time': end_time
         }
 
-@app.route('/knn_rtree', methods=['PUT'])
+@app.route('/knn_rtree', methods=['POST'])
 def knn_rtree():
     # Check if the request has the file part
     if 'file' not in request.files:
