@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify, render_template
+from flask_cors import CORS
 import psycopg2
 import time
 import TableCreation
@@ -21,6 +22,7 @@ import ProyectoBD2enPython as PBD
 
 # Inicializar la aplicación Flask
 app = Flask(__name__)
+CORS(app)
 
 # Cargar el índice invertido y calcular normas
 index = PBD.index

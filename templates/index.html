@@ -19,12 +19,12 @@
             const k = document.getElementById('topk').value;
             const language = document.getElementById('language').value;
             
-            const response = await fetch(`/search?query=${query}&k=${k}&language=${language}`);
+            const response = await fetch(`http://localhost:5000/search?query=${query}&k=${k}&language=${language}`);
             const data = await response.json();
             const results = data.results;
             const time = data.time;
             
-            const response_pg = await fetch(`/search_postgresql?query=${query}&k=${k}&language=${language}`);
+            const response_pg = await fetch(`http://localhost:5000/search_postgresql?query=${query}&k=${k}&language=${language}`);
             const data_pg = await response_pg.json();
             const results_pg = data_pg.results;
             const time_pg = data_pg.time;
@@ -68,7 +68,7 @@
 
             // Resultados del índice invertido
             for (const result of results) {
-                const docResponse = await fetch(`/document?doc_id=${result.doc_id}`);
+                const docResponse = await fetch(`http://localhost:5000/document?doc_id=${result.doc_id}`);
                 const docData = await docResponse.json();
                 const row = document.createElement('tr');
                 row.innerHTML = `
