@@ -18,7 +18,7 @@ function page() {
       setIsLoading(true);
     const repsonse = await fetch(`http://localhost:5000/${selectValue}?k=${kValue}`, 
     {
-      method: "PUT",
+      method: "POST",
       body: fileUploadField.files[0]
     });
     const data = await repsonse.json();
@@ -26,8 +26,6 @@ function page() {
     setUsableData(true);
     setIsLoading(false);
     console.log(data);
-    
-
   }
   return (
     <div>
