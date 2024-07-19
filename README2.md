@@ -63,42 +63,42 @@ Nuestra base de datos contiene aproximadamente 25,000 canciones de distintos gé
 <img width="1040" alt="Screen Shot 2024-06-17 at 2 40 37 PM" src="https://github.com/ricardoamiel/TestingRevInd/blob/main/imgs/Range_KNN.png">
 
 ## Análisis y discusión
-#### Resultados Generales de los Algoritmos KNN
+#### Desempeño General de los Algoritmos KNN
 
-Las tablas de resultados proporcionan una visión detallada del desempeño de tres algoritmos KNN (`Range KNN Priority Queue`, `RTree KNN`, y `HighD (knn_faiss)`) en función del tamaño de los datos. Los tiempos de ejecución, medidos en segundos, permiten evaluar la eficiencia de cada algoritmo para diferentes tamaños de conjuntos de datos.
+Los resultados muestran una comparación entre los algoritmos `Range KNN Priority Queue`, `RTree KNN`, y `HighD (knn_faiss)`, además de una evaluación del impacto del radio en el rendimiento del `Range KNN`.
 
 **1. Range KNN Priority Queue:**
 
-- **Crecimiento del Tiempo de Ejecución:** Este algoritmo muestra un crecimiento exponencial en el tiempo de ejecución a medida que aumenta el tamaño del conjunto de datos. El tiempo para 1k es 3.280 segundos, aumentando a 49.965 segundos para 16k datos. Esto indica que el algoritmo `Range KNN Priority Queue` tiene una escalabilidad limitada y su rendimiento se degrada significativamente con grandes volúmenes de datos.
+- **Tiempo de Ejecución:** Este algoritmo muestra un incremento exponencial en el tiempo de ejecución con el aumento del tamaño del conjunto de datos. Los tiempos van de 3.280 segundos para 1k a 49.965 segundos para 16k, indicando que el algoritmo tiene una escalabilidad deficiente. La alta complejidad y la necesidad de manejar grandes volúmenes de datos afectan negativamente su rendimiento a medida que crece el tamaño del conjunto de datos.
 
-- **Escalabilidad:** `Range KNN Priority Queue` no es adecuado para conjuntos de datos grandes debido a su tiempo de ejecución que aumenta de manera desproporcionada con el tamaño del conjunto de datos.
+- **Escalabilidad:** La ineficiencia del `Range KNN Priority Queue` en conjuntos de datos grandes lo hace menos adecuado para aplicaciones que requieren procesamiento rápido y eficiente con grandes volúmenes de datos.
 
 **2. RTree KNN:**
 
-- **Tiempo de Ejecución Consistente:** El `RTree KNN` muestra tiempos de ejecución relativamente estables, con un incremento leve al aumentar el tamaño de los datos. Los tiempos para 1k son 0.000416 segundos, y para 16k son 0.023975 segundos. Esto indica que `RTree KNN` maneja eficientemente el incremento en el tamaño del conjunto de datos.
+- **Tiempo de Ejecución:** El `RTree KNN` muestra un incremento más controlado en el tiempo de ejecución, con tiempos de 0.000416 segundos para 1k y 0.023975 segundos para 16k. Aunque hay un aumento notable en el tiempo a medida que el tamaño de los datos crece, el incremento no es tan drástico como en el caso del `Range KNN Priority Queue`.
 
-- **Eficiencia:** Aunque `RTree KNN` es más eficiente que `Range KNN Priority Queue`, aún no iguala el desempeño de `HighD (knn_faiss)`. Es una opción más viable que `Range KNN Priority Queue`, especialmente para conjuntos de datos más grandes.
+- **Eficiencia:** `RTree KNN` es más eficiente que el `Range KNN Priority Queue`, especialmente en conjuntos de datos grandes. Sin embargo, no alcanza la eficiencia de `HighD (knn_faiss)`.
 
 **3. HighD (knn_faiss):**
 
-- **Desempeño Superior:** `HighD (knn_faiss)` destaca como el algoritmo más eficiente entre los tres. Los tiempos de ejecución para 1k son 0.000396 segundos y para 16k son 0.004762 segundos. Esto demuestra que `HighD (knn_faiss)` no solo es el más rápido, sino que también maneja los grandes volúmenes de datos con mayor eficiencia.
+- **Desempeño Superior:** `HighD (knn_faiss)` destaca como el algoritmo más rápido, con tiempos de 0.000396 segundos para 1k y 0.004762 segundos para 16k. Este algoritmo muestra un rendimiento excelente en términos de tiempos de ejecución y escala muy bien con el aumento del tamaño del conjunto de datos.
 
-- **Escalabilidad:** `HighD (knn_faiss)` combina eficiencia con una buena capacidad de escalabilidad, manteniendo tiempos de respuesta relativamente constantes a medida que el tamaño del conjunto de datos aumenta. Esto lo convierte en la mejor opción para aplicaciones que requieren procesamiento rápido y manejo eficiente de grandes volúmenes de datos.
+- **Escalabilidad:** La capacidad de `HighD (knn_faiss)` para manejar grandes volúmenes de datos con tiempos de ejecución relativamente constantes demuestra su alta escalabilidad y eficiencia, haciéndolo la mejor opción para aplicaciones que requieren procesamiento rápido y eficaz con grandes volúmenes de datos.
 
-#### Resultados del Algoritmo Range KNN
+**4. Impacto del Radio en Range KNN:**
 
-La tabla adicional muestra los tiempos de ejecución del algoritmo `Range KNN` para diferentes radios. Los resultados indican cómo varía el tiempo de ejecución con cambios en el radio y el tamaño del conjunto de datos.
+- **Tiempos de Ejecución por Radio:** En la tabla del `Range KNN`, se observa que el tiempo de ejecución aumenta con el tamaño del conjunto de datos y varía ligeramente con el radio. Por ejemplo, para un conjunto de datos de 1k, los tiempos van de 0.1739 segundos para el radio 58.15 a 0.1743 segundos para el radio 86.82. El impacto del radio en el tiempo de ejecución es menos pronunciado comparado con el efecto del tamaño del conjunto de datos.
 
-- **Impacto del Radio:** En general, el tiempo de ejecución aumenta con el tamaño del conjunto de datos y varía ligeramente con el radio. Los radios más grandes tienden a resultar en tiempos de ejecución mayores debido al incremento en la cantidad de datos procesados durante cada consulta.
-
-- **Tamaño de Datos:** El aumento en el tamaño del conjunto de datos tiene un impacto significativo en el tiempo de ejecución. Aunque el radio también afecta el tiempo, el tamaño del conjunto de datos es el factor predominante en el rendimiento general del `Range KNN`.
+- **Eficiencia del Radio:** Aunque ajustar el radio puede optimizar el rendimiento en casos específicos, el tamaño del conjunto de datos sigue siendo el factor dominante en el tiempo de ejecución. Radios más grandes tienden a incrementar el tiempo debido a un mayor volumen de datos procesados durante cada consulta.
 
 ### Conclusión
 
-- **`Range KNN Priority Queue`** tiene una escalabilidad deficiente y se vuelve ineficiente a medida que aumenta el tamaño del conjunto de datos. No es adecuado para grandes volúmenes de datos.
+- **`Range KNN Priority Queue`** muestra un rendimiento ineficiente para grandes conjuntos de datos, con tiempos de ejecución que crecen exponencialmente. Este algoritmo es menos adecuado para aplicaciones que requieren manejar grandes volúmenes de datos de manera eficiente.
 
-- **`RTree KNN`** ofrece un mejor rendimiento que `Range KNN Priority Queue` y es más adecuado para conjuntos de datos grandes, aunque aún no iguala el desempeño de `HighD (knn_faiss)`.
+- **`RTree KNN`** es más eficiente que `Range KNN Priority Queue` y maneja mejor los conjuntos de datos grandes, aunque no es tan rápido como `HighD (knn_faiss)`.
 
-- **`HighD (knn_faiss)`** es el algoritmo más eficiente y escalable de los tres, mostrando un rendimiento superior tanto en tiempos de ejecución como en la capacidad para manejar grandes volúmenes de datos.
+- **`HighD (knn_faiss)`** ofrece el mejor rendimiento en términos de tiempos de ejecución y escalabilidad. Es el algoritmo más adecuado para aplicaciones que necesitan procesar grandes volúmenes de datos con alta eficiencia.
 
-- **El impacto del radio** en el tiempo de ejecución del `Range KNN` es notable, pero el tamaño del conjunto de datos sigue siendo el factor más crítico en el rendimiento general del algoritmo. Ajustar el radio puede ayudar a optimizar el rendimiento en casos específicos, pero no compensa el impacto significativo del tamaño del conjunto de datos.
+- **El impacto del radio** en `Range KNN` es menor en comparación con el impacto del tamaño del conjunto de datos. Ajustar el radio puede ayudar a mejorar el rendimiento en casos específicos, pero no compensa el efecto significativo del tamaño del conjunto de datos en el tiempo de ejecución.
+
+Este análisis proporciona una visión clara de las fortalezas y debilidades de cada algoritmo en función de su rendimiento y escalabilidad.
