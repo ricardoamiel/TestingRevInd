@@ -5,6 +5,7 @@ import os
 import glob
 
 songs = pd.read_csv('BD2/spotify_songs_1000.csv')
+songs = songs.head(10)
 
 def get_song_spotify(track_id, requests):
     url = f'https://open.spotify.com/track/{track_id}'

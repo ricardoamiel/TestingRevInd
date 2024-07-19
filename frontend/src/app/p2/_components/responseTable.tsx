@@ -60,7 +60,7 @@ export interface responseTableProps {
     | undefined | any;
   hasData: boolean;
 }
-function ResponseTable({
+function ResponseTableP2({
   searchResults,
   searchPostgresSQLResults,
   hasData,
@@ -142,4 +142,4 @@ function ResponseTable({
   );
 }
 
-export default ResponseTable;
+export default ResponseTableP2;

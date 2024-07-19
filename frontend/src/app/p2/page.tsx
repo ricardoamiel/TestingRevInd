@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import ResponseTable, {
+import ResponseTableP2, {
   searchPostgresSQLResponse,
   searchQueryResponse,
 } from "./_components/responseTable";
@@ -17,7 +17,6 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
 
   async function handleSearch() {
-    setIsLoading(true);
     const queryText = (
       document.getElementById("queryTextField") as HTMLInputElement
     ).value;
@@ -31,6 +30,8 @@ export default function Home() {
       alert("Please fill in all fields");
       return;
     }
+
+    setIsLoading(true);
 
     const response = await fetch(
       `${fetchURL}/search?query=${queryText}&k=${kValue}&language=${languageSelect}`
@@ -114,7 +115,7 @@ export default function Home() {
           <div className="rounded-full border-4 border-r-0 border-b-0 border-gray-200 h-20 w-20 animate-spin"></div>
         </div>
       ) : (
-        <ResponseTable
+        <ResponseTableP2
           searchResults={searchResults}
           searchPostgresSQLResults={searchPostgresSQLResults}
           hasData={usableData}
